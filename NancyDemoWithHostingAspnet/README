@@ -1,11 +1,6 @@
 这是一个Nancy的简单demo，它是基于Nancy.Hosting.Aspnet的
-This is a simple demo of Nancy, it is based on Nancy.Hosting.Aspnet.
-
 
 运行须知：
 1、执行script.sql这个脚本，生成相应的数据库
 2、修改MovieModule.cs和MovieTypeModule.cs这两个文件里面的连接字符串的用户名和密码
 
-Running notes:
-1, execute script.sql to generates a database
-2, modify MovieModule.cs and MovieTypeModule.cs these two files' connection string for the user name and password
