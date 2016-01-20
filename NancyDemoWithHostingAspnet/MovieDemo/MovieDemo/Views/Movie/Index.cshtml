@@ -1,0 +1,46 @@
+﻿@inherits Nancy.ViewEngines.Razor.NancyRazorViewBase<MovieDemo.ViewModels.MovieListViewModel>
+@{
+    Layout = "Views/_Layout.cshtml";
+    ViewBag.Title = "电影列表";
+}
+<a href="/movie/create">添加</a>
+<div>
+    <table class="table">
+        <tr>
+            <th>
+                #
+            </th>
+            <th>
+                电影名称
+            </th>
+            <th>
+                电影类型
+            </th>
+            <th>
+                添加时间
+            </th>
+            <th></th>
+        </tr>
+        @foreach (var item in Model.Movies)
+            {
+            <tr>
+                <td>
+                    @item.MovieId
+                </td>
+                <td>
+                    @item.MovieName
+                </td>
+                <td>
+                    @item.MovieTypeName
+                </td>
+                <td>
+                    @item.MovieAddTime
+                </td>
+                <td>
+                    <a href="/movie/edit/@item.MovieId">修改</a>
+                    <a class="delete" href="/movie/delete/@item.MovieId">删除</a>
+                </td>
+            </tr>
+        }
+    </table>
+</div>
