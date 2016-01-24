@@ -1,0 +1,20 @@
+﻿@inherits Nancy.ViewEngines.Razor.NancyRazorViewBase<MovieDemoWithOwin.Models.MovieType>
+@{
+    ViewBag.Title = "Edit";
+    Layout = "Views/_Layout.cshtml";
+}
+
+<form action="/movie-type/edit/@Model.TypeId" method="post">
+
+    <div class="form-group">
+        <label class="control-label col-md-2">类型</label>
+        <div class="col-md-10">
+            <input type="text" class="form-control" id="TypeName" name="TypeName" value="@Model.TypeName" />
+        </div>
+    </div>
+    <div class="form-group">
+        <div class="col-md-offset-2 col-md-10">
+            <input type="submit" value="修改" class="btn btn-default" />
+        </div>
+    </div>
+</form>

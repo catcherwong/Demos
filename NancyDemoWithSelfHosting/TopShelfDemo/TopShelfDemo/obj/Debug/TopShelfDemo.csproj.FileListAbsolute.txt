@@ -1,0 +1,11 @@
+D:\GithubCode\Demos\NancyDemoWithSelfHosting\TopShelfDemo\TopShelfDemo\bin\Debug\TopShelfDemo.exe.config
+D:\GithubCode\Demos\NancyDemoWithSelfHosting\TopShelfDemo\TopShelfDemo\bin\Debug\TopShelfDemo.exe
+D:\GithubCode\Demos\NancyDemoWithSelfHosting\TopShelfDemo\TopShelfDemo\bin\Debug\TopShelfDemo.pdb
+D:\GithubCode\Demos\NancyDemoWithSelfHosting\TopShelfDemo\TopShelfDemo\bin\Debug\Nancy.dll
+D:\GithubCode\Demos\NancyDemoWithSelfHosting\TopShelfDemo\TopShelfDemo\bin\Debug\Nancy.Hosting.Self.dll
+D:\GithubCode\Demos\NancyDemoWithSelfHosting\TopShelfDemo\TopShelfDemo\bin\Debug\Topshelf.dll
+D:\GithubCode\Demos\NancyDemoWithSelfHosting\TopShelfDemo\TopShelfDemo\bin\Debug\Nancy.xml
+D:\GithubCode\Demos\NancyDemoWithSelfHosting\TopShelfDemo\TopShelfDemo\bin\Debug\Nancy.Hosting.Self.xml
+D:\GithubCode\Demos\NancyDemoWithSelfHosting\TopShelfDemo\TopShelfDemo\obj\Debug\TopShelfDemo.csprojResolveAssemblyReference.cache
+D:\GithubCode\Demos\NancyDemoWithSelfHosting\TopShelfDemo\TopShelfDemo\obj\Debug\TopShelfDemo.exe
+D:\GithubCode\Demos\NancyDemoWithSelfHosting\TopShelfDemo\TopShelfDemo\obj\Debug\TopShelfDemo.pdb

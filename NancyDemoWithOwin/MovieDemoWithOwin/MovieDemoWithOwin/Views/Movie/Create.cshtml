@@ -1,0 +1,36 @@
+﻿@inherits Nancy.ViewEngines.Razor.NancyRazorViewBase<MovieDemoWithOwin.ViewModels.MovieTypeListViewModel>
+@{
+    ViewBag.Title = "添加电影";
+    Layout = "Views/_Layout.cshtml";
+}
+
+<form action="/movie/create" method="post">
+    <div class="form-group">
+        <label class="control-label col-md-2">电影名称</label>
+        <div class="col-md-10">
+            <input type="text" class="form-control" id="MovieName" name="MovieName" />
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-md-2">电影类型</label>
+        <div class="col-md-10">
+            <select id="MovieTypeId" name="MovieTypeId" class="form-control">
+                @foreach (var item in Model.MovieTypes)
+                {
+
+
+                    <option value="@item.TypeId">@item.TypeName</option>
+
+                }
+
+            </select>
+        </div>
+    </div>
+    <div class="form-group">
+        <div class="col-md-offset-2 col-md-10">
+            <input type="submit" value="添加" class="btn btn-default" />
+        </div>
+    </div>
+</form>
+
+

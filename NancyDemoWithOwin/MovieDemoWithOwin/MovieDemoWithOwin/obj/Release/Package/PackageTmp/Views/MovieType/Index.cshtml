@@ -1,0 +1,34 @@
+﻿@inherits Nancy.ViewEngines.Razor.NancyRazorViewBase<MovieDemoWithOwin.ViewModels.MovieTypeListViewModel>
+@{
+    Layout = "Views/_Layout.cshtml";
+    ViewBag.Title = "类型列表";
+}
+<a href="/movie-type/create">添加</a>
+<div>
+    <table class="table">
+        <tr>
+            <th>
+                #
+            </th>
+            <th>
+                类型名称
+            </th>
+            <th></th>
+        </tr>
+        @foreach (var item in Model.MovieTypes)
+            {
+            <tr>
+                <td>
+                    @item.TypeId
+                </td>
+                <td>
+                    @item.TypeName
+                </td>
+                <td>
+                    <a href="/movie-type/edit/@item.TypeId">修改</a>
+                    <a class="delete" href="/movie-type/delete/@item.TypeId">删除</a>
+                </td>
+            </tr>
+        }
+    </table>
+</div>

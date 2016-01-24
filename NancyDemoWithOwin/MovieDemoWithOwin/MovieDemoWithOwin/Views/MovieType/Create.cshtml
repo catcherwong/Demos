@@ -1,0 +1,19 @@
+﻿@inherits Nancy.ViewEngines.Razor.NancyRazorViewBase<MovieDemoWithOwin.Models.MovieType>
+@{
+    Layout = "Views/_Layout.cshtml";
+    ViewBag.Title = "添加类型";
+}
+<form action="/movie-type/create" method="post">
+
+    <div class="form-group">
+        <label class="control-label col-md-2">类型</label>
+        <div class="col-md-10">
+            <input type="text" class="form-control" id="TypeName" name="TypeName" />
+        </div>
+    </div>
+    <div class="form-group">
+        <div class="col-md-offset-2 col-md-10">
+            <input type="submit" value="添加" class="btn btn-default" />
+        </div>
+    </div>
+</form>
