@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OwinSelfDemo", "OwinSelfDemo\OwinSelfDemo.csproj", "{4828B89A-62EF-4692-82CF-BD36F46D977C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4828B89A-62EF-4692-82CF-BD36F46D977C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4828B89A-62EF-4692-82CF-BD36F46D977C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4828B89A-62EF-4692-82CF-BD36F46D977C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4828B89A-62EF-4692-82CF-BD36F46D977C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,25 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>json</title>
+	<meta charset="utf-8" />
+    
+    <script src="../../Content/jquery-1.10.2.min.js"></script>
+    <script type="text/javascript">     
+        $(document).ready(function(){            
+            var dat = "{\"EmployeeName\":\"catcher1234\", \"EmployeeAge\":\"33\"}";
+            $.ajax({
+                type: "POST",
+                url: "/json",
+                contentType: "application/json",
+                data: dat,
+                success: function (data) {
+                    alert("Response:\n" + data);
+                }
+            });
+        });                              
+    </script>
+</head>
+<body>   
+</body>
+</html>

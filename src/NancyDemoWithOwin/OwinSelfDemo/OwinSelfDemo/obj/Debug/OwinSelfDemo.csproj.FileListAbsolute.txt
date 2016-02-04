@@ -1,0 +1,17 @@
+D:\GithubCode\Demos\NancyDemoWithOwin\OwinSelfDemo\OwinSelfDemo\bin\Debug\OwinSelfDemo.exe.config
+D:\GithubCode\Demos\NancyDemoWithOwin\OwinSelfDemo\OwinSelfDemo\bin\Debug\OwinSelfDemo.exe
+D:\GithubCode\Demos\NancyDemoWithOwin\OwinSelfDemo\OwinSelfDemo\bin\Debug\OwinSelfDemo.pdb
+D:\GithubCode\Demos\NancyDemoWithOwin\OwinSelfDemo\OwinSelfDemo\bin\Debug\Microsoft.Owin.dll
+D:\GithubCode\Demos\NancyDemoWithOwin\OwinSelfDemo\OwinSelfDemo\bin\Debug\Microsoft.Owin.Host.HttpListener.dll
+D:\GithubCode\Demos\NancyDemoWithOwin\OwinSelfDemo\OwinSelfDemo\bin\Debug\Microsoft.Owin.Hosting.dll
+D:\GithubCode\Demos\NancyDemoWithOwin\OwinSelfDemo\OwinSelfDemo\bin\Debug\Nancy.dll
+D:\GithubCode\Demos\NancyDemoWithOwin\OwinSelfDemo\OwinSelfDemo\bin\Debug\Nancy.Owin.dll
+D:\GithubCode\Demos\NancyDemoWithOwin\OwinSelfDemo\OwinSelfDemo\bin\Debug\Owin.dll
+D:\GithubCode\Demos\NancyDemoWithOwin\OwinSelfDemo\OwinSelfDemo\bin\Debug\Microsoft.Owin.xml
+D:\GithubCode\Demos\NancyDemoWithOwin\OwinSelfDemo\OwinSelfDemo\bin\Debug\Microsoft.Owin.Host.HttpListener.xml
+D:\GithubCode\Demos\NancyDemoWithOwin\OwinSelfDemo\OwinSelfDemo\bin\Debug\Microsoft.Owin.Hosting.xml
+D:\GithubCode\Demos\NancyDemoWithOwin\OwinSelfDemo\OwinSelfDemo\bin\Debug\Nancy.xml
+D:\GithubCode\Demos\NancyDemoWithOwin\OwinSelfDemo\OwinSelfDemo\bin\Debug\Nancy.Owin.xml
+D:\GithubCode\Demos\NancyDemoWithOwin\OwinSelfDemo\OwinSelfDemo\obj\Debug\OwinSelfDemo.csprojResolveAssemblyReference.cache
+D:\GithubCode\Demos\NancyDemoWithOwin\OwinSelfDemo\OwinSelfDemo\obj\Debug\OwinSelfDemo.exe
+D:\GithubCode\Demos\NancyDemoWithOwin\OwinSelfDemo\OwinSelfDemo\obj\Debug\OwinSelfDemo.pdb
