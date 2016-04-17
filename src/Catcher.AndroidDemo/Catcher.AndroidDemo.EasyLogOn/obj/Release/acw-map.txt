@@ -1,0 +1,8 @@
+Catcher.AndroidDemo.EasyLogOn.MainActivity, Catcher.AndroidDemo.EasyLogOn;md5214784fd1e99bcc55d73b91257c29743.MainActivity
+Catcher.AndroidDemo.EasyLogOn.MainActivity, Catcher.AndroidDemo.EasyLogOn, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md5214784fd1e99bcc55d73b91257c29743.MainActivity
+Catcher.AndroidDemo.EasyLogOn.MainActivity;md5214784fd1e99bcc55d73b91257c29743.MainActivity
+catcher.androiddemo.easylogon.MainActivity;md5214784fd1e99bcc55d73b91257c29743.MainActivity
+Catcher.AndroidDemo.EasyLogOn.UserActivity, Catcher.AndroidDemo.EasyLogOn;md5214784fd1e99bcc55d73b91257c29743.UserActivity
+Catcher.AndroidDemo.EasyLogOn.UserActivity, Catcher.AndroidDemo.EasyLogOn, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md5214784fd1e99bcc55d73b91257c29743.UserActivity
+Catcher.AndroidDemo.EasyLogOn.UserActivity;md5214784fd1e99bcc55d73b91257c29743.UserActivity
+catcher.androiddemo.easylogon.UserActivity;md5214784fd1e99bcc55d73b91257c29743.UserActivity

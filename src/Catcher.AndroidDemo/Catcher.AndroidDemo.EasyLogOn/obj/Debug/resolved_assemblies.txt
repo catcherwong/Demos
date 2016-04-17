@@ -1,0 +1,17 @@
+D:\code-sample\C#_AppSpace\Catcher.AndroidDemo\Catcher.AndroidDemo.EasyLogOn\obj\Debug\assemblies\Catcher.AndroidDemo.EasyLogOn.dll
+D:\code-sample\C#_AppSpace\Catcher.AndroidDemo\Catcher.AndroidDemo.EasyLogOn\obj\Debug\assemblies\Mono.Android.dll
+D:\code-sample\C#_AppSpace\Catcher.AndroidDemo\Catcher.AndroidDemo.EasyLogOn\obj\Debug\assemblies\mscorlib.dll
+D:\code-sample\C#_AppSpace\Catcher.AndroidDemo\Catcher.AndroidDemo.EasyLogOn\obj\Debug\assemblies\Newtonsoft.Json.dll
+D:\code-sample\C#_AppSpace\Catcher.AndroidDemo\Catcher.AndroidDemo.EasyLogOn\obj\Debug\assemblies\System.Core.dll
+D:\code-sample\C#_AppSpace\Catcher.AndroidDemo\Catcher.AndroidDemo.EasyLogOn\obj\Debug\assemblies\System.Data.dll
+D:\code-sample\C#_AppSpace\Catcher.AndroidDemo\Catcher.AndroidDemo.EasyLogOn\obj\Debug\assemblies\System.dll
+D:\code-sample\C#_AppSpace\Catcher.AndroidDemo\Catcher.AndroidDemo.EasyLogOn\obj\Debug\assemblies\System.Json.dll
+D:\code-sample\C#_AppSpace\Catcher.AndroidDemo\Catcher.AndroidDemo.EasyLogOn\obj\Debug\assemblies\System.Net.Http.dll
+D:\code-sample\C#_AppSpace\Catcher.AndroidDemo\Catcher.AndroidDemo.EasyLogOn\obj\Debug\assemblies\System.Xml.dll
+D:\code-sample\C#_AppSpace\Catcher.AndroidDemo\Catcher.AndroidDemo.EasyLogOn\obj\Debug\assemblies\System.Xml.Linq.dll
+D:\code-sample\C#_AppSpace\Catcher.AndroidDemo\Catcher.AndroidDemo.EasyLogOn\obj\Debug\assemblies\System.Runtime.Serialization.dll
+D:\code-sample\C#_AppSpace\Catcher.AndroidDemo\Catcher.AndroidDemo.EasyLogOn\obj\Debug\assemblies\System.ServiceModel.Internals.dll
+D:\code-sample\C#_AppSpace\Catcher.AndroidDemo\Catcher.AndroidDemo.EasyLogOn\obj\Debug\assemblies\System.Numerics.dll
+D:\code-sample\C#_AppSpace\Catcher.AndroidDemo\Catcher.AndroidDemo.EasyLogOn\obj\Debug\assemblies\System.Transactions.dll
+D:\code-sample\C#_AppSpace\Catcher.AndroidDemo\Catcher.AndroidDemo.EasyLogOn\obj\Debug\assemblies\Mono.Data.Tds.dll
+D:\code-sample\C#_AppSpace\Catcher.AndroidDemo\Catcher.AndroidDemo.EasyLogOn\obj\Debug\assemblies\Mono.Security.dll

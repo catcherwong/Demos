@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <LinearLayout
+        android:orientation="horizontal"
+        android:minWidth="25px"
+        android:minHeight="80px"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/linearLayoutForName">
+        <TextView
+            android:text="姓名："
+            android:layout_width="81.5dp"
+            android:layout_height="match_parent"
+            android:id="@+id/textViewName"
+            android:textAllCaps="true"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:gravity="center" />
+        <EditText
+            android:layout_width="291.0dp"
+            android:layout_height="match_parent"
+            android:id="@+id/txtName" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:minWidth="25px"
+        android:minHeight="80px"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/linearLayoutForName"
+        android:layout_marginTop="20dp"
+        android:id="@+id/linearLayoutForPwd">
+        <TextView
+            android:text="密码："
+            android:layout_width="81.5dp"
+            android:layout_height="match_parent"
+            android:id="@+id/textViewPwd"
+            android:textAllCaps="true"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:gravity="center" />
+        <EditText
+            android:layout_width="291.0dp"
+            android:layout_height="match_parent"
+            android:id="@+id/txtPwd"
+            android:inputType="textPassword" />
+    </LinearLayout>
+    <Button
+        android:text="登录"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_below="@id/linearLayoutForPwd"
+        android:id="@+id/btnLogin"
+        android:textAllCaps="true"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:gravity="center" />
+</RelativeLayout>
