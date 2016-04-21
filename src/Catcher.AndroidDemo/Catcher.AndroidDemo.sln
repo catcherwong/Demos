@@ -5,7 +5,11 @@ VisualStudioVersion = 14.0.25123.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Catcher.AndroidDemo.EasyLogOn", "Catcher.AndroidDemo.EasyLogOn\Catcher.AndroidDemo.EasyLogOn.csproj", "{D20063A5-2D76-4B9D-B79D-20E6DDADD815}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Catcher.AndroidDemo.EasyLogOn.Service", "Catcher.AndroidDemo.EasyLogOn.Service\Catcher.AndroidDemo.EasyLogOn.Service.csproj", "{D9CC3B47-286D-4BDF-8D6A-AA8DE47984FA}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Catcher.AndroidDemo.EasyService", "Catcher.AndroidDemo.EasyLogOn.Service\Catcher.AndroidDemo.EasyService.csproj", "{D9CC3B47-286D-4BDF-8D6A-AA8DE47984FA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Catcher.AndroidDemo.EasyRequestDemo", "Catcher.AndroidDemo.EasyRequestDemo\Catcher.AndroidDemo.EasyRequestDemo.csproj", "{2B5B2AC0-0CA7-4F11-8E28-30BDED2A076E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Catcher.AndroidDemo.Common", "Catcher.AndroidDemo.Common\Catcher.AndroidDemo.Common.csproj", "{768DD4C1-9BD6-41B4-BE4E-9A82D6C4B079}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -23,6 +27,16 @@ Global
 		{D9CC3B47-286D-4BDF-8D6A-AA8DE47984FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D9CC3B47-286D-4BDF-8D6A-AA8DE47984FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D9CC3B47-286D-4BDF-8D6A-AA8DE47984FA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2B5B2AC0-0CA7-4F11-8E28-30BDED2A076E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2B5B2AC0-0CA7-4F11-8E28-30BDED2A076E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2B5B2AC0-0CA7-4F11-8E28-30BDED2A076E}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{2B5B2AC0-0CA7-4F11-8E28-30BDED2A076E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2B5B2AC0-0CA7-4F11-8E28-30BDED2A076E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2B5B2AC0-0CA7-4F11-8E28-30BDED2A076E}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{768DD4C1-9BD6-41B4-BE4E-9A82D6C4B079}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{768DD4C1-9BD6-41B4-BE4E-9A82D6C4B079}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{768DD4C1-9BD6-41B4-BE4E-9A82D6C4B079}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{768DD4C1-9BD6-41B4-BE4E-9A82D6C4B079}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

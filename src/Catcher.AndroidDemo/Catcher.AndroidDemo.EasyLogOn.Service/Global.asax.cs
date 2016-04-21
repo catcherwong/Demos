@@ -5,7 +5,7 @@ using System.Web;
 using System.Web.Mvc;
 using System.Web.Routing;
 
-namespace Catcher.AndroidDemo.EasyLogOn.Service
+namespace Catcher.AndroidDemo.EasyService
 {
     public class MvcApplication : System.Web.HttpApplication
     {

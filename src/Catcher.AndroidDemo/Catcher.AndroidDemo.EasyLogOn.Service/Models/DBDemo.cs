@@ -1,4 +1,4 @@
-namespace Catcher.AndroidDemo.EasyLogOn.Service.Models
+namespace Catcher.AndroidDemo.EasyService.Models
 {
     using System;
     using System.Data.Entity;

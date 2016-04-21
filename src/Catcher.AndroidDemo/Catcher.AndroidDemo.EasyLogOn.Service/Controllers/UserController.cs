@@ -1,7 +1,7 @@
 ﻿using System.Linq;
 using System.Web.Mvc;
 
-namespace Catcher.AndroidDemo.EasyLogOn.Service.Controllers
+namespace Catcher.AndroidDemo.EasyService.Controllers
 {
     public class UserController : Controller
     {        
@@ -29,6 +29,29 @@ namespace Catcher.AndroidDemo.EasyLogOn.Service.Controllers
                 int count = db.UserInfo.Count(u=>u.UserName==name&&u.UPassword==pwd);
                 return count == 1 ? true : false;
             }            
+        }
+
+        [HttpPost]
+        public ActionResult PostThing(string str)
+        {
+            var json = new
+            {
+                Code = "00000",
+                Msg = "OK",
+                Val = str
+            };
+            return Json(json);
+        }
+
+        public ActionResult GetThing(string str)
+        {
+            var json = new
+            {
+                Code = "00000",
+                Msg = "OK",
+                Val = str
+            };
+            return Json(json, JsonRequestBehavior.AllowGet);
         }
     }
 
