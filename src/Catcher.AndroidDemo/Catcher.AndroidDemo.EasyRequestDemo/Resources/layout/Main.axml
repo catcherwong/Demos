@@ -9,15 +9,25 @@
         android:id="@+id/txt_input"
         android:hint="please enter your name" />
     <Button
-        android:text="POST"
+        android:text="POST(Based on HttpClient)"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/btn_post" />
     <Button
-        android:text="GET"
+        android:text="GET(Based on HttpClient)"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/btn_get" />
+    <Button
+        android:text="POST(Based on HttpWebRequest)"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_postHWR" />
+    <Button
+        android:text="GET(Based on HttpWebRequest)"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_getHWR" />
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"

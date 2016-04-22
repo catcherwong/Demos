@@ -17,6 +17,8 @@ namespace Catcher.AndroidDemo.EasyRequestDemo
         EditText txtInput;
         Button btnPost;
         Button btnGet;
+        Button btnPostHWR;
+        Button btnGetHWR;
         TextView tv;
 
         protected override void OnCreate(Bundle bundle)
@@ -28,10 +30,36 @@ namespace Catcher.AndroidDemo.EasyRequestDemo
             txtInput = FindViewById<EditText>(Resource.Id.txt_input);
             btnPost = FindViewById<Button>(Resource.Id.btn_post);
             btnGet = FindViewById<Button>(Resource.Id.btn_get);
+            btnGetHWR = FindViewById<Button>(Resource.Id.btn_getHWR);
+            btnPostHWR = FindViewById<Button>(Resource.Id.btn_postHWR);
             tv = FindViewById<TextView>(Resource.Id.tv_result);
 
+            //based on httpclient
             btnPost.Click += PostRequest;
             btnGet.Click += GetRequest;
+            //based on httpwebrequest
+            btnPostHWR.Click += PostRequestByHWR;
+            btnGetHWR.Click += GetRequestByHWR;
+        }
+
+        private async void GetRequestByHWR(object sender, EventArgs e)
+        {
+            string url = "http://192.168.1.102:8077/User/GetThing";
+            IDictionary<string, string> routeParames = new Dictionary<string, string>();
+            routeParames.Add("str", this.txtInput.Text);
+            var result = await EasyWebRequest.SendGetHttpRequestBaseOnHttpWebRequest(url, routeParames);
+            var data = (JsonObject)result;
+            this.tv.Text = "hey," + data["Val"] + ",  i am from httpwebrequest get";
+        }
+
+        private async void PostRequestByHWR(object sender, EventArgs e)
+        {
+            string url = "http://192.168.1.102:8077/User/PostThing";
+            IDictionary<string, string> routeParames = new Dictionary<string, string>();
+            routeParames.Add("str", this.txtInput.Text);
+            var result = await EasyWebRequest.SendPostHttpRequestBaseOnHttpWebRequest(url, routeParames);
+            var data = (JsonObject)result;
+            this.tv.Text = "hey," + data["Val"] + ",  i am from httpwebrequest post";
         }
 
         private async void PostRequest(object sender, EventArgs e)
@@ -39,9 +67,9 @@ namespace Catcher.AndroidDemo.EasyRequestDemo
             string url = "http://192.168.1.102:8077/User/PostThing";
             IDictionary<string, string> routeParames = new Dictionary<string, string>();
             routeParames.Add("str", this.txtInput.Text);
-            var data = await EasyWebRequest.DoPostAndGetRetuanValue(url, routeParames) as JsonObject;
-
-            this.tv.Text = "hey," + data["Val"] + "!!i am from post";
+            var result = await EasyWebRequest.SendPostRequestBasedOnHttpClient(url, routeParames);
+            var data = (JsonObject)result;
+            this.tv.Text = "hey," + data["Val"] + ",  i am from httpclient post";
         }
 
         private async void GetRequest(object sender, EventArgs e)
@@ -49,9 +77,9 @@ namespace Catcher.AndroidDemo.EasyRequestDemo
             string url = "http://192.168.1.102:8077/User/GetThing";
             IDictionary<string, string> routeParames = new Dictionary<string, string>();
             routeParames.Add("str", this.txtInput.Text);
-            var data = await EasyWebRequest.DoGetAndGetRetuanValue(url, routeParames) as JsonObject;
-
-            this.tv.Text = "hey," + data["Val"] + "!!i am from get";
+            var result = await EasyWebRequest.SendGetRequestBasedOnHttpClient(url, routeParames);
+            var data = (JsonObject)result;
+            this.tv.Text = "hey," + data["Val"] + ",  i am from httpclient get";
         }
     }
 }
