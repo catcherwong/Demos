@@ -1,1 +1,1 @@
-﻿<%@ Application Codebehind="Global.asax.cs" Inherits="Catcher.AndroidDemo.EasyLogOn.Service.MvcApplication" Language="C#" %>
+﻿<%@ Application Codebehind="Global.asax.cs" Inherits="Catcher.AndroidDemo.EasyService.MvcApplication" Language="C#" %>
