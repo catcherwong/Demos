@@ -3,6 +3,2103 @@
         <name>System</name>
     </assembly>
     <members>
+        <member name="T:Mono.Security.Interface.Alert">
+            <summary>To be added.</summary>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="C:Mono.Security.Interface.Alert(Mono.Security.Interface.AlertDescription)">
+            <param name="description">To be added.</param>
+            <summary>To be added.</summary>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="C:Mono.Security.Interface.Alert(Mono.Security.Interface.AlertLevel,Mono.Security.Interface.AlertDescription)">
+            <param name="level">To be added.</param>
+            <param name="description">To be added.</param>
+            <summary>To be added.</summary>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="P:Mono.Security.Interface.Alert.Description">
+            <summary>To be added.</summary>
+            <value>To be added.</value>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="M:Mono.Security.Interface.Alert.GetAlertMessage(Mono.Security.Interface.AlertDescription)">
+            <param name="description">To be added.</param>
+            <summary>To be added.</summary>
+            <returns>To be added.</returns>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="P:Mono.Security.Interface.Alert.IsCloseNotify">
+            <summary>To be added.</summary>
+            <value>To be added.</value>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="P:Mono.Security.Interface.Alert.IsWarning">
+            <summary>To be added.</summary>
+            <value>To be added.</value>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="P:Mono.Security.Interface.Alert.Level">
+            <summary>To be added.</summary>
+            <value>To be added.</value>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="P:Mono.Security.Interface.Alert.Message">
+            <summary>To be added.</summary>
+            <value>To be added.</value>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="M:Mono.Security.Interface.Alert.ToString">
+            <summary>To be added.</summary>
+            <returns>To be added.</returns>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="T:Mono.Security.Interface.AlertDescription">
+            <summary>To be added.</summary>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="F:Mono.Security.Interface.AlertDescription.AccessDenied">
+            <summary>To be added.</summary>
+        </member>
+        <member name="F:Mono.Security.Interface.AlertDescription.BadCertificate">
+            <summary>To be added.</summary>
+        </member>
+        <member name="F:Mono.Security.Interface.AlertDescription.BadRecordMAC">
+            <summary>To be added.</summary>
+        </member>
+        <member name="F:Mono.Security.Interface.AlertDescription.CertificateExpired">
+            <summary>To be added.</summary>
+        </member>
+        <member name="F:Mono.Security.Interface.AlertDescription.CertificateRevoked">
+            <summary>To be added.</summary>
+        </member>
+        <member name="F:Mono.Security.Interface.AlertDescription.CertificateUnknown">
+            <summary>To be added.</summary>
+        </member>
+        <member name="F:Mono.Security.Interface.AlertDescription.CloseNotify">
+            <summary>To be added.</summary>
+        </member>
+        <member name="F:Mono.Security.Interface.AlertDescription.DecodeError">
+            <summary>To be added.</summary>
+        </member>
+        <member name="F:Mono.Security.Interface.AlertDescription.DecompressionFailure">
+            <summary>To be added.</summary>
+        </member>
+        <member name="F:Mono.Security.Interface.AlertDescription.DecryptError">
+            <summary>To be added.</summary>
+        </member>
+        <member name="F:Mono.Security.Interface.AlertDescription.DecryptionFailed_RESERVED">
+            <summary>To be added.</summary>
+        </member>
+        <member name="F:Mono.Security.Interface.AlertDescription.ExportRestriction">
+            <summary>To be added.</summary>
+        </member>
+        <member name="F:Mono.Security.Interface.AlertDescription.HandshakeFailure">
+            <summary>To be added.</summary>
+        </member>
+        <member name="F:Mono.Security.Interface.AlertDescription.IlegalParameter">
+            <summary>To be added.</summary>
+        </member>
+        <member name="F:Mono.Security.Interface.AlertDescription.InsuficientSecurity">
+            <summary>To be added.</summary>
+        </member>
+        <member name="F:Mono.Security.Interface.AlertDescription.InternalError">
+            <summary>To be added.</summary>
+        </member>
+        <member name="F:Mono.Security.Interface.AlertDescription.NoCertificate_RESERVED">
+            <summary>To be added.</summary>
+        </member>
+        <member name="F:Mono.Security.Interface.AlertDescription.NoRenegotiation">
+            <summary>To be added.</summary>
+        </member>
+        <member name="F:Mono.Security.Interface.AlertDescription.ProtocolVersion">
+            <summary>To be added.</summary>
+        </member>
+        <member name="F:Mono.Security.Interface.AlertDescription.RecordOverflow">
+            <summary>To be added.</summary>
+        </member>
+        <member name="F:Mono.Security.Interface.AlertDescription.UnexpectedMessage">
+            <summary>To be added.</summary>
+        </member>
+        <member name="F:Mono.Security.Interface.AlertDescription.UnknownCA">
+            <summary>To be added.</summary>
+        </member>
+        <member name="F:Mono.Security.Interface.AlertDescription.UnsupportedCertificate">
+            <summary>To be added.</summary>
+        </member>
+        <member name="F:Mono.Security.Interface.AlertDescription.UnsupportedExtension">
+            <summary>To be added.</summary>
+        </member>
+        <member name="F:Mono.Security.Interface.AlertDescription.UserCancelled">
+            <summary>To be added.</summary>
+        </member>
+        <member name="T:Mono.Security.Interface.AlertLevel">
+            <summary>To be added.</summary>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="F:Mono.Security.Interface.AlertLevel.Fatal">
+            <summary>To be added.</summary>
+        </member>
+        <member name="F:Mono.Security.Interface.AlertLevel.Warning">
+            <summary>To be added.</summary>
+        </member>
+        <member name="T:Mono.Security.Interface.CertificateValidationHelper">
+            <summary>To be added.</summary>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="M:Mono.Security.Interface.CertificateValidationHelper.GetValidator(Mono.Security.Interface.MonoTlsSettings,Mono.Security.Interface.MonoTlsProvider)">
+            <param name="settings">To be added.</param>
+            <param name="provider">To be added.</param>
+            <summary>To be added.</summary>
+            <returns>To be added.</returns>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="P:Mono.Security.Interface.CertificateValidationHelper.SupportsTrustAnchors">
+            <summary>To be added.</summary>
+            <value>To be added.</value>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="P:Mono.Security.Interface.CertificateValidationHelper.SupportsX509Chain">
+            <summary>To be added.</summary>
+            <value>To be added.</value>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="T:Mono.Security.Interface.CipherAlgorithmType">
+            <summary>To be added.</summary>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="F:Mono.Security.Interface.CipherAlgorithmType.Aes128">
+            <summary>To be added.</summary>
+        </member>
+        <member name="F:Mono.Security.Interface.CipherAlgorithmType.Aes256">
+            <summary>To be added.</summary>
+        </member>
+        <member name="F:Mono.Security.Interface.CipherAlgorithmType.AesGcm128">
+            <summary>To be added.</summary>
+        </member>
+        <member name="F:Mono.Security.Interface.CipherAlgorithmType.AesGcm256">
+            <summary>To be added.</summary>
+        </member>
+        <member name="F:Mono.Security.Interface.CipherAlgorithmType.None">
+            <summary>To be added.</summary>
+        </member>
+        <member name="T:Mono.Security.Interface.CipherSuiteCode">
+            <summary>To be added.</summary>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="F:Mono.Security.Interface.CipherSuiteCode.TLS_DH_anon_EXPORT_WITH_DES40_CBC_SHA">
+            <summary>To be added.</summary>
+        </member>
+        <member name="F:Mono.Security.Interface.CipherSuiteCode.TLS_DH_anon_EXPORT_WITH_RC4_40_MD5">
+            <summary>To be added.</summary>
+        </member>
+        <member name="F:Mono.Security.Interface.CipherSuiteCode.TLS_DH_anon_WITH_3DES_EDE_CBC_SHA">
+            <summary>To be added.</summary>
+        </member>
+        <member name="F:Mono.Security.Interface.CipherSuiteCode.TLS_DH_anon_WITH_AES_128_CBC_SHA">
+            <summary>To be added.</summary>
+        </member>
+        <member name="F:Mono.Security.Interface.CipherSuiteCode.TLS_DH_anon_WITH_AES_128_CBC_SHA256">
+            <summary>To be added.</summary>
+        </member>
+        <member name="F:Mono.Security.Interface.CipherSuiteCode.TLS_DH_anon_WITH_AES_128_GCM_SHA256">
+            <summary>To be added.</summary>
+        </member>
+        <member name="F:Mono.Security.Interface.CipherSuiteCode.TLS_DH_anon_WITH_AES_256_CBC_SHA">
+            <summary>To be added.</summary>
+        </member>
+        <member name="F:Mono.Security.Interface.CipherSuiteCode.TLS_DH_anon_WITH_AES_256_CBC_SHA256">
+            <summary>To be added.</summary>
+        </member>
+        <member name="F:Mono.Security.Interface.CipherSuiteCode.TLS_DH_anon_WITH_AES_256_GCM_SHA384">
+            <summary>To be added.</summary>
+        </member>
+        <member name="F:Mono.Security.Interface.CipherSuiteCode.TLS_DH_anon_WITH_CAMELLIA_128_CBC_SHA">
+            <summary>To be added.</summary>
+        </member>
+        <member name="F:Mono.Security.Interface.CipherSuiteCode.TLS_DH_anon_WITH_CAMELLIA_128_CBC_SHA256">
+            <summary>To be added.</summary>
+        </member>
+        <member name="F:Mono.Security.Interface.CipherSuiteCode.TLS_DH_anon_WITH_CAMELLIA_128_GCM_SHA256">
+            <summary>To be added.</summary>
+        </member>
+        <member name="F:Mono.Security.Interface.CipherSuiteCode.TLS_DH_anon_WITH_CAMELLIA_256_CBC_SHA">
+            <summary>To be added.</summary>
+        </member>
+        <member name="F:Mono.Security.Interface.CipherSuiteCode.TLS_DH_anon_WITH_CAMELLIA_256_CBC_SHA256">
+            <summary>To be added.</summary>
+        </member>
+        <member name="F:Mono.Security.Interface.CipherSuiteCode.TLS_DH_anon_WITH_CAMELLIA_256_GCM_SHA384">
+            <summary>To be added.</summary>
+        </member>
+        <member name="F:Mono.Security.Interface.CipherSuiteCode.TLS_DH_anon_WITH_DES_CBC_SHA">
+            <summary>To be added.</summary>
+        </member>
+        <member name="F:Mono.Security.Interface.CipherSuiteCode.TLS_DH_anon_WITH_RC4_128_MD5">
+            <summary>To be added.</summary>
+        </member>
+        <member name="F:Mono.Security.Interface.CipherSuiteCode.TLS_DH_anon_WITH_SEED_CBC_SHA">
+            <summary>To be added.</summary>
+        </member>
+        <member name="F:Mono.Security.Interface.CipherSuiteCode.TLS_DH_DSS_EXPORT_WITH_DES40_CBC_SHA">
+            <summary>To be added.</summary>
+        </member>
+        <member name="F:Mono.Security.Interface.CipherSuiteCode.TLS_DH_DSS_WITH_3DES_EDE_CBC_SHA">
+            <summary>To be added.</summary>
+        </member>
+        <member name="F:Mono.Security.Interface.CipherSuiteCode.TLS_DH_DSS_WITH_AES_128_CBC_SHA">
+            <summary>To be added.</summary>
+        </member>
+        <member name="F:Mono.Security.Interface.CipherSuiteCode.TLS_DH_DSS_WITH_AES_128_CBC_SHA256">
+            <summary>To be added.</summary>
+        </member>
+        <member name="F:Mono.Security.Interface.CipherSuiteCode.TLS_DH_DSS_WITH_AES_128_GCM_SHA256">
+            <summary>To be added.</summary>
+        </member>
+        <member name="F:Mono.Security.Interface.CipherSuiteCode.TLS_DH_DSS_WITH_AES_256_CBC_SHA">
+            <summary>To be added.</summary>
+        </member>
+        <member name="F:Mono.Security.Interface.CipherSuiteCode.TLS_DH_DSS_WITH_AES_256_CBC_SHA256">
+            <summary>To be added.</summary>
+        </member>
+        <member name="F:Mono.Security.Interface.CipherSuiteCode.TLS_DH_DSS_WITH_AES_256_GCM_SHA384">
+            <summary>To be added.</summary>
+        </member>
+        <member name="F:Mono.Security.Interface.CipherSuiteCode.TLS_DH_DSS_WITH_CAMELLIA_128_CBC_SHA">
+            <summary>To be added.</summary>
+        </member>
+        <member name="F:Mono.Security.Interface.CipherSuiteCode.TLS_DH_DSS_WITH_CAMELLIA_128_CBC_SHA256">
+            <summary>To be added.</summary>
+        </member>
+        <member name="F:Mono.Security.Interface.CipherSuiteCode.TLS_DH_DSS_WITH_CAMELLIA_128_GCM_SHA256">
+            <summary>To be added.</summary>
+        </member>
+        <member name="F:Mono.Security.Interface.CipherSuiteCode.TLS_DH_DSS_WITH_CAMELLIA_256_CBC_SHA">
+            <summary>To be added.</summary>
+        </member>
+        <member name="F:Mono.Security.Interface.CipherSuiteCode.TLS_DH_DSS_WITH_CAMELLIA_256_CBC_SHA256">
+            <summary>To be added.</summary>
+        </member>
+        <member name="F:Mono.Security.Interface.CipherSuiteCode.TLS_DH_DSS_WITH_CAMELLIA_256_GCM_SHA384">
+            <summary>To be added.</summary>
+        </member>
+        <member name="F:Mono.Security.Interface.CipherSuiteCode.TLS_DH_DSS_WITH_DES_CBC_SHA">
+            <summary>To be added.</summary>
+        </member>
+        <member name="F:Mono.Security.Interface.CipherSuiteCode.TLS_DH_DSS_WITH_SEED_CBC_SHA">
+            <summary>To be added.</summary>
+        </member>
+        <member name="F:Mono.Security.Interface.CipherSuiteCode.TLS_DH_RSA_EXPORT_WITH_DES40_CBC_SHA">
+            <summary>To be added.</summary>
+        </member>
+        <member name="F:Mono.Security.Interface.CipherSuiteCode.TLS_DH_RSA_WITH_3DES_EDE_CBC_SHA">
+            <summary>To be added.</summary>
+        </member>
+        <member name="F:Mono.Security.Interface.CipherSuiteCode.TLS_DH_RSA_WITH_AES_128_CBC_SHA">
+            <summary>To be added.</summary>
+        </member>
+        <member name="F:Mono.Security.Interface.CipherSuiteCode.TLS_DH_RSA_WITH_AES_128_CBC_SHA256">
+            <summary>To be added.</summary>
+        </member>
+        <member name="F:Mono.Security.Interface.CipherSuiteCode.TLS_DH_RSA_WITH_AES_128_GCM_SHA256">
+            <summary>To be added.</summary>
+        </member>
+        <member name="F:Mono.Security.Interface.CipherSuiteCode.TLS_DH_RSA_WITH_AES_256_CBC_SHA">
+            <summary>To be added.</summary>
+        </member>
+        <member name="F:Mono.Security.Interface.CipherSuiteCode.TLS_DH_RSA_WITH_AES_256_CBC_SHA256">
+            <summary>To be added.</summary>
+        </member>
+        <member name="F:Mono.Security.Interface.CipherSuiteCode.TLS_DH_RSA_WITH_AES_256_GCM_SHA384">
+            <summary>To be added.</summary>
+        </member>
+        <member name="F:Mono.Security.Interface.CipherSuiteCode.TLS_DH_RSA_WITH_CAMELLIA_128_CBC_SHA">
+            <summary>To be added.</summary>
+        </member>
+        <member name="F:Mono.Security.Interface.CipherSuiteCode.TLS_DH_RSA_WITH_CAMELLIA_128_CBC_SHA256">
+            <summary>To be added.</summary>
+        </member>
+        <member name="F:Mono.Security.Interface.CipherSuiteCode.TLS_DH_RSA_WITH_CAMELLIA_128_GCM_SHA256">
+            <summary>To be added.</summary>
+        </member>
+        <member name="F:Mono.Security.Interface.CipherSuiteCode.TLS_DH_RSA_WITH_CAMELLIA_256_CBC_SHA">
+            <summary>To be added.</summary>
+        </member>
+        <member name="F:Mono.Security.Interface.CipherSuiteCode.TLS_DH_RSA_WITH_CAMELLIA_256_CBC_SHA256">
+            <summary>To be added.</summary>
+        </member>
+        <member name="F:Mono.Security.Interface.CipherSuiteCode.TLS_DH_RSA_WITH_CAMELLIA_256_GCM_SHA384">
+            <summary>To be added.</summary>
+        </member>
+        <member name="F:Mono.Security.Interface.CipherSuiteCode.TLS_DH_RSA_WITH_DES_CBC_SHA">
+            <summary>To be added.</summary>
+        </member>
+        <member name="F:Mono.Security.Interface.CipherSuiteCode.TLS_DH_RSA_WITH_SEED_CBC_SHA">
+            <summary>To be added.</summary>
+        </member>
+        <member name="F:Mono.Security.Interface.CipherSuiteCode.TLS_DHE_DSS_EXPORT_WITH_DES40_CBC_SHA">
+            <summary>To be added.</summary>
+        </member>
+        <member name="F:Mono.Security.Interface.CipherSuiteCode.TLS_DHE_DSS_WITH_3DES_EDE_CBC_SHA">
+            <summary>To be added.</summary>
+        </member>
+        <member name="F:Mono.Security.Interface.CipherSuiteCode.TLS_DHE_DSS_WITH_AES_128_CBC_SHA">
+            <summary>To be added.</summary>
+        </member>
+        <member name="F:Mono.Security.Interface.CipherSuiteCode.TLS_DHE_DSS_WITH_AES_128_CBC_SHA256">
+            <summary>To be added.</summary>
+        </member>
+        <member name="F:Mono.Security.Interface.CipherSuiteCode.TLS_DHE_DSS_WITH_AES_128_GCM_SHA256">
+            <summary>To be added.</summary>
+        </member>
+        <member name="F:Mono.Security.Interface.CipherSuiteCode.TLS_DHE_DSS_WITH_AES_256_CBC_SHA">
+            <summary>To be added.</summary>
+        </member>
+        <member name="F:Mono.Security.Interface.CipherSuiteCode.TLS_DHE_DSS_WITH_AES_256_CBC_SHA256">
+            <summary>To be added.</summary>
+        </member>
+        <member name="F:Mono.Security.Interface.CipherSuiteCode.TLS_DHE_DSS_WITH_AES_256_GCM_SHA384">
+            <summary>To be added.</summary>
+        </member>
+        <member name="F:Mono.Security.Interface.CipherSuiteCode.TLS_DHE_DSS_WITH_CAMELLIA_128_CBC_SHA">
+            <summary>To be added.</summary>
+        </member>
+        <member name="F:Mono.Security.Interface.CipherSuiteCode.TLS_DHE_DSS_WITH_CAMELLIA_128_CBC_SHA256">
+            <summary>To be added.</summary>
+        </member>
+        <member name="F:Mono.Security.Interface.CipherSuiteCode.TLS_DHE_DSS_WITH_CAMELLIA_128_GCM_SHA256">
+            <summary>To be added.</summary>
+        </member>
+        <member name="F:Mono.Security.Interface.CipherSuiteCode.TLS_DHE_DSS_WITH_CAMELLIA_256_CBC_SHA">
+            <summary>To be added.</summary>
+        </member>
+        <member name="F:Mono.Security.Interface.CipherSuiteCode.TLS_DHE_DSS_WITH_CAMELLIA_256_CBC_SHA256">
+            <summary>To be added.</summary>
+        </member>
+        <member name="F:Mono.Security.Interface.CipherSuiteCode.TLS_DHE_DSS_WITH_CAMELLIA_256_GCM_SHA384">
+            <summary>To be added.</summary>
+        </member>
+        <member name="F:Mono.Security.Interface.CipherSuiteCode.TLS_DHE_DSS_WITH_DES_CBC_SHA">
+            <summary>To be added.</summary>
+        </member>
+        <member name="F:Mono.Security.Interface.CipherSuiteCode.TLS_DHE_DSS_WITH_SEED_CBC_SHA">
+            <summary>To be added.</summary>
+        </member>
+        <member name="F:Mono.Security.Interface.CipherSuiteCode.TLS_DHE_PSK_WITH_3DES_EDE_CBC_SHA">
+            <summary>To be added.</summary>
+        </member>
+        <member name="F:Mono.Security.Interface.CipherSuiteCode.TLS_DHE_PSK_WITH_AES_128_CBC_SHA">
+            <summary>To be added.</summary>
+        </member>
+        <member name="F:Mono.Security.Interface.CipherSuiteCode.TLS_DHE_PSK_WITH_AES_128_CBC_SHA256">
+            <summary>To be added.</summary>
+        </member>
+        <member name="F:Mono.Security.Interface.CipherSuiteCode.TLS_DHE_PSK_WITH_AES_128_CCM">
+            <summary>To be added.</summary>
+        </member>
+        <member name="F:Mono.Security.Interface.CipherSuiteCode.TLS_DHE_PSK_WITH_AES_128_GCM_SHA256">
+            <summary>To be added.</summary>
+        </member>
+        <member name="F:Mono.Security.Interface.CipherSuiteCode.TLS_DHE_PSK_WITH_AES_256_CBC_SHA">
+            <summary>To be added.</summary>
+        </member>
+        <member name="F:Mono.Security.Interface.CipherSuiteCode.TLS_DHE_PSK_WITH_AES_256_CBC_SHA384">
+            <summary>To be added.</summary>
+        </member>
+        <member name="F:Mono.Security.Interface.CipherSuiteCode.TLS_DHE_PSK_WITH_AES_256_CCM">
+            <summary>To be added.</summary>
+        </member>
+        <member name="F:Mono.Security.Interface.CipherSuiteCode.TLS_DHE_PSK_WITH_AES_256_GCM_SHA384">
+            <summary>To be added.</summary>
+        </member>
+        <member name="F:Mono.Security.Interface.CipherSuiteCode.TLS_DHE_PSK_WITH_CAMELLIA_128_CBC_SHA256">
+            <summary>To be added.</summary>
+        </member>
+        <member name="F:Mono.Security.Interface.CipherSuiteCode.TLS_DHE_PSK_WITH_CAMELLIA_128_GCM_SHA256">
+            <summary>To be added.</summary>
+        </member>
+        <member name="F:Mono.Security.Interface.CipherSuiteCode.TLS_DHE_PSK_WITH_CAMELLIA_256_CBC_SHA384">
+            <summary>To be added.</summary>
+        </member>
+        <member name="F:Mono.Security.Interface.CipherSuiteCode.TLS_DHE_PSK_WITH_CAMELLIA_256_GCM_SHA384">
+            <summary>To be added.</summary>
+        </member>
+        <member name="F:Mono.Security.Interface.CipherSuiteCode.TLS_DHE_PSK_WITH_ESTREAM_SALSA20_SHA1">
+            <summary>To be added.</summary>
+        </member>
+        <member name="F:Mono.Security.Interface.CipherSuiteCode.TLS_DHE_PSK_WITH_NULL_SHA">
+            <summary>To be added.</summary>
+        </member>
+        <member name="F:Mono.Security.Interface.CipherSuiteCode.TLS_DHE_PSK_WITH_NULL_SHA256">
+            <summary>To be added.</summary>
+        </member>
+        <member name="F:Mono.Security.Interface.CipherSuiteCode.TLS_DHE_PSK_WITH_NULL_SHA384">
+            <summary>To be added.</summary>
+        </member>
+        <member name="F:Mono.Security.Interface.CipherSuiteCode.TLS_DHE_PSK_WITH_RC4_128_SHA">
+            <summary>To be added.</summary>
+        </member>
+        <member name="F:Mono.Security.Interface.CipherSuiteCode.TLS_DHE_PSK_WITH_SALSA20_SHA1">
+            <summary>To be added.</summary>
+        </member>
+        <member name="F:Mono.Security.Interface.CipherSuiteCode.TLS_DHE_RSA_EXPORT_WITH_DES40_CBC_SHA">
+            <summary>To be added.</summary>
+        </member>
+        <member name="F:Mono.Security.Interface.CipherSuiteCode.TLS_DHE_RSA_WITH_3DES_EDE_CBC_SHA">
+            <summary>To be added.</summary>
+        </member>
+        <member name="F:Mono.Security.Interface.CipherSuiteCode.TLS_DHE_RSA_WITH_AES_128_CBC_SHA">
+            <summary>To be added.</summary>
+        </member>
+        <member name="F:Mono.Security.Interface.CipherSuiteCode.TLS_DHE_RSA_WITH_AES_128_CBC_SHA256">
+            <summary>To be added.</summary>
+        </member>
+        <member name="F:Mono.Security.Interface.CipherSuiteCode.TLS_DHE_RSA_WITH_AES_128_CCM">
+            <summary>To be added.</summary>
+        </member>
+        <member name="F:Mono.Security.Interface.CipherSuiteCode.TLS_DHE_RSA_WITH_AES_128_CCM_8">
+            <summary>To be added.</summary>
+        </member>
+        <member name="F:Mono.Security.Interface.CipherSuiteCode.TLS_DHE_RSA_WITH_AES_128_GCM_SHA256">
+            <summary>To be added.</summary>
+        </member>
+        <member name="F:Mono.Security.Interface.CipherSuiteCode.TLS_DHE_RSA_WITH_AES_256_CBC_SHA">
+            <summary>To be added.</summary>
+        </member>
+        <member name="F:Mono.Security.Interface.CipherSuiteCode.TLS_DHE_RSA_WITH_AES_256_CBC_SHA256">
+            <summary>To be added.</summary>
+        </member>
+        <member name="F:Mono.Security.Interface.CipherSuiteCode.TLS_DHE_RSA_WITH_AES_256_CCM">
+            <summary>To be added.</summary>
+        </member>
+        <member name="F:Mono.Security.Interface.CipherSuiteCode.TLS_DHE_RSA_WITH_AES_256_CCM_8">
+            <summary>To be added.</summary>
+        </member>
+        <member name="F:Mono.Security.Interface.CipherSuiteCode.TLS_DHE_RSA_WITH_AES_256_GCM_SHA384">
+            <summary>To be added.</summary>
+        </member>
+        <member name="F:Mono.Security.Interface.CipherSuiteCode.TLS_DHE_RSA_WITH_CAMELLIA_128_CBC_SHA">
+            <summary>To be added.</summary>
+        </member>
+        <member name="F:Mono.Security.Interface.CipherSuiteCode.TLS_DHE_RSA_WITH_CAMELLIA_128_CBC_SHA256">
+            <summary>To be added.</summary>
+        </member>
+        <member name="F:Mono.Security.Interface.CipherSuiteCode.TLS_DHE_RSA_WITH_CAMELLIA_128_GCM_SHA256">
+            <summary>To be added.</summary>
+        </member>
+        <member name="F:Mono.Security.Interface.CipherSuiteCode.TLS_DHE_RSA_WITH_CAMELLIA_256_CBC_SHA">
+            <summary>To be added.</summary>
+        </member>
+        <member name="F:Mono.Security.Interface.CipherSuiteCode.TLS_DHE_RSA_WITH_CAMELLIA_256_CBC_SHA256">
+            <summary>To be added.</summary>
+        </member>
+        <member name="F:Mono.Security.Interface.CipherSuiteCode.TLS_DHE_RSA_WITH_CAMELLIA_256_GCM_SHA384">
+            <summary>To be added.</summary>
+        </member>
+        <member name="F:Mono.Security.Interface.CipherSuiteCode.TLS_DHE_RSA_WITH_CHACHA20_POLY1305_SHA256">
+            <summary>To be added.</summary>
+        </member>
+        <member name="F:Mono.Security.Interface.CipherSuiteCode.TLS_DHE_RSA_WITH_DES_CBC_SHA">
+            <summary>To be added.</summary>
+        </member>
+        <member name="F:Mono.Security.Interface.CipherSuiteCode.TLS_DHE_RSA_WITH_ESTREAM_SALSA20_SHA1">
+            <summary>To be added.</summary>
+        </member>
+        <member name="F:Mono.Security.Interface.CipherSuiteCode.TLS_DHE_RSA_WITH_SALSA20_SHA1">
+            <summary>To be added.</summary>
+        </member>
+        <member name="F:Mono.Security.Interface.CipherSuiteCode.TLS_DHE_RSA_WITH_SEED_CBC_SHA">
+            <summary>To be added.</summary>
+        </member>
+        <member name="F:Mono.Security.Interface.CipherSuiteCode.TLS_ECDH_anon_WITH_3DES_EDE_CBC_SHA">
+            <summary>To be added.</summary>
+        </member>
+        <member name="F:Mono.Security.Interface.CipherSuiteCode.TLS_ECDH_anon_WITH_AES_128_CBC_SHA">
+            <summary>To be added.</summary>
+        </member>
+        <member name="F:Mono.Security.Interface.CipherSuiteCode.TLS_ECDH_anon_WITH_AES_256_CBC_SHA">
+            <summary>To be added.</summary>
+        </member>
+        <member name="F:Mono.Security.Interface.CipherSuiteCode.TLS_ECDH_anon_WITH_NULL_SHA">
+            <summary>To be added.</summary>
+        </member>
+        <member name="F:Mono.Security.Interface.CipherSuiteCode.TLS_ECDH_anon_WITH_RC4_128_SHA">
+            <summary>To be added.</summary>
+        </member>
+        <member name="F:Mono.Security.Interface.CipherSuiteCode.TLS_ECDH_ECDSA_WITH_3DES_EDE_CBC_SHA">
+            <summary>To be added.</summary>
+        </member>
+        <member name="F:Mono.Security.Interface.CipherSuiteCode.TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA">
+            <summary>To be added.</summary>
+        </member>
+        <member name="F:Mono.Security.Interface.CipherSuiteCode.TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA256">
+            <summary>To be added.</summary>
+        </member>
+        <member name="F:Mono.Security.Interface.CipherSuiteCode.TLS_ECDH_ECDSA_WITH_AES_128_GCM_SHA256">
+            <summary>To be added.</summary>
+        </member>
+        <member name="F:Mono.Security.Interface.CipherSuiteCode.TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA">
+            <summary>To be added.</summary>
+        </member>
+        <member name="F:Mono.Security.Interface.CipherSuiteCode.TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA384">
+            <summary>To be added.</summary>
+        </member>
+        <member name="F:Mono.Security.Interface.CipherSuiteCode.TLS_ECDH_ECDSA_WITH_AES_256_GCM_SHA384">
+            <summary>To be added.</summary>
+        </member>
+        <member name="F:Mono.Security.Interface.CipherSuiteCode.TLS_ECDH_ECDSA_WITH_CAMELLIA_128_CBC_SHA256">
+            <summary>To be added.</summary>
+        </member>
+        <member name="F:Mono.Security.Interface.CipherSuiteCode.TLS_ECDH_ECDSA_WITH_CAMELLIA_128_GCM_SHA256">
+            <summary>To be added.</summary>
+        </member>
+        <member name="F:Mono.Security.Interface.CipherSuiteCode.TLS_ECDH_ECDSA_WITH_CAMELLIA_256_CBC_SHA384">
+            <summary>To be added.</summary>
+        </member>
+        <member name="F:Mono.Security.Interface.CipherSuiteCode.TLS_ECDH_ECDSA_WITH_CAMELLIA_256_GCM_SHA384">
+            <summary>To be added.</summary>
+        </member>
+        <member name="F:Mono.Security.Interface.CipherSuiteCode.TLS_ECDH_ECDSA_WITH_NULL_SHA">
+            <summary>To be added.</summary>
+        </member>
+        <member name="F:Mono.Security.Interface.CipherSuiteCode.TLS_ECDH_ECDSA_WITH_RC4_128_SHA">
+            <summary>To be added.</summary>
+        </member>
+        <member name="F:Mono.Security.Interface.CipherSuiteCode.TLS_ECDH_RSA_WITH_3DES_EDE_CBC_SHA">
+            <summary>To be added.</summary>
+        </member>
+        <member name="F:Mono.Security.Interface.CipherSuiteCode.TLS_ECDH_RSA_WITH_AES_128_CBC_SHA">
+            <summary>To be added.</summary>
+        </member>
+        <member name="F:Mono.Security.Interface.CipherSuiteCode.TLS_ECDH_RSA_WITH_AES_128_CBC_SHA256">
+            <summary>To be added.</summary>
+        </member>
+        <member name="F:Mono.Security.Interface.CipherSuiteCode.TLS_ECDH_RSA_WITH_AES_128_GCM_SHA256">
+            <summary>To be added.</summary>
+        </member>
+        <member name="F:Mono.Security.Interface.CipherSuiteCode.TLS_ECDH_RSA_WITH_AES_256_CBC_SHA">
+            <summary>To be added.</summary>
+        </member>
+        <member name="F:Mono.Security.Interface.CipherSuiteCode.TLS_ECDH_RSA_WITH_AES_256_CBC_SHA384">
+            <summary>To be added.</summary>
+        </member>
+        <member name="F:Mono.Security.Interface.CipherSuiteCode.TLS_ECDH_RSA_WITH_AES_256_GCM_SHA384">
+            <summary>To be added.</summary>
+        </member>
+        <member name="F:Mono.Security.Interface.CipherSuiteCode.TLS_ECDH_RSA_WITH_CAMELLIA_128_CBC_SHA256">
+            <summary>To be added.</summary>
+        </member>
+        <member name="F:Mono.Security.Interface.CipherSuiteCode.TLS_ECDH_RSA_WITH_CAMELLIA_128_GCM_SHA256">
+            <summary>To be added.</summary>
+        </member>
+        <member name="F:Mono.Security.Interface.CipherSuiteCode.TLS_ECDH_RSA_WITH_CAMELLIA_256_CBC_SHA384">
+            <summary>To be added.</summary>
+        </member>
+        <member name="F:Mono.Security.Interface.CipherSuiteCode.TLS_ECDH_RSA_WITH_CAMELLIA_256_GCM_SHA384">
+            <summary>To be added.</summary>
+        </member>
+        <member name="F:Mono.Security.Interface.CipherSuiteCode.TLS_ECDH_RSA_WITH_NULL_SHA">
+            <summary>To be added.</summary>
+        </member>
+        <member name="F:Mono.Security.Interface.CipherSuiteCode.TLS_ECDH_RSA_WITH_RC4_128_SHA">
+            <summary>To be added.</summary>
+        </member>
+        <member name="F:Mono.Security.Interface.CipherSuiteCode.TLS_ECDHE_ECDSA_WITH_3DES_EDE_CBC_SHA">
+            <summary>To be added.</summary>
+        </member>
+        <member name="F:Mono.Security.Interface.CipherSuiteCode.TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA">
+            <summary>To be added.</summary>
+        </member>
+        <member name="F:Mono.Security.Interface.CipherSuiteCode.TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256">
+            <summary>To be added.</summary>
+        </member>
+        <member name="F:Mono.Security.Interface.CipherSuiteCode.TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256">
+            <summary>To be added.</summary>
+        </member>
+        <member name="F:Mono.Security.Interface.CipherSuiteCode.TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA">
+            <summary>To be added.</summary>
+        </member>
+        <member name="F:Mono.Security.Interface.CipherSuiteCode.TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA384">
+            <summary>To be added.</summary>
+        </member>
+        <member name="F:Mono.Security.Interface.CipherSuiteCode.TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384">
+            <summary>To be added.</summary>
+        </member>
+        <member name="F:Mono.Security.Interface.CipherSuiteCode.TLS_ECDHE_ECDSA_WITH_CAMELLIA_128_CBC_SHA256">
+            <summary>To be added.</summary>
+        </member>
+        <member name="F:Mono.Security.Interface.CipherSuiteCode.TLS_ECDHE_ECDSA_WITH_CAMELLIA_128_GCM_SHA256">
+            <summary>To be added.</summary>
+        </member>
+        <member name="F:Mono.Security.Interface.CipherSuiteCode.TLS_ECDHE_ECDSA_WITH_CAMELLIA_256_CBC_SHA384">
+            <summary>To be added.</summary>
+        </member>
+        <member name="F:Mono.Security.Interface.CipherSuiteCode.TLS_ECDHE_ECDSA_WITH_CAMELLIA_256_GCM_SHA384">
+            <summary>To be added.</summary>
+        </member>
+        <member name="F:Mono.Security.Interface.CipherSuiteCode.TLS_ECDHE_ECDSA_WITH_CHACHA20_POLY1305_SHA256">
+            <summary>To be added.</summary>
+        </member>
+        <member name="F:Mono.Security.Interface.CipherSuiteCode.TLS_ECDHE_ECDSA_WITH_ESTREAM_SALSA20_SHA1">
+            <summary>To be added.</summary>
+        </member>
+        <member name="F:Mono.Security.Interface.CipherSuiteCode.TLS_ECDHE_ECDSA_WITH_NULL_SHA">
+            <summary>To be added.</summary>
+        </member>
+        <member name="F:Mono.Security.Interface.CipherSuiteCode.TLS_ECDHE_ECDSA_WITH_RC4_128_SHA">
+            <summary>To be added.</summary>
+        </member>
+        <member name="F:Mono.Security.Interface.CipherSuiteCode.TLS_ECDHE_ECDSA_WITH_SALSA20_SHA1">
+            <summary>To be added.</summary>
+        </member>
+        <member name="F:Mono.Security.Interface.CipherSuiteCode.TLS_ECDHE_PSK_WITH_3DES_EDE_CBC_SHA">
+            <summary>To be added.</summary>
+        </member>
+        <member name="F:Mono.Security.Interface.CipherSuiteCode.TLS_ECDHE_PSK_WITH_AES_128_CBC_SHA">
+            <summary>To be added.</summary>
+        </member>
+        <member name="F:Mono.Security.Interface.CipherSuiteCode.TLS_ECDHE_PSK_WITH_AES_128_CBC_SHA256">
+            <summary>To be added.</summary>
+        </member>
+        <member name="F:Mono.Security.Interface.CipherSuiteCode.TLS_ECDHE_PSK_WITH_AES_256_CBC_SHA">
+            <summary>To be added.</summary>
+        </member>
+        <member name="F:Mono.Security.Interface.CipherSuiteCode.TLS_ECDHE_PSK_WITH_AES_256_CBC_SHA384">
+            <summary>To be added.</summary>
+        </member>
+        <member name="F:Mono.Security.Interface.CipherSuiteCode.TLS_ECDHE_PSK_WITH_CAMELLIA_128_CBC_SHA256">
+            <summary>To be added.</summary>
+        </member>
+        <member name="F:Mono.Security.Interface.CipherSuiteCode.TLS_ECDHE_PSK_WITH_CAMELLIA_256_CBC_SHA384">
+            <summary>To be added.</summary>
+        </member>
+        <member name="F:Mono.Security.Interface.CipherSuiteCode.TLS_ECDHE_PSK_WITH_ESTREAM_SALSA20_SHA1">
+            <summary>To be added.</summary>
+        </member>
+        <member name="F:Mono.Security.Interface.CipherSuiteCode.TLS_ECDHE_PSK_WITH_NULL_SHA">
+            <summary>To be added.</summary>
+        </member>
+        <member name="F:Mono.Security.Interface.CipherSuiteCode.TLS_ECDHE_PSK_WITH_NULL_SHA256">
+            <summary>To be added.</summary>
+        </member>
+        <member name="F:Mono.Security.Interface.CipherSuiteCode.TLS_ECDHE_PSK_WITH_NULL_SHA384">
+            <summary>To be added.</summary>
+        </member>
+        <member name="F:Mono.Security.Interface.CipherSuiteCode.TLS_ECDHE_PSK_WITH_RC4_128_SHA">
+            <summary>To be added.</summary>
+        </member>
+        <member name="F:Mono.Security.Interface.CipherSuiteCode.TLS_ECDHE_PSK_WITH_SALSA20_SHA1">
+            <summary>To be added.</summary>
+        </member>
+        <member name="F:Mono.Security.Interface.CipherSuiteCode.TLS_ECDHE_RSA_WITH_3DES_EDE_CBC_SHA">
+            <summary>To be added.</summary>
+        </member>
+        <member name="F:Mono.Security.Interface.CipherSuiteCode.TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA">
+            <summary>To be added.</summary>
+        </member>
+        <member name="F:Mono.Security.Interface.CipherSuiteCode.TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256">
+            <summary>To be added.</summary>
+        </member>
+        <member name="F:Mono.Security.Interface.CipherSuiteCode.TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256">
+            <summary>To be added.</summary>
+        </member>
+        <member name="F:Mono.Security.Interface.CipherSuiteCode.TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA">
+            <summary>To be added.</summary>
+        </member>
+        <member name="F:Mono.Security.Interface.CipherSuiteCode.TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384">
+            <summary>To be added.</summary>
+        </member>
+        <member name="F:Mono.Security.Interface.CipherSuiteCode.TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384">
+            <summary>To be added.</summary>
+        </member>
+        <member name="F:Mono.Security.Interface.CipherSuiteCode.TLS_ECDHE_RSA_WITH_CAMELLIA_128_CBC_SHA256">
+            <summary>To be added.</summary>
+        </member>
+        <member name="F:Mono.Security.Interface.CipherSuiteCode.TLS_ECDHE_RSA_WITH_CAMELLIA_128_GCM_SHA256">
+            <summary>To be added.</summary>
+        </member>
+        <member name="F:Mono.Security.Interface.CipherSuiteCode.TLS_ECDHE_RSA_WITH_CAMELLIA_256_CBC_SHA384">
+            <summary>To be added.</summary>
+        </member>
+        <member name="F:Mono.Security.Interface.CipherSuiteCode.TLS_ECDHE_RSA_WITH_CAMELLIA_256_GCM_SHA384">
+            <summary>To be added.</summary>
+        </member>
+        <member name="F:Mono.Security.Interface.CipherSuiteCode.TLS_ECDHE_RSA_WITH_CHACHA20_POLY1305_SHA256">
+            <summary>To be added.</summary>
+        </member>
+        <member name="F:Mono.Security.Interface.CipherSuiteCode.TLS_ECDHE_RSA_WITH_ESTREAM_SALSA20_SHA1">
+            <summary>To be added.</summary>
+        </member>
+        <member name="F:Mono.Security.Interface.CipherSuiteCode.TLS_ECDHE_RSA_WITH_NULL_SHA">
+            <summary>To be added.</summary>
+        </member>
+        <member name="F:Mono.Security.Interface.CipherSuiteCode.TLS_ECDHE_RSA_WITH_RC4_128_SHA">
+            <summary>To be added.</summary>
+        </member>
+        <member name="F:Mono.Security.Interface.CipherSuiteCode.TLS_ECDHE_RSA_WITH_SALSA20_SHA1">
+            <summary>To be added.</summary>
+        </member>
+        <member name="F:Mono.Security.Interface.CipherSuiteCode.TLS_EMPTY_RENEGOTIATION_INFO_SCSV">
+            <summary>To be added.</summary>
+        </member>
+        <member name="F:Mono.Security.Interface.CipherSuiteCode.TLS_FALLBACK_SCSV">
+            <summary>To be added.</summary>
+        </member>
+        <member name="F:Mono.Security.Interface.CipherSuiteCode.TLS_NULL_WITH_NULL_NULL">
+            <summary>To be added.</summary>
+        </member>
+        <member name="F:Mono.Security.Interface.CipherSuiteCode.TLS_PSK_DHE_WITH_AES_128_CCM_8">
+            <summary>To be added.</summary>
+        </member>
+        <member name="F:Mono.Security.Interface.CipherSuiteCode.TLS_PSK_DHE_WITH_AES_256_CCM_8">
+            <summary>To be added.</summary>
+        </member>
+        <member name="F:Mono.Security.Interface.CipherSuiteCode.TLS_PSK_WITH_3DES_EDE_CBC_SHA">
+            <summary>To be added.</summary>
+        </member>
+        <member name="F:Mono.Security.Interface.CipherSuiteCode.TLS_PSK_WITH_AES_128_CBC_SHA">
+            <summary>To be added.</summary>
+        </member>
+        <member name="F:Mono.Security.Interface.CipherSuiteCode.TLS_PSK_WITH_AES_128_CBC_SHA256">
+            <summary>To be added.</summary>
+        </member>
+        <member name="F:Mono.Security.Interface.CipherSuiteCode.TLS_PSK_WITH_AES_128_CCM">
+            <summary>To be added.</summary>
+        </member>
+        <member name="F:Mono.Security.Interface.CipherSuiteCode.TLS_PSK_WITH_AES_128_CCM_8">
+            <summary>To be added.</summary>
+        </member>
+        <member name="F:Mono.Security.Interface.CipherSuiteCode.TLS_PSK_WITH_AES_128_GCM_SHA256">
+            <summary>To be added.</summary>
+        </member>
+        <member name="F:Mono.Security.Interface.CipherSuiteCode.TLS_PSK_WITH_AES_256_CBC_SHA">
+            <summary>To be added.</summary>
+        </member>
+        <member name="F:Mono.Security.Interface.CipherSuiteCode.TLS_PSK_WITH_AES_256_CBC_SHA384">
+            <summary>To be added.</summary>
+        </member>
+        <member name="F:Mono.Security.Interface.CipherSuiteCode.TLS_PSK_WITH_AES_256_CCM">
+            <summary>To be added.</summary>
+        </member>
+        <member name="F:Mono.Security.Interface.CipherSuiteCode.TLS_PSK_WITH_AES_256_CCM_8">
+            <summary>To be added.</summary>
+        </member>
+        <member name="F:Mono.Security.Interface.CipherSuiteCode.TLS_PSK_WITH_AES_256_GCM_SHA384">
+            <summary>To be added.</summary>
+        </member>
+        <member name="F:Mono.Security.Interface.CipherSuiteCode.TLS_PSK_WITH_CAMELLIA_128_CBC_SHA256">
+            <summary>To be added.</summary>
+        </member>
+        <member name="F:Mono.Security.Interface.CipherSuiteCode.TLS_PSK_WITH_CAMELLIA_128_GCM_SHA256">
+            <summary>To be added.</summary>
+        </member>
+        <member name="F:Mono.Security.Interface.CipherSuiteCode.TLS_PSK_WITH_CAMELLIA_256_CBC_SHA384">
+            <summary>To be added.</summary>
+        </member>
+        <member name="F:Mono.Security.Interface.CipherSuiteCode.TLS_PSK_WITH_CAMELLIA_256_GCM_SHA384">
+            <summary>To be added.</summary>
+        </member>
+        <member name="F:Mono.Security.Interface.CipherSuiteCode.TLS_PSK_WITH_ESTREAM_SALSA20_SHA1">
+            <summary>To be added.</summary>
+        </member>
+        <member name="F:Mono.Security.Interface.CipherSuiteCode.TLS_PSK_WITH_NULL_SHA">
+            <summary>To be added.</summary>
+        </member>
+        <member name="F:Mono.Security.Interface.CipherSuiteCode.TLS_PSK_WITH_NULL_SHA256">
+            <summary>To be added.</summary>
+        </member>
+        <member name="F:Mono.Security.Interface.CipherSuiteCode.TLS_PSK_WITH_NULL_SHA384">
+            <summary>To be added.</summary>
+        </member>
+        <member name="F:Mono.Security.Interface.CipherSuiteCode.TLS_PSK_WITH_RC4_128_SHA">
+            <summary>To be added.</summary>
+        </member>
+        <member name="F:Mono.Security.Interface.CipherSuiteCode.TLS_PSK_WITH_SALSA20_SHA1">
+            <summary>To be added.</summary>
+        </member>
+        <member name="F:Mono.Security.Interface.CipherSuiteCode.TLS_RSA_EXPORT_WITH_DES40_CBC_SHA">
+            <summary>To be added.</summary>
+        </member>
+        <member name="F:Mono.Security.Interface.CipherSuiteCode.TLS_RSA_EXPORT_WITH_RC2_CBC_40_MD5">
+            <summary>To be added.</summary>
+        </member>
+        <member name="F:Mono.Security.Interface.CipherSuiteCode.TLS_RSA_EXPORT_WITH_RC4_40_MD5">
+            <summary>To be added.</summary>
+        </member>
+        <member name="F:Mono.Security.Interface.CipherSuiteCode.TLS_RSA_PSK_WITH_3DES_EDE_CBC_SHA">
+            <summary>To be added.</summary>
+        </member>
+        <member name="F:Mono.Security.Interface.CipherSuiteCode.TLS_RSA_PSK_WITH_AES_128_CBC_SHA">
+            <summary>To be added.</summary>
+        </member>
+        <member name="F:Mono.Security.Interface.CipherSuiteCode.TLS_RSA_PSK_WITH_AES_128_CBC_SHA256">
+            <summary>To be added.</summary>
+        </member>
+        <member name="F:Mono.Security.Interface.CipherSuiteCode.TLS_RSA_PSK_WITH_AES_128_GCM_SHA256">
+            <summary>To be added.</summary>
+        </member>
+        <member name="F:Mono.Security.Interface.CipherSuiteCode.TLS_RSA_PSK_WITH_AES_256_CBC_SHA">
+            <summary>To be added.</summary>
+        </member>
+        <member name="F:Mono.Security.Interface.CipherSuiteCode.TLS_RSA_PSK_WITH_AES_256_CBC_SHA384">
+            <summary>To be added.</summary>
+        </member>
+        <member name="F:Mono.Security.Interface.CipherSuiteCode.TLS_RSA_PSK_WITH_AES_256_GCM_SHA384">
+            <summary>To be added.</summary>
+        </member>
+        <member name="F:Mono.Security.Interface.CipherSuiteCode.TLS_RSA_PSK_WITH_CAMELLIA_128_CBC_SHA256">
+            <summary>To be added.</summary>
+        </member>
+        <member name="F:Mono.Security.Interface.CipherSuiteCode.TLS_RSA_PSK_WITH_CAMELLIA_128_GCM_SHA256">
+            <summary>To be added.</summary>
+        </member>
+        <member name="F:Mono.Security.Interface.CipherSuiteCode.TLS_RSA_PSK_WITH_CAMELLIA_256_CBC_SHA384">
+            <summary>To be added.</summary>
+        </member>
+        <member name="F:Mono.Security.Interface.CipherSuiteCode.TLS_RSA_PSK_WITH_CAMELLIA_256_GCM_SHA384">
+            <summary>To be added.</summary>
+        </member>
+        <member name="F:Mono.Security.Interface.CipherSuiteCode.TLS_RSA_PSK_WITH_ESTREAM_SALSA20_SHA1">
+            <summary>To be added.</summary>
+        </member>
+        <member name="F:Mono.Security.Interface.CipherSuiteCode.TLS_RSA_PSK_WITH_NULL_SHA">
+            <summary>To be added.</summary>
+        </member>
+        <member name="F:Mono.Security.Interface.CipherSuiteCode.TLS_RSA_PSK_WITH_NULL_SHA256">
+            <summary>To be added.</summary>
+        </member>
+        <member name="F:Mono.Security.Interface.CipherSuiteCode.TLS_RSA_PSK_WITH_NULL_SHA384">
+            <summary>To be added.</summary>
+        </member>
+        <member name="F:Mono.Security.Interface.CipherSuiteCode.TLS_RSA_PSK_WITH_RC4_128_SHA">
+            <summary>To be added.</summary>
+        </member>
+        <member name="F:Mono.Security.Interface.CipherSuiteCode.TLS_RSA_PSK_WITH_SALSA20_SHA1">
+            <summary>To be added.</summary>
+        </member>
+        <member name="F:Mono.Security.Interface.CipherSuiteCode.TLS_RSA_WITH_3DES_EDE_CBC_SHA">
+            <summary>To be added.</summary>
+        </member>
+        <member name="F:Mono.Security.Interface.CipherSuiteCode.TLS_RSA_WITH_AES_128_CBC_SHA">
+            <summary>To be added.</summary>
+        </member>
+        <member name="F:Mono.Security.Interface.CipherSuiteCode.TLS_RSA_WITH_AES_128_CBC_SHA256">
+            <summary>To be added.</summary>
+        </member>
+        <member name="F:Mono.Security.Interface.CipherSuiteCode.TLS_RSA_WITH_AES_128_CCM">
+            <summary>To be added.</summary>
+        </member>
+        <member name="F:Mono.Security.Interface.CipherSuiteCode.TLS_RSA_WITH_AES_128_CCM_8">
+            <summary>To be added.</summary>
+        </member>
+        <member name="F:Mono.Security.Interface.CipherSuiteCode.TLS_RSA_WITH_AES_128_GCM_SHA256">
+            <summary>To be added.</summary>
+        </member>
+        <member name="F:Mono.Security.Interface.CipherSuiteCode.TLS_RSA_WITH_AES_256_CBC_SHA">
+            <summary>To be added.</summary>
+        </member>
+        <member name="F:Mono.Security.Interface.CipherSuiteCode.TLS_RSA_WITH_AES_256_CBC_SHA256">
+            <summary>To be added.</summary>
+        </member>
+        <member name="F:Mono.Security.Interface.CipherSuiteCode.TLS_RSA_WITH_AES_256_CCM">
+            <summary>To be added.</summary>
+        </member>
+        <member name="F:Mono.Security.Interface.CipherSuiteCode.TLS_RSA_WITH_AES_256_CCM_8">
+            <summary>To be added.</summary>
+        </member>
+        <member name="F:Mono.Security.Interface.CipherSuiteCode.TLS_RSA_WITH_AES_256_GCM_SHA384">
+            <summary>To be added.</summary>
+        </member>
+        <member name="F:Mono.Security.Interface.CipherSuiteCode.TLS_RSA_WITH_CAMELLIA_128_CBC_SHA">
+            <summary>To be added.</summary>
+        </member>
+        <member name="F:Mono.Security.Interface.CipherSuiteCode.TLS_RSA_WITH_CAMELLIA_128_CBC_SHA256">
+            <summary>To be added.</summary>
+        </member>
+        <member name="F:Mono.Security.Interface.CipherSuiteCode.TLS_RSA_WITH_CAMELLIA_128_GCM_SHA256">
+            <summary>To be added.</summary>
+        </member>
+        <member name="F:Mono.Security.Interface.CipherSuiteCode.TLS_RSA_WITH_CAMELLIA_256_CBC_SHA">
+            <summary>To be added.</summary>
+        </member>
+        <member name="F:Mono.Security.Interface.CipherSuiteCode.TLS_RSA_WITH_CAMELLIA_256_CBC_SHA256">
+            <summary>To be added.</summary>
+        </member>
+        <member name="F:Mono.Security.Interface.CipherSuiteCode.TLS_RSA_WITH_CAMELLIA_256_GCM_SHA384">
+            <summary>To be added.</summary>
+        </member>
+        <member name="F:Mono.Security.Interface.CipherSuiteCode.TLS_RSA_WITH_DES_CBC_SHA">
+            <summary>To be added.</summary>
+        </member>
+        <member name="F:Mono.Security.Interface.CipherSuiteCode.TLS_RSA_WITH_ESTREAM_SALSA20_SHA1">
+            <summary>To be added.</summary>
+        </member>
+        <member name="F:Mono.Security.Interface.CipherSuiteCode.TLS_RSA_WITH_IDEA_CBC_SHA">
+            <summary>To be added.</summary>
+        </member>
+        <member name="F:Mono.Security.Interface.CipherSuiteCode.TLS_RSA_WITH_NULL_MD5">
+            <summary>To be added.</summary>
+        </member>
+        <member name="F:Mono.Security.Interface.CipherSuiteCode.TLS_RSA_WITH_NULL_SHA">
+            <summary>To be added.</summary>
+        </member>
+        <member name="F:Mono.Security.Interface.CipherSuiteCode.TLS_RSA_WITH_NULL_SHA256">
+            <summary>To be added.</summary>
+        </member>
+        <member name="F:Mono.Security.Interface.CipherSuiteCode.TLS_RSA_WITH_RC4_128_MD5">
+            <summary>To be added.</summary>
+        </member>
+        <member name="F:Mono.Security.Interface.CipherSuiteCode.TLS_RSA_WITH_RC4_128_SHA">
+            <summary>To be added.</summary>
+        </member>
+        <member name="F:Mono.Security.Interface.CipherSuiteCode.TLS_RSA_WITH_SALSA20_SHA1">
+            <summary>To be added.</summary>
+        </member>
+        <member name="F:Mono.Security.Interface.CipherSuiteCode.TLS_RSA_WITH_SEED_CBC_SHA">
+            <summary>To be added.</summary>
+        </member>
+        <member name="F:Mono.Security.Interface.CipherSuiteCode.TLS_SRP_SHA_DSS_WITH_3DES_EDE_CBC_SHA">
+            <summary>To be added.</summary>
+        </member>
+        <member name="F:Mono.Security.Interface.CipherSuiteCode.TLS_SRP_SHA_DSS_WITH_AES_128_CBC_SHA">
+            <summary>To be added.</summary>
+        </member>
+        <member name="F:Mono.Security.Interface.CipherSuiteCode.TLS_SRP_SHA_DSS_WITH_AES_256_CBC_SHA">
+            <summary>To be added.</summary>
+        </member>
+        <member name="F:Mono.Security.Interface.CipherSuiteCode.TLS_SRP_SHA_RSA_WITH_3DES_EDE_CBC_SHA">
+            <summary>To be added.</summary>
+        </member>
+        <member name="F:Mono.Security.Interface.CipherSuiteCode.TLS_SRP_SHA_RSA_WITH_AES_128_CBC_SHA">
+            <summary>To be added.</summary>
+        </member>
+        <member name="F:Mono.Security.Interface.CipherSuiteCode.TLS_SRP_SHA_RSA_WITH_AES_256_CBC_SHA">
+            <summary>To be added.</summary>
+        </member>
+        <member name="F:Mono.Security.Interface.CipherSuiteCode.TLS_SRP_SHA_WITH_3DES_EDE_CBC_SHA">
+            <summary>To be added.</summary>
+        </member>
+        <member name="F:Mono.Security.Interface.CipherSuiteCode.TLS_SRP_SHA_WITH_AES_128_CBC_SHA">
+            <summary>To be added.</summary>
+        </member>
+        <member name="F:Mono.Security.Interface.CipherSuiteCode.TLS_SRP_SHA_WITH_AES_256_CBC_SHA">
+            <summary>To be added.</summary>
+        </member>
+        <member name="T:Mono.Security.Interface.ExchangeAlgorithmType">
+            <summary>To be added.</summary>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="F:Mono.Security.Interface.ExchangeAlgorithmType.Dhe">
+            <summary>To be added.</summary>
+        </member>
+        <member name="F:Mono.Security.Interface.ExchangeAlgorithmType.EcDhe">
+            <summary>To be added.</summary>
+        </member>
+        <member name="F:Mono.Security.Interface.ExchangeAlgorithmType.None">
+            <summary>To be added.</summary>
+        </member>
+        <member name="F:Mono.Security.Interface.ExchangeAlgorithmType.Rsa">
+            <summary>To be added.</summary>
+        </member>
+        <member name="T:Mono.Security.Interface.HashAlgorithmType">
+            <summary>To be added.</summary>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="F:Mono.Security.Interface.HashAlgorithmType.Md5">
+            <summary>To be added.</summary>
+        </member>
+        <member name="F:Mono.Security.Interface.HashAlgorithmType.Md5Sha1">
+            <summary>To be added.</summary>
+        </member>
+        <member name="F:Mono.Security.Interface.HashAlgorithmType.None">
+            <summary>To be added.</summary>
+        </member>
+        <member name="F:Mono.Security.Interface.HashAlgorithmType.Sha1">
+            <summary>To be added.</summary>
+        </member>
+        <member name="F:Mono.Security.Interface.HashAlgorithmType.Sha224">
+            <summary>To be added.</summary>
+        </member>
+        <member name="F:Mono.Security.Interface.HashAlgorithmType.Sha256">
+            <summary>To be added.</summary>
+        </member>
+        <member name="F:Mono.Security.Interface.HashAlgorithmType.Sha384">
+            <summary>To be added.</summary>
+        </member>
+        <member name="F:Mono.Security.Interface.HashAlgorithmType.Sha512">
+            <summary>To be added.</summary>
+        </member>
+        <member name="F:Mono.Security.Interface.HashAlgorithmType.Unknown">
+            <summary>To be added.</summary>
+        </member>
+        <member name="T:Mono.Security.Interface.IBufferOffsetSize">
+            <summary>To be added.</summary>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="P:Mono.Security.Interface.IBufferOffsetSize.Buffer">
+            <summary>To be added.</summary>
+            <value>To be added.</value>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="P:Mono.Security.Interface.IBufferOffsetSize.Offset">
+            <summary>To be added.</summary>
+            <value>To be added.</value>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="P:Mono.Security.Interface.IBufferOffsetSize.Size">
+            <summary>To be added.</summary>
+            <value>To be added.</value>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="T:Mono.Security.Interface.ICertificateValidator">
+            <summary>To be added.</summary>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="M:Mono.Security.Interface.ICertificateValidator.SelectClientCertificate(System.String,System.Security.Cryptography.X509Certificates.X509CertificateCollection,System.Security.Cryptography.X509Certificates.X509Certificate,System.String[],System.Security.Cryptography.X509Certificates.X509Certificate@)">
+            <param name="targetHost">To be added.</param>
+            <param name="localCertificates">To be added.</param>
+            <param name="remoteCertificate">To be added.</param>
+            <param name="acceptableIssuers">To be added.</param>
+            <param name="clientCertificate">To be added.</param>
+            <summary>To be added.</summary>
+            <returns>To be added.</returns>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="P:Mono.Security.Interface.ICertificateValidator.Settings">
+            <summary>To be added.</summary>
+            <value>To be added.</value>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="M:Mono.Security.Interface.ICertificateValidator.ValidateCertificate(System.String,System.Boolean,System.Security.Cryptography.X509Certificates.X509CertificateCollection)">
+            <param name="targetHost">To be added.</param>
+            <param name="serverMode">To be added.</param>
+            <param name="certificates">To be added.</param>
+            <summary>To be added.</summary>
+            <returns>To be added.</returns>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="T:Mono.Security.Interface.IMonoSslStream">
+            <summary>To be added.</summary>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="M:Mono.Security.Interface.IMonoSslStream.AuthenticateAsClient(System.String)">
+            <param name="targetHost">To be added.</param>
+            <summary>To be added.</summary>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="M:Mono.Security.Interface.IMonoSslStream.AuthenticateAsClient(System.String,System.Security.Cryptography.X509Certificates.X509CertificateCollection,System.Security.Authentication.SslProtocols,System.Boolean)">
+            <param name="targetHost">To be added.</param>
+            <param name="clientCertificates">To be added.</param>
+            <param name="enabledSslProtocols">To be added.</param>
+            <param name="checkCertificateRevocation">To be added.</param>
+            <summary>To be added.</summary>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="M:Mono.Security.Interface.IMonoSslStream.AuthenticateAsClientAsync(System.String)">
+            <param name="targetHost">To be added.</param>
+            <summary>To be added.</summary>
+            <returns>To be added.</returns>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="M:Mono.Security.Interface.IMonoSslStream.AuthenticateAsClientAsync(System.String,System.Security.Cryptography.X509Certificates.X509CertificateCollection,System.Security.Authentication.SslProtocols,System.Boolean)">
+            <param name="targetHost">To be added.</param>
+            <param name="clientCertificates">To be added.</param>
+            <param name="enabledSslProtocols">To be added.</param>
+            <param name="checkCertificateRevocation">To be added.</param>
+            <summary>To be added.</summary>
+            <returns>To be added.</returns>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="M:Mono.Security.Interface.IMonoSslStream.AuthenticateAsServer(System.Security.Cryptography.X509Certificates.X509Certificate)">
+            <param name="serverCertificate">To be added.</param>
+            <summary>To be added.</summary>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="M:Mono.Security.Interface.IMonoSslStream.AuthenticateAsServer(System.Security.Cryptography.X509Certificates.X509Certificate,System.Boolean,System.Security.Authentication.SslProtocols,System.Boolean)">
+            <param name="serverCertificate">To be added.</param>
+            <param name="clientCertificateRequired">To be added.</param>
+            <param name="enabledSslProtocols">To be added.</param>
+            <param name="checkCertificateRevocation">To be added.</param>
+            <summary>To be added.</summary>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="M:Mono.Security.Interface.IMonoSslStream.AuthenticateAsServerAsync(System.Security.Cryptography.X509Certificates.X509Certificate)">
+            <param name="serverCertificate">To be added.</param>
+            <summary>To be added.</summary>
+            <returns>To be added.</returns>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="M:Mono.Security.Interface.IMonoSslStream.AuthenticateAsServerAsync(System.Security.Cryptography.X509Certificates.X509Certificate,System.Boolean,System.Security.Authentication.SslProtocols,System.Boolean)">
+            <param name="serverCertificate">To be added.</param>
+            <param name="clientCertificateRequired">To be added.</param>
+            <param name="enabledSslProtocols">To be added.</param>
+            <param name="checkCertificateRevocation">To be added.</param>
+            <summary>To be added.</summary>
+            <returns>To be added.</returns>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="P:Mono.Security.Interface.IMonoSslStream.AuthenticatedStream">
+            <summary>To be added.</summary>
+            <value>To be added.</value>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="M:Mono.Security.Interface.IMonoSslStream.BeginAuthenticateAsClient(System.String,System.AsyncCallback,System.Object)">
+            <param name="targetHost">To be added.</param>
+            <param name="asyncCallback">To be added.</param>
+            <param name="asyncState">To be added.</param>
+            <summary>To be added.</summary>
+            <returns>To be added.</returns>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="M:Mono.Security.Interface.IMonoSslStream.BeginAuthenticateAsClient(System.String,System.Security.Cryptography.X509Certificates.X509CertificateCollection,System.Security.Authentication.SslProtocols,System.Boolean,System.AsyncCallback,System.Object)">
+            <param name="targetHost">To be added.</param>
+            <param name="clientCertificates">To be added.</param>
+            <param name="enabledSslProtocols">To be added.</param>
+            <param name="checkCertificateRevocation">To be added.</param>
+            <param name="asyncCallback">To be added.</param>
+            <param name="asyncState">To be added.</param>
+            <summary>To be added.</summary>
+            <returns>To be added.</returns>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="M:Mono.Security.Interface.IMonoSslStream.BeginAuthenticateAsServer(System.Security.Cryptography.X509Certificates.X509Certificate,System.AsyncCallback,System.Object)">
+            <param name="serverCertificate">To be added.</param>
+            <param name="asyncCallback">To be added.</param>
+            <param name="asyncState">To be added.</param>
+            <summary>To be added.</summary>
+            <returns>To be added.</returns>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="M:Mono.Security.Interface.IMonoSslStream.BeginAuthenticateAsServer(System.Security.Cryptography.X509Certificates.X509Certificate,System.Boolean,System.Security.Authentication.SslProtocols,System.Boolean,System.AsyncCallback,System.Object)">
+            <param name="serverCertificate">To be added.</param>
+            <param name="clientCertificateRequired">To be added.</param>
+            <param name="enabledSslProtocols">To be added.</param>
+            <param name="checkCertificateRevocation">To be added.</param>
+            <param name="asyncCallback">To be added.</param>
+            <param name="asyncState">To be added.</param>
+            <summary>To be added.</summary>
+            <returns>To be added.</returns>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="M:Mono.Security.Interface.IMonoSslStream.BeginRead(System.Byte[],System.Int32,System.Int32,System.AsyncCallback,System.Object)">
+            <param name="buffer">To be added.</param>
+            <param name="offset">To be added.</param>
+            <param name="count">To be added.</param>
+            <param name="asyncCallback">To be added.</param>
+            <param name="asyncState">To be added.</param>
+            <summary>To be added.</summary>
+            <returns>To be added.</returns>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="M:Mono.Security.Interface.IMonoSslStream.BeginWrite(System.Byte[],System.Int32,System.Int32,System.AsyncCallback,System.Object)">
+            <param name="buffer">To be added.</param>
+            <param name="offset">To be added.</param>
+            <param name="count">To be added.</param>
+            <param name="asyncCallback">To be added.</param>
+            <param name="asyncState">To be added.</param>
+            <summary>To be added.</summary>
+            <returns>To be added.</returns>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="P:Mono.Security.Interface.IMonoSslStream.CanRead">
+            <summary>To be added.</summary>
+            <value>To be added.</value>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="P:Mono.Security.Interface.IMonoSslStream.CanTimeout">
+            <summary>To be added.</summary>
+            <value>To be added.</value>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="P:Mono.Security.Interface.IMonoSslStream.CanWrite">
+            <summary>To be added.</summary>
+            <value>To be added.</value>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="P:Mono.Security.Interface.IMonoSslStream.CheckCertRevocationStatus">
+            <summary>To be added.</summary>
+            <value>To be added.</value>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="P:Mono.Security.Interface.IMonoSslStream.CipherAlgorithm">
+            <summary>To be added.</summary>
+            <value>To be added.</value>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="P:Mono.Security.Interface.IMonoSslStream.CipherStrength">
+            <summary>To be added.</summary>
+            <value>To be added.</value>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="M:Mono.Security.Interface.IMonoSslStream.EndAuthenticateAsClient(System.IAsyncResult)">
+            <param name="asyncResult">To be added.</param>
+            <summary>To be added.</summary>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="M:Mono.Security.Interface.IMonoSslStream.EndAuthenticateAsServer(System.IAsyncResult)">
+            <param name="asyncResult">To be added.</param>
+            <summary>To be added.</summary>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="M:Mono.Security.Interface.IMonoSslStream.EndRead(System.IAsyncResult)">
+            <param name="asyncResult">To be added.</param>
+            <summary>To be added.</summary>
+            <returns>To be added.</returns>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="M:Mono.Security.Interface.IMonoSslStream.EndWrite(System.IAsyncResult)">
+            <param name="asyncResult">To be added.</param>
+            <summary>To be added.</summary>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="M:Mono.Security.Interface.IMonoSslStream.Flush">
+            <summary>To be added.</summary>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="M:Mono.Security.Interface.IMonoSslStream.GetConnectionInfo">
+            <summary>To be added.</summary>
+            <returns>To be added.</returns>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="P:Mono.Security.Interface.IMonoSslStream.HashAlgorithm">
+            <summary>To be added.</summary>
+            <value>To be added.</value>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="P:Mono.Security.Interface.IMonoSslStream.HashStrength">
+            <summary>To be added.</summary>
+            <value>To be added.</value>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="P:Mono.Security.Interface.IMonoSslStream.InternalLocalCertificate">
+            <summary>To be added.</summary>
+            <value>To be added.</value>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="P:Mono.Security.Interface.IMonoSslStream.IsAuthenticated">
+            <summary>To be added.</summary>
+            <value>To be added.</value>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="P:Mono.Security.Interface.IMonoSslStream.IsEncrypted">
+            <summary>To be added.</summary>
+            <value>To be added.</value>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="P:Mono.Security.Interface.IMonoSslStream.IsMutuallyAuthenticated">
+            <summary>To be added.</summary>
+            <value>To be added.</value>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="P:Mono.Security.Interface.IMonoSslStream.IsServer">
+            <summary>To be added.</summary>
+            <value>To be added.</value>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="P:Mono.Security.Interface.IMonoSslStream.IsSigned">
+            <summary>To be added.</summary>
+            <value>To be added.</value>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="P:Mono.Security.Interface.IMonoSslStream.KeyExchangeAlgorithm">
+            <summary>To be added.</summary>
+            <value>To be added.</value>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="P:Mono.Security.Interface.IMonoSslStream.KeyExchangeStrength">
+            <summary>To be added.</summary>
+            <value>To be added.</value>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="P:Mono.Security.Interface.IMonoSslStream.Length">
+            <summary>To be added.</summary>
+            <value>To be added.</value>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="P:Mono.Security.Interface.IMonoSslStream.LocalCertificate">
+            <summary>To be added.</summary>
+            <value>To be added.</value>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="P:Mono.Security.Interface.IMonoSslStream.Position">
+            <summary>To be added.</summary>
+            <value>To be added.</value>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="P:Mono.Security.Interface.IMonoSslStream.Provider">
+            <summary>To be added.</summary>
+            <value>To be added.</value>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="M:Mono.Security.Interface.IMonoSslStream.Read(System.Byte[],System.Int32,System.Int32)">
+            <param name="buffer">To be added.</param>
+            <param name="offset">To be added.</param>
+            <param name="count">To be added.</param>
+            <summary>To be added.</summary>
+            <returns>To be added.</returns>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="P:Mono.Security.Interface.IMonoSslStream.ReadTimeout">
+            <summary>To be added.</summary>
+            <value>To be added.</value>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="P:Mono.Security.Interface.IMonoSslStream.RemoteCertificate">
+            <summary>To be added.</summary>
+            <value>To be added.</value>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="M:Mono.Security.Interface.IMonoSslStream.SetLength(System.Int64)">
+            <param name="value">To be added.</param>
+            <summary>To be added.</summary>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="P:Mono.Security.Interface.IMonoSslStream.SslProtocol">
+            <summary>To be added.</summary>
+            <value>To be added.</value>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="P:Mono.Security.Interface.IMonoSslStream.TransportContext">
+            <summary>To be added.</summary>
+            <value>To be added.</value>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="M:Mono.Security.Interface.IMonoSslStream.Write(System.Byte[])">
+            <param name="buffer">To be added.</param>
+            <summary>To be added.</summary>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="M:Mono.Security.Interface.IMonoSslStream.Write(System.Byte[],System.Int32,System.Int32)">
+            <param name="buffer">To be added.</param>
+            <param name="offset">To be added.</param>
+            <param name="count">To be added.</param>
+            <summary>To be added.</summary>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="P:Mono.Security.Interface.IMonoSslStream.WriteTimeout">
+            <summary>To be added.</summary>
+            <value>To be added.</value>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="T:Mono.Security.Interface.IMonoTlsEventSink">
+            <summary>To be added.</summary>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="M:Mono.Security.Interface.IMonoTlsEventSink.Error(System.Exception)">
+            <param name="exception">To be added.</param>
+            <summary>To be added.</summary>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="M:Mono.Security.Interface.IMonoTlsEventSink.ReceivedCloseNotify">
+            <summary>To be added.</summary>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="T:Mono.Security.Interface.MonoEncryptionPolicy">
+            <summary>To be added.</summary>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="F:Mono.Security.Interface.MonoEncryptionPolicy.AllowNoEncryption">
+            <summary>To be added.</summary>
+        </member>
+        <member name="F:Mono.Security.Interface.MonoEncryptionPolicy.NoEncryption">
+            <summary>To be added.</summary>
+        </member>
+        <member name="F:Mono.Security.Interface.MonoEncryptionPolicy.RequireEncryption">
+            <summary>To be added.</summary>
+        </member>
+        <member name="T:Mono.Security.Interface.MonoLocalCertificateSelectionCallback">
+            <param name="targetHost">To be added.</param>
+            <param name="localCertificates">To be added.</param>
+            <param name="remoteCertificate">To be added.</param>
+            <param name="acceptableIssuers">To be added.</param>
+            <summary>To be added.</summary>
+            <returns>To be added.</returns>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="T:Mono.Security.Interface.MonoRemoteCertificateValidationCallback">
+            <param name="targetHost">To be added.</param>
+            <param name="certificate">To be added.</param>
+            <param name="chain">To be added.</param>
+            <param name="sslPolicyErrors">To be added.</param>
+            <summary>To be added.</summary>
+            <returns>To be added.</returns>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="T:Mono.Security.Interface.MonoSslPolicyErrors">
+            <summary>To be added.</summary>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="F:Mono.Security.Interface.MonoSslPolicyErrors.None">
+            <summary>To be added.</summary>
+        </member>
+        <member name="F:Mono.Security.Interface.MonoSslPolicyErrors.RemoteCertificateChainErrors">
+            <summary>To be added.</summary>
+        </member>
+        <member name="F:Mono.Security.Interface.MonoSslPolicyErrors.RemoteCertificateNameMismatch">
+            <summary>To be added.</summary>
+        </member>
+        <member name="F:Mono.Security.Interface.MonoSslPolicyErrors.RemoteCertificateNotAvailable">
+            <summary>To be added.</summary>
+        </member>
+        <member name="T:Mono.Security.Interface.MonoTlsConnectionInfo">
+            <summary>To be added.</summary>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="C:Mono.Security.Interface.MonoTlsConnectionInfo">
+            <summary>To be added.</summary>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="P:Mono.Security.Interface.MonoTlsConnectionInfo.CipherAlgorithmType">
+            <summary>To be added.</summary>
+            <value>To be added.</value>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="P:Mono.Security.Interface.MonoTlsConnectionInfo.CipherSuiteCode">
+            <summary>To be added.</summary>
+            <value>To be added.</value>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="P:Mono.Security.Interface.MonoTlsConnectionInfo.ExchangeAlgorithmType">
+            <summary>To be added.</summary>
+            <value>To be added.</value>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="P:Mono.Security.Interface.MonoTlsConnectionInfo.HashAlgorithmType">
+            <summary>To be added.</summary>
+            <value>To be added.</value>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="P:Mono.Security.Interface.MonoTlsConnectionInfo.ProtocolVersion">
+            <summary>To be added.</summary>
+            <value>To be added.</value>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="M:Mono.Security.Interface.MonoTlsConnectionInfo.ToString">
+            <summary>To be added.</summary>
+            <returns>To be added.</returns>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="T:Mono.Security.Interface.MonoTlsProvider">
+            <summary>To be added.</summary>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="M:Mono.Security.Interface.MonoTlsProvider.CreateSslStream(System.IO.Stream,System.Boolean,Mono.Security.Interface.MonoTlsSettings)">
+            <param name="innerStream">To be added.</param>
+            <param name="leaveInnerStreamOpen">To be added.</param>
+            <param name="settings">To be added.</param>
+            <summary>To be added.</summary>
+            <returns>To be added.</returns>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="P:Mono.Security.Interface.MonoTlsProvider.ID">
+            <summary>To be added.</summary>
+            <value>To be added.</value>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="P:Mono.Security.Interface.MonoTlsProvider.Name">
+            <summary>To be added.</summary>
+            <value>To be added.</value>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="P:Mono.Security.Interface.MonoTlsProvider.SupportedProtocols">
+            <summary>To be added.</summary>
+            <value>To be added.</value>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="P:Mono.Security.Interface.MonoTlsProvider.SupportsConnectionInfo">
+            <summary>To be added.</summary>
+            <value>To be added.</value>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="P:Mono.Security.Interface.MonoTlsProvider.SupportsMonoExtensions">
+            <summary>To be added.</summary>
+            <value>To be added.</value>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="P:Mono.Security.Interface.MonoTlsProvider.SupportsSslStream">
+            <summary>To be added.</summary>
+            <value>To be added.</value>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="T:Mono.Security.Interface.MonoTlsProviderFactory">
+            <summary>To be added.</summary>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="M:Mono.Security.Interface.MonoTlsProviderFactory.CreateHttpListener(System.Security.Cryptography.X509Certificates.X509Certificate,Mono.Security.Interface.MonoTlsProvider,Mono.Security.Interface.MonoTlsSettings)">
+            <param name="certificate">To be added.</param>
+            <param name="provider">To be added.</param>
+            <param name="settings">To be added.</param>
+            <summary>To be added.</summary>
+            <returns>To be added.</returns>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="M:Mono.Security.Interface.MonoTlsProviderFactory.CreateHttpsRequest(System.Uri,Mono.Security.Interface.MonoTlsProvider,Mono.Security.Interface.MonoTlsSettings)">
+            <param name="requestUri">To be added.</param>
+            <param name="provider">To be added.</param>
+            <param name="settings">To be added.</param>
+            <summary>To be added.</summary>
+            <returns>To be added.</returns>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="M:Mono.Security.Interface.MonoTlsProviderFactory.GetDefaultProvider">
+            <summary>To be added.</summary>
+            <returns>To be added.</returns>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="M:Mono.Security.Interface.MonoTlsProviderFactory.GetMonoSslStream(System.Net.Security.SslStream)">
+            <param name="stream">To be added.</param>
+            <summary>To be added.</summary>
+            <returns>To be added.</returns>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="M:Mono.Security.Interface.MonoTlsProviderFactory.GetProvider">
+            <summary>To be added.</summary>
+            <returns>To be added.</returns>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="M:Mono.Security.Interface.MonoTlsProviderFactory.GetProvider(System.String)">
+            <param name="name">To be added.</param>
+            <summary>To be added.</summary>
+            <returns>To be added.</returns>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="P:Mono.Security.Interface.MonoTlsProviderFactory.HasProvider">
+            <summary>To be added.</summary>
+            <value>To be added.</value>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="M:Mono.Security.Interface.MonoTlsProviderFactory.SetDefaultProvider(System.String)">
+            <param name="name">To be added.</param>
+            <summary>To be added.</summary>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="T:Mono.Security.Interface.MonoTlsSettings">
+            <summary>To be added.</summary>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="C:Mono.Security.Interface.MonoTlsSettings">
+            <summary>To be added.</summary>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="P:Mono.Security.Interface.MonoTlsSettings.CallbackNeedsCertificateChain">
+            <summary>To be added.</summary>
+            <value>To be added.</value>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="P:Mono.Security.Interface.MonoTlsSettings.CertificateValidator">
+            <summary>To be added.</summary>
+            <value>To be added.</value>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="P:Mono.Security.Interface.MonoTlsSettings.CheckCertificateName">
+            <summary>To be added.</summary>
+            <value>To be added.</value>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="P:Mono.Security.Interface.MonoTlsSettings.CheckCertificateRevocationStatus">
+            <summary>To be added.</summary>
+            <value>To be added.</value>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="P:Mono.Security.Interface.MonoTlsSettings.ClientCertificateSelectionCallback">
+            <summary>To be added.</summary>
+            <value>To be added.</value>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="M:Mono.Security.Interface.MonoTlsSettings.Clone">
+            <summary>To be added.</summary>
+            <returns>To be added.</returns>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="M:Mono.Security.Interface.MonoTlsSettings.CloneWithValidator(Mono.Security.Interface.ICertificateValidator)">
+            <param name="validator">To be added.</param>
+            <summary>To be added.</summary>
+            <returns>To be added.</returns>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="M:Mono.Security.Interface.MonoTlsSettings.CopyDefaultSettings">
+            <summary>To be added.</summary>
+            <returns>To be added.</returns>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="P:Mono.Security.Interface.MonoTlsSettings.DefaultSettings">
+            <summary>To be added.</summary>
+            <value>To be added.</value>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="P:Mono.Security.Interface.MonoTlsSettings.EnabledCiphers">
+            <summary>To be added.</summary>
+            <value>To be added.</value>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="P:Mono.Security.Interface.MonoTlsSettings.EnabledProtocols">
+            <summary>To be added.</summary>
+            <value>To be added.</value>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="P:Mono.Security.Interface.MonoTlsSettings.RemoteCertificateValidationCallback">
+            <summary>To be added.</summary>
+            <value>To be added.</value>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="P:Mono.Security.Interface.MonoTlsSettings.SkipSystemValidators">
+            <summary>To be added.</summary>
+            <value>To be added.</value>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="P:Mono.Security.Interface.MonoTlsSettings.TrustAnchors">
+            <summary>To be added.</summary>
+            <value>To be added.</value>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="P:Mono.Security.Interface.MonoTlsSettings.UserSettings">
+            <summary>To be added.</summary>
+            <value>To be added.</value>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="P:Mono.Security.Interface.MonoTlsSettings.UseServicePointManagerCallback">
+            <summary>To be added.</summary>
+            <value>To be added.</value>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="T:Mono.Security.Interface.TlsException">
+            <summary>To be added.</summary>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="C:Mono.Security.Interface.TlsException(Mono.Security.Interface.Alert)">
+            <param name="alert">To be added.</param>
+            <summary>To be added.</summary>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="C:Mono.Security.Interface.TlsException(Mono.Security.Interface.AlertDescription)">
+            <param name="description">To be added.</param>
+            <summary>To be added.</summary>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="C:Mono.Security.Interface.TlsException(Mono.Security.Interface.Alert,System.String)">
+            <param name="alert">To be added.</param>
+            <param name="message">To be added.</param>
+            <summary>To be added.</summary>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="C:Mono.Security.Interface.TlsException(Mono.Security.Interface.AlertDescription,System.String)">
+            <param name="description">To be added.</param>
+            <param name="message">To be added.</param>
+            <summary>To be added.</summary>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="C:Mono.Security.Interface.TlsException(Mono.Security.Interface.AlertLevel,Mono.Security.Interface.AlertDescription)">
+            <param name="level">To be added.</param>
+            <param name="description">To be added.</param>
+            <summary>To be added.</summary>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="C:Mono.Security.Interface.TlsException(Mono.Security.Interface.AlertDescription,System.String,System.Object[])">
+            <param name="description">To be added.</param>
+            <param name="format">To be added.</param>
+            <param name="args">To be added.</param>
+            <summary>To be added.</summary>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="P:Mono.Security.Interface.TlsException.Alert">
+            <summary>To be added.</summary>
+            <value>To be added.</value>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="T:Mono.Security.Interface.TlsProtocolCode">
+            <summary>To be added.</summary>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="F:Mono.Security.Interface.TlsProtocolCode.Tls10">
+            <summary>To be added.</summary>
+        </member>
+        <member name="F:Mono.Security.Interface.TlsProtocolCode.Tls11">
+            <summary>To be added.</summary>
+        </member>
+        <member name="F:Mono.Security.Interface.TlsProtocolCode.Tls12">
+            <summary>To be added.</summary>
+        </member>
+        <member name="T:Mono.Security.Interface.TlsProtocols">
+            <summary>To be added.</summary>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="F:Mono.Security.Interface.TlsProtocols.ClientMask">
+            <summary>To be added.</summary>
+        </member>
+        <member name="F:Mono.Security.Interface.TlsProtocols.ServerMask">
+            <summary>To be added.</summary>
+        </member>
+        <member name="F:Mono.Security.Interface.TlsProtocols.Tls10">
+            <summary>To be added.</summary>
+        </member>
+        <member name="F:Mono.Security.Interface.TlsProtocols.Tls10Client">
+            <summary>To be added.</summary>
+        </member>
+        <member name="F:Mono.Security.Interface.TlsProtocols.Tls10Server">
+            <summary>To be added.</summary>
+        </member>
+        <member name="F:Mono.Security.Interface.TlsProtocols.Tls11">
+            <summary>To be added.</summary>
+        </member>
+        <member name="F:Mono.Security.Interface.TlsProtocols.Tls11Client">
+            <summary>To be added.</summary>
+        </member>
+        <member name="F:Mono.Security.Interface.TlsProtocols.Tls11Server">
+            <summary>To be added.</summary>
+        </member>
+        <member name="F:Mono.Security.Interface.TlsProtocols.Tls12">
+            <summary>To be added.</summary>
+        </member>
+        <member name="F:Mono.Security.Interface.TlsProtocols.Tls12Client">
+            <summary>To be added.</summary>
+        </member>
+        <member name="F:Mono.Security.Interface.TlsProtocols.Tls12Server">
+            <summary>To be added.</summary>
+        </member>
+        <member name="F:Mono.Security.Interface.TlsProtocols.Zero">
+            <summary>To be added.</summary>
+        </member>
+        <member name="T:Mono.Security.Interface.ValidationResult">
+            <summary>To be added.</summary>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="C:Mono.Security.Interface.ValidationResult(System.Boolean,System.Boolean,System.Int32,System.Nullable{Mono.Security.Interface.MonoSslPolicyErrors})">
+            <param name="trusted">To be added.</param>
+            <param name="user_denied">To be added.</param>
+            <param name="error_code">To be added.</param>
+            <param name="policy_errors">To be added.</param>
+            <summary>To be added.</summary>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="P:Mono.Security.Interface.ValidationResult.ErrorCode">
+            <summary>To be added.</summary>
+            <value>To be added.</value>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="P:Mono.Security.Interface.ValidationResult.PolicyErrors">
+            <summary>To be added.</summary>
+            <value>To be added.</value>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="P:Mono.Security.Interface.ValidationResult.Trusted">
+            <summary>To be added.</summary>
+            <value>To be added.</value>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="P:Mono.Security.Interface.ValidationResult.UserDenied">
+            <summary>To be added.</summary>
+            <value>To be added.</value>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="T:Mono.Security.Protocol.Ntlm.ChallengeResponse">
+            <summary>To be added.</summary>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="C:Mono.Security.Protocol.Ntlm.ChallengeResponse">
+            <summary>To be added.</summary>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="C:Mono.Security.Protocol.Ntlm.ChallengeResponse(System.String,System.Byte[])">
+            <param name="password">To be added.</param>
+            <param name="challenge">To be added.</param>
+            <summary>To be added.</summary>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="P:Mono.Security.Protocol.Ntlm.ChallengeResponse.Challenge">
+            <summary>To be added.</summary>
+            <value>To be added.</value>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="M:Mono.Security.Protocol.Ntlm.ChallengeResponse.Dispose">
+            <summary>To be added.</summary>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="M:Mono.Security.Protocol.Ntlm.ChallengeResponse.Finalize">
+            <summary>To be added.</summary>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="P:Mono.Security.Protocol.Ntlm.ChallengeResponse.LM">
+            <summary>To be added.</summary>
+            <value>To be added.</value>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="P:Mono.Security.Protocol.Ntlm.ChallengeResponse.NT">
+            <summary>To be added.</summary>
+            <value>To be added.</value>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="P:Mono.Security.Protocol.Ntlm.ChallengeResponse.Password">
+            <summary>To be added.</summary>
+            <value>To be added.</value>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="T:Mono.Security.Protocol.Ntlm.ChallengeResponse2">
+            <summary>To be added.</summary>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="M:Mono.Security.Protocol.Ntlm.ChallengeResponse2.Compute(Mono.Security.Protocol.Ntlm.Type2Message,Mono.Security.Protocol.Ntlm.NtlmAuthLevel,System.String,System.String,System.String,System.Byte[]@,System.Byte[]@)">
+            <param name="type2">To be added.</param>
+            <param name="level">To be added.</param>
+            <param name="username">To be added.</param>
+            <param name="password">To be added.</param>
+            <param name="domain">To be added.</param>
+            <param name="lm">To be added.</param>
+            <param name="ntlm">To be added.</param>
+            <summary>To be added.</summary>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="T:Mono.Security.Protocol.Ntlm.MessageBase">
+            <summary>To be added.</summary>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="C:Mono.Security.Protocol.Ntlm.MessageBase(System.Int32)">
+            <param name="messageType">To be added.</param>
+            <summary>To be added.</summary>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="M:Mono.Security.Protocol.Ntlm.MessageBase.CheckHeader(System.Byte[])">
+            <param name="message">To be added.</param>
+            <summary>To be added.</summary>
+            <returns>To be added.</returns>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="M:Mono.Security.Protocol.Ntlm.MessageBase.Decode(System.Byte[])">
+            <param name="message">To be added.</param>
+            <summary>To be added.</summary>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="P:Mono.Security.Protocol.Ntlm.MessageBase.Flags">
+            <summary>To be added.</summary>
+            <value>To be added.</value>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="M:Mono.Security.Protocol.Ntlm.MessageBase.GetBytes">
+            <summary>To be added.</summary>
+            <returns>To be added.</returns>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="M:Mono.Security.Protocol.Ntlm.MessageBase.PrepareMessage(System.Int32)">
+            <param name="messageSize">To be added.</param>
+            <summary>To be added.</summary>
+            <returns>To be added.</returns>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="P:Mono.Security.Protocol.Ntlm.MessageBase.Type">
+            <summary>To be added.</summary>
+            <value>To be added.</value>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="T:Mono.Security.Protocol.Ntlm.NtlmAuthLevel">
+            <summary>To be added.</summary>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="F:Mono.Security.Protocol.Ntlm.NtlmAuthLevel.LM_and_NTLM">
+            <summary>To be added.</summary>
+        </member>
+        <member name="F:Mono.Security.Protocol.Ntlm.NtlmAuthLevel.LM_and_NTLM_and_try_NTLMv2_Session">
+            <summary>To be added.</summary>
+        </member>
+        <member name="F:Mono.Security.Protocol.Ntlm.NtlmAuthLevel.NTLM_only">
+            <summary>To be added.</summary>
+        </member>
+        <member name="F:Mono.Security.Protocol.Ntlm.NtlmAuthLevel.NTLMv2_only">
+            <summary>To be added.</summary>
+        </member>
+        <member name="T:Mono.Security.Protocol.Ntlm.NtlmFlags">
+            <summary>To be added.</summary>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="F:Mono.Security.Protocol.Ntlm.NtlmFlags.Negotiate128">
+            <summary>To be added.</summary>
+        </member>
+        <member name="F:Mono.Security.Protocol.Ntlm.NtlmFlags.Negotiate56">
+            <summary>To be added.</summary>
+        </member>
+        <member name="F:Mono.Security.Protocol.Ntlm.NtlmFlags.NegotiateAlwaysSign">
+            <summary>To be added.</summary>
+        </member>
+        <member name="F:Mono.Security.Protocol.Ntlm.NtlmFlags.NegotiateDomainSupplied">
+            <summary>To be added.</summary>
+        </member>
+        <member name="F:Mono.Security.Protocol.Ntlm.NtlmFlags.NegotiateNtlm">
+            <summary>To be added.</summary>
+        </member>
+        <member name="F:Mono.Security.Protocol.Ntlm.NtlmFlags.NegotiateNtlm2Key">
+            <summary>To be added.</summary>
+        </member>
+        <member name="F:Mono.Security.Protocol.Ntlm.NtlmFlags.NegotiateOem">
+            <summary>To be added.</summary>
+        </member>
+        <member name="F:Mono.Security.Protocol.Ntlm.NtlmFlags.NegotiateUnicode">
+            <summary>To be added.</summary>
+        </member>
+        <member name="F:Mono.Security.Protocol.Ntlm.NtlmFlags.NegotiateWorkstationSupplied">
+            <summary>To be added.</summary>
+        </member>
+        <member name="F:Mono.Security.Protocol.Ntlm.NtlmFlags.RequestTarget">
+            <summary>To be added.</summary>
+        </member>
+        <member name="T:Mono.Security.Protocol.Ntlm.NtlmSettings">
+            <summary>To be added.</summary>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="P:Mono.Security.Protocol.Ntlm.NtlmSettings.DefaultAuthLevel">
+            <summary>To be added.</summary>
+            <value>To be added.</value>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="T:Mono.Security.Protocol.Ntlm.Type1Message">
+            <summary>To be added.</summary>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="C:Mono.Security.Protocol.Ntlm.Type1Message">
+            <summary>To be added.</summary>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="C:Mono.Security.Protocol.Ntlm.Type1Message(System.Byte[])">
+            <param name="message">To be added.</param>
+            <summary>To be added.</summary>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="M:Mono.Security.Protocol.Ntlm.Type1Message.Decode(System.Byte[])">
+            <param name="message">To be added.</param>
+            <summary>To be added.</summary>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="P:Mono.Security.Protocol.Ntlm.Type1Message.Domain">
+            <summary>To be added.</summary>
+            <value>To be added.</value>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="M:Mono.Security.Protocol.Ntlm.Type1Message.GetBytes">
+            <summary>To be added.</summary>
+            <returns>To be added.</returns>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="P:Mono.Security.Protocol.Ntlm.Type1Message.Host">
+            <summary>To be added.</summary>
+            <value>To be added.</value>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="T:Mono.Security.Protocol.Ntlm.Type2Message">
+            <summary>To be added.</summary>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="C:Mono.Security.Protocol.Ntlm.Type2Message">
+            <summary>To be added.</summary>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="C:Mono.Security.Protocol.Ntlm.Type2Message(System.Byte[])">
+            <param name="message">To be added.</param>
+            <summary>To be added.</summary>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="M:Mono.Security.Protocol.Ntlm.Type2Message.Decode(System.Byte[])">
+            <param name="message">To be added.</param>
+            <summary>To be added.</summary>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="M:Mono.Security.Protocol.Ntlm.Type2Message.Finalize">
+            <summary>To be added.</summary>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="M:Mono.Security.Protocol.Ntlm.Type2Message.GetBytes">
+            <summary>To be added.</summary>
+            <returns>To be added.</returns>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="P:Mono.Security.Protocol.Ntlm.Type2Message.Nonce">
+            <summary>To be added.</summary>
+            <value>To be added.</value>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="P:Mono.Security.Protocol.Ntlm.Type2Message.TargetInfo">
+            <summary>To be added.</summary>
+            <value>To be added.</value>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="P:Mono.Security.Protocol.Ntlm.Type2Message.TargetName">
+            <summary>To be added.</summary>
+            <value>To be added.</value>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="T:Mono.Security.Protocol.Ntlm.Type3Message">
+            <summary>To be added.</summary>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="C:Mono.Security.Protocol.Ntlm.Type3Message">
+            <summary>To be added.</summary>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="C:Mono.Security.Protocol.Ntlm.Type3Message(Mono.Security.Protocol.Ntlm.Type2Message)">
+            <param name="type2">To be added.</param>
+            <summary>To be added.</summary>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="C:Mono.Security.Protocol.Ntlm.Type3Message(System.Byte[])">
+            <param name="message">To be added.</param>
+            <summary>To be added.</summary>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="P:Mono.Security.Protocol.Ntlm.Type3Message.Challenge">
+            <summary>To be added.</summary>
+            <value>To be added.</value>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="M:Mono.Security.Protocol.Ntlm.Type3Message.Decode(System.Byte[])">
+            <param name="message">To be added.</param>
+            <summary>To be added.</summary>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="P:Mono.Security.Protocol.Ntlm.Type3Message.DefaultAuthLevel">
+            <summary>To be added.</summary>
+            <value>To be added.</value>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="P:Mono.Security.Protocol.Ntlm.Type3Message.Domain">
+            <summary>To be added.</summary>
+            <value>To be added.</value>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="M:Mono.Security.Protocol.Ntlm.Type3Message.Finalize">
+            <summary>To be added.</summary>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="M:Mono.Security.Protocol.Ntlm.Type3Message.GetBytes">
+            <summary>To be added.</summary>
+            <returns>To be added.</returns>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="P:Mono.Security.Protocol.Ntlm.Type3Message.Host">
+            <summary>To be added.</summary>
+            <value>To be added.</value>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="P:Mono.Security.Protocol.Ntlm.Type3Message.Level">
+            <summary>To be added.</summary>
+            <value>To be added.</value>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="P:Mono.Security.Protocol.Ntlm.Type3Message.LM">
+            <summary>To be added.</summary>
+            <value>To be added.</value>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="P:Mono.Security.Protocol.Ntlm.Type3Message.NT">
+            <summary>To be added.</summary>
+            <value>To be added.</value>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="P:Mono.Security.Protocol.Ntlm.Type3Message.Password">
+            <summary>To be added.</summary>
+            <value>To be added.</value>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="P:Mono.Security.Protocol.Ntlm.Type3Message.Username">
+            <summary>To be added.</summary>
+            <value>To be added.</value>
+            <remarks>To be added.</remarks>
+        </member>
         <member name="T:System.FileStyleUriParser">
             <summary>To be added.</summary>
             <remarks>To be added.</remarks>
@@ -717,8 +2814,8 @@
             <remarks>To be added.</remarks>
         </member>
         <member name="M:System.UriFormatException.System#Runtime#Serialization#ISerializable#GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)">
-            <param name="info">To be added.</param>
-            <param name="context">To be added.</param>
+            <param name="serializationInfo">To be added.</param>
+            <param name="streamingContext">To be added.</param>
             <summary>To be added.</summary>
             <remarks>To be added.</remarks>
         </member>
@@ -2040,6 +4137,16 @@
             <returns>To be added.</returns>
             <remarks>To be added.</remarks>
         </member>
+        <member name="P:System.Collections.Generic.SortedDictionary`2.System#Collections#Generic#IReadOnlyDictionary{TKey,TValue}#Keys">
+            <summary>To be added.</summary>
+            <value>To be added.</value>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="P:System.Collections.Generic.SortedDictionary`2.System#Collections#Generic#IReadOnlyDictionary{TKey,TValue}#Values">
+            <summary>To be added.</summary>
+            <value>To be added.</value>
+            <remarks>To be added.</remarks>
+        </member>
         <member name="M:System.Collections.Generic.SortedDictionary`2.System#Collections#ICollection#CopyTo(``10System`1``10`1.``10Array`1``10`1,``10System`1``10`1.``10Int32`1``10`1)">
             <param name="array">To be added.</param>
             <param name="index">To be added.</param>
@@ -2525,6 +4632,16 @@
         <member name="M:System.Collections.Generic.SortedList`2.System#Collections#Generic#IEnumerable{System#Collections#Generic#KeyValuePair{TKey,TValue}}#GetEnumerator">
             <summary>To be added.</summary>
             <returns>To be added.</returns>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="P:System.Collections.Generic.SortedList`2.System#Collections#Generic#IReadOnlyDictionary{TKey,TValue}#Keys">
+            <summary>To be added.</summary>
+            <value>To be added.</value>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="P:System.Collections.Generic.SortedList`2.System#Collections#Generic#IReadOnlyDictionary{TKey,TValue}#Values">
+            <summary>To be added.</summary>
+            <value>To be added.</value>
             <remarks>To be added.</remarks>
         </member>
         <member name="M:System.Collections.Generic.SortedList`2.System#Collections#ICollection#CopyTo(``10System`1``10`1.``10Array`1``10`1,``10System`1``10`1.``10Int32`1``10`1)">
@@ -15121,6 +17238,117 @@
             <summary>To be added.</summary>
             <remarks>To be added.</remarks>
         </member>
+        <member name="T:System.Diagnostics.DelimitedListTraceListener">
+            <summary>To be added.</summary>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="C:System.Diagnostics.DelimitedListTraceListener(System.IO.Stream)">
+            <param name="stream">To be added.</param>
+            <summary>To be added.</summary>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="C:System.Diagnostics.DelimitedListTraceListener(System.IO.TextWriter)">
+            <param name="writer">To be added.</param>
+            <summary>To be added.</summary>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="C:System.Diagnostics.DelimitedListTraceListener(System.String)">
+            <param name="fileName">To be added.</param>
+            <summary>To be added.</summary>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="C:System.Diagnostics.DelimitedListTraceListener(System.IO.Stream,System.String)">
+            <param name="stream">To be added.</param>
+            <param name="name">To be added.</param>
+            <summary>To be added.</summary>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="C:System.Diagnostics.DelimitedListTraceListener(System.IO.TextWriter,System.String)">
+            <param name="writer">To be added.</param>
+            <param name="name">To be added.</param>
+            <summary>To be added.</summary>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="C:System.Diagnostics.DelimitedListTraceListener(System.String,System.String)">
+            <param name="fileName">To be added.</param>
+            <param name="name">To be added.</param>
+            <summary>To be added.</summary>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="P:System.Diagnostics.DelimitedListTraceListener.Delimiter">
+            <summary>To be added.</summary>
+            <value>To be added.</value>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="M:System.Diagnostics.DelimitedListTraceListener.GetSupportedAttributes">
+            <summary>To be added.</summary>
+            <returns>To be added.</returns>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="M:System.Diagnostics.DelimitedListTraceListener.TraceData(System.Diagnostics.TraceEventCache,System.String,System.Diagnostics.TraceEventType,System.Int32,System.Object)">
+            <param name="eventCache">To be added.</param>
+            <param name="source">To be added.</param>
+            <param name="eventType">To be added.</param>
+            <param name="id">To be added.</param>
+            <param name="data">To be added.</param>
+            <summary>To be added.</summary>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="M:System.Diagnostics.DelimitedListTraceListener.TraceData(System.Diagnostics.TraceEventCache,System.String,System.Diagnostics.TraceEventType,System.Int32,System.Object[])">
+            <param name="eventCache">To be added.</param>
+            <param name="source">To be added.</param>
+            <param name="eventType">To be added.</param>
+            <param name="id">To be added.</param>
+            <param name="data">To be added.</param>
+            <summary>To be added.</summary>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="M:System.Diagnostics.DelimitedListTraceListener.TraceEvent(System.Diagnostics.TraceEventCache,System.String,System.Diagnostics.TraceEventType,System.Int32,System.String)">
+            <param name="eventCache">To be added.</param>
+            <param name="source">To be added.</param>
+            <param name="eventType">To be added.</param>
+            <param name="id">To be added.</param>
+            <param name="message">To be added.</param>
+            <summary>To be added.</summary>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="M:System.Diagnostics.DelimitedListTraceListener.TraceEvent(System.Diagnostics.TraceEventCache,System.String,System.Diagnostics.TraceEventType,System.Int32,System.String,System.Object[])">
+            <param name="eventCache">To be added.</param>
+            <param name="source">To be added.</param>
+            <param name="eventType">To be added.</param>
+            <param name="id">To be added.</param>
+            <param name="format">To be added.</param>
+            <param name="args">To be added.</param>
+            <summary>To be added.</summary>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="T:System.Diagnostics.EventTypeFilter">
+            <summary>To be added.</summary>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="C:System.Diagnostics.EventTypeFilter(System.Diagnostics.SourceLevels)">
+            <param name="level">To be added.</param>
+            <summary>To be added.</summary>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="P:System.Diagnostics.EventTypeFilter.EventType">
+            <summary>To be added.</summary>
+            <value>To be added.</value>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="M:System.Diagnostics.EventTypeFilter.ShouldTrace(System.Diagnostics.TraceEventCache,System.String,System.Diagnostics.TraceEventType,System.Int32,System.String,System.Object[],System.Object,System.Object[])">
+            <param name="cache">To be added.</param>
+            <param name="source">To be added.</param>
+            <param name="eventType">To be added.</param>
+            <param name="id">To be added.</param>
+            <param name="formatOrMessage">To be added.</param>
+            <param name="args">To be added.</param>
+            <param name="data1">To be added.</param>
+            <param name="data">To be added.</param>
+            <summary>To be added.</summary>
+            <returns>To be added.</returns>
+            <remarks>To be added.</remarks>
+        </member>
         <member name="T:System.Diagnostics.FileVersionInfo">
             <summary>To be added.</summary>
             <remarks>To be added.</remarks>
@@ -16047,6 +18275,33 @@
         <member name="F:System.Diagnostics.ProcessWindowStyle.Normal">
             <summary>To be added.</summary>
         </member>
+        <member name="T:System.Diagnostics.SourceFilter">
+            <summary>To be added.</summary>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="C:System.Diagnostics.SourceFilter(System.String)">
+            <param name="source">To be added.</param>
+            <summary>To be added.</summary>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="M:System.Diagnostics.SourceFilter.ShouldTrace(System.Diagnostics.TraceEventCache,System.String,System.Diagnostics.TraceEventType,System.Int32,System.String,System.Object[],System.Object,System.Object[])">
+            <param name="cache">To be added.</param>
+            <param name="source">To be added.</param>
+            <param name="eventType">To be added.</param>
+            <param name="id">To be added.</param>
+            <param name="formatOrMessage">To be added.</param>
+            <param name="args">To be added.</param>
+            <param name="data1">To be added.</param>
+            <param name="data">To be added.</param>
+            <summary>To be added.</summary>
+            <returns>To be added.</returns>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="P:System.Diagnostics.SourceFilter.Source">
+            <summary>To be added.</summary>
+            <value>To be added.</value>
+            <remarks>To be added.</remarks>
+        </member>
         <member name="T:System.Diagnostics.SourceLevels">
             <summary>To be added.</summary>
             <remarks>To be added.</remarks>
@@ -16263,6 +18518,75 @@
             <remarks>To be added.</remarks>
         </member>
         <member name="P:System.Diagnostics.SwitchLevelAttribute.SwitchLevelType">
+            <summary>To be added.</summary>
+            <value>To be added.</value>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="T:System.Diagnostics.TextWriterTraceListener">
+            <summary>To be added.</summary>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="C:System.Diagnostics.TextWriterTraceListener">
+            <summary>To be added.</summary>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="C:System.Diagnostics.TextWriterTraceListener(System.IO.Stream)">
+            <param name="stream">To be added.</param>
+            <summary>To be added.</summary>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="C:System.Diagnostics.TextWriterTraceListener(System.IO.TextWriter)">
+            <param name="writer">To be added.</param>
+            <summary>To be added.</summary>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="C:System.Diagnostics.TextWriterTraceListener(System.String)">
+            <param name="fileName">To be added.</param>
+            <summary>To be added.</summary>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="C:System.Diagnostics.TextWriterTraceListener(System.IO.Stream,System.String)">
+            <param name="stream">To be added.</param>
+            <param name="name">To be added.</param>
+            <summary>To be added.</summary>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="C:System.Diagnostics.TextWriterTraceListener(System.IO.TextWriter,System.String)">
+            <param name="writer">To be added.</param>
+            <param name="name">To be added.</param>
+            <summary>To be added.</summary>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="C:System.Diagnostics.TextWriterTraceListener(System.String,System.String)">
+            <param name="fileName">To be added.</param>
+            <param name="name">To be added.</param>
+            <summary>To be added.</summary>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="M:System.Diagnostics.TextWriterTraceListener.Close">
+            <summary>To be added.</summary>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="M:System.Diagnostics.TextWriterTraceListener.Dispose(System.Boolean)">
+            <param name="disposing">To be added.</param>
+            <summary>To be added.</summary>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="M:System.Diagnostics.TextWriterTraceListener.Flush">
+            <summary>To be added.</summary>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="M:System.Diagnostics.TextWriterTraceListener.Write(System.String)">
+            <param name="message">To be added.</param>
+            <summary>To be added.</summary>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="M:System.Diagnostics.TextWriterTraceListener.WriteLine(System.String)">
+            <param name="message">To be added.</param>
+            <summary>To be added.</summary>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="P:System.Diagnostics.TextWriterTraceListener.Writer">
             <summary>To be added.</summary>
             <value>To be added.</value>
             <remarks>To be added.</remarks>
@@ -19380,6 +21704,14 @@
             <summary>To be added.</summary>
             <remarks>To be added.</remarks>
         </member>
+        <member name="T:System.Net.HttpListenerTimeoutManager">
+            <summary>To be added.</summary>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="C:System.Net.HttpListenerTimeoutManager">
+            <summary>To be added.</summary>
+            <remarks>To be added.</remarks>
+        </member>
         <member name="T:System.Net.HttpRequestHeader">
             <summary>To be added.</summary>
             <remarks>To be added.</remarks>
@@ -20058,6 +22390,11 @@
             <value>To be added.</value>
             <remarks>To be added.</remarks>
         </member>
+        <member name="P:System.Net.HttpWebRequest.ServerCertificateValidationCallback">
+            <summary>To be added.</summary>
+            <value>To be added.</value>
+            <remarks>To be added.</remarks>
+        </member>
         <member name="P:System.Net.HttpWebRequest.ServicePoint">
             <summary>To be added.</summary>
             <value>To be added.</value>
@@ -20407,6 +22744,16 @@
             <summary>To be added.</summary>
             <remarks>To be added.</remarks>
         </member>
+        <member name="M:System.Net.IPAddress.MapToIPv4">
+            <summary>To be added.</summary>
+            <returns>To be added.</returns>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="M:System.Net.IPAddress.MapToIPv6">
+            <summary>To be added.</summary>
+            <returns>To be added.</returns>
+            <remarks>To be added.</remarks>
+        </member>
         <member name="M:System.Net.IPAddress.NetworkToHostOrder(System.Int16)">
             <param name="network">To be added.</param>
             <summary>To be added.</summary>
@@ -20743,6 +23090,12 @@
             <summary>To be added.</summary>
         </member>
         <member name="F:System.Net.SecurityProtocolType.Tls">
+            <summary>To be added.</summary>
+        </member>
+        <member name="F:System.Net.SecurityProtocolType.Tls11">
+            <summary>To be added.</summary>
+        </member>
+        <member name="F:System.Net.SecurityProtocolType.Tls12">
             <summary>To be added.</summary>
         </member>
         <member name="T:System.Net.ServicePoint">
@@ -23916,6 +26269,16 @@
             <value>To be added.</value>
             <remarks>To be added.</remarks>
         </member>
+        <member name="T:System.Net.Mail.SmtpDeliveryFormat">
+            <summary>To be added.</summary>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="F:System.Net.Mail.SmtpDeliveryFormat.International">
+            <summary>To be added.</summary>
+        </member>
+        <member name="F:System.Net.Mail.SmtpDeliveryFormat.SevenBit">
+            <summary>To be added.</summary>
+        </member>
         <member name="T:System.Net.Mail.SmtpDeliveryMethod">
             <summary>To be added.</summary>
             <remarks>To be added.</remarks>
@@ -24195,7 +26558,7 @@
             <remarks>To be added.</remarks>
         </member>
         <member name="M:System.Net.Mime.ContentDisposition.Equals(System.Object)">
-            <param name="obj">To be added.</param>
+            <param name="rparam">To be added.</param>
             <summary>To be added.</summary>
             <returns>To be added.</returns>
             <remarks>To be added.</remarks>
@@ -24264,7 +26627,7 @@
             <remarks>To be added.</remarks>
         </member>
         <member name="M:System.Net.Mime.ContentType.Equals(System.Object)">
-            <param name="obj">To be added.</param>
+            <param name="rparam">To be added.</param>
             <summary>To be added.</summary>
             <returns>To be added.</returns>
             <remarks>To be added.</remarks>
@@ -24375,6 +26738,9 @@
             <remarks>To be added.</remarks>
         </member>
         <member name="F:System.Net.Mime.TransferEncoding.Base64">
+            <summary>To be added.</summary>
+        </member>
+        <member name="F:System.Net.Mime.TransferEncoding.EightBit">
             <summary>To be added.</summary>
         </member>
         <member name="F:System.Net.Mime.TransferEncoding.QuotedPrintable">
@@ -26620,6 +28986,19 @@
         <member name="F:System.Net.Security.AuthenticationLevel.None">
             <summary>To be added.</summary>
         </member>
+        <member name="T:System.Net.Security.EncryptionPolicy">
+            <summary>To be added.</summary>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="F:System.Net.Security.EncryptionPolicy.AllowNoEncryption">
+            <summary>To be added.</summary>
+        </member>
+        <member name="F:System.Net.Security.EncryptionPolicy.NoEncryption">
+            <summary>To be added.</summary>
+        </member>
+        <member name="F:System.Net.Security.EncryptionPolicy.RequireEncryption">
+            <summary>To be added.</summary>
+        </member>
         <member name="T:System.Net.Security.LocalCertificateSelectionCallback">
             <param name="sender">To be added.</param>
             <param name="targetHost">To be added.</param>
@@ -27212,6 +29591,11 @@
             <value>To be added.</value>
             <remarks>To be added.</remarks>
         </member>
+        <member name="P:System.Net.Security.SslStream.TransportContext">
+            <summary>To be added.</summary>
+            <value>To be added.</value>
+            <remarks>To be added.</remarks>
+        </member>
         <member name="M:System.Net.Security.SslStream.Write(System.Byte[])">
             <param name="buffer">To be added.</param>
             <summary>To be added.</summary>
@@ -27458,18 +29842,34 @@
             <remarks>To be added.</remarks>
         </member>
         <member name="M:System.Net.Sockets.IPPacketInformation.op_Equality(System.Net.Sockets.IPPacketInformation,System.Net.Sockets.IPPacketInformation)">
-            <param name="p1">To be added.</param>
-            <param name="p2">To be added.</param>
+            <param name="packetInformation1">To be added.</param>
+            <param name="packetInformation2">To be added.</param>
             <summary>To be added.</summary>
             <returns>To be added.</returns>
             <remarks>To be added.</remarks>
         </member>
         <member name="M:System.Net.Sockets.IPPacketInformation.op_Inequality(System.Net.Sockets.IPPacketInformation,System.Net.Sockets.IPPacketInformation)">
-            <param name="p1">To be added.</param>
-            <param name="p2">To be added.</param>
+            <param name="packetInformation1">To be added.</param>
+            <param name="packetInformation2">To be added.</param>
             <summary>To be added.</summary>
             <returns>To be added.</returns>
             <remarks>To be added.</remarks>
+        </member>
+        <member name="T:System.Net.Sockets.IPProtectionLevel">
+            <summary>To be added.</summary>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="F:System.Net.Sockets.IPProtectionLevel.EdgeRestricted">
+            <summary>To be added.</summary>
+        </member>
+        <member name="F:System.Net.Sockets.IPProtectionLevel.Restricted">
+            <summary>To be added.</summary>
+        </member>
+        <member name="F:System.Net.Sockets.IPProtectionLevel.Unrestricted">
+            <summary>To be added.</summary>
+        </member>
+        <member name="F:System.Net.Sockets.IPProtectionLevel.Unspecified">
+            <summary>To be added.</summary>
         </member>
         <member name="T:System.Net.Sockets.IPv6MulticastOption">
             <summary>To be added.</summary>
@@ -27636,13 +30036,13 @@
             <remarks>To be added.</remarks>
         </member>
         <member name="M:System.Net.Sockets.NetworkStream.EndRead(System.IAsyncResult)">
-            <param name="ar">To be added.</param>
+            <param name="asyncResult">To be added.</param>
             <summary>To be added.</summary>
             <returns>To be added.</returns>
             <remarks>To be added.</remarks>
         </member>
         <member name="M:System.Net.Sockets.NetworkStream.EndWrite(System.IAsyncResult)">
-            <param name="ar">To be added.</param>
+            <param name="asyncResult">To be added.</param>
             <summary>To be added.</summary>
             <remarks>To be added.</remarks>
         </member>
@@ -27652,6 +30052,12 @@
         </member>
         <member name="M:System.Net.Sockets.NetworkStream.Flush">
             <summary>To be added.</summary>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="M:System.Net.Sockets.NetworkStream.FlushAsync(System.Threading.CancellationToken)">
+            <param name="cancellationToken">To be added.</param>
+            <summary>To be added.</summary>
+            <returns>To be added.</returns>
             <remarks>To be added.</remarks>
         </member>
         <member name="P:System.Net.Sockets.NetworkStream.Length">
@@ -29136,13 +31542,13 @@
             <remarks>To be added.</remarks>
         </member>
         <member name="C:System.Net.Sockets.SocketException(System.Int32)">
-            <param name="error">To be added.</param>
+            <param name="errorCode">To be added.</param>
             <summary>To be added.</summary>
             <remarks>To be added.</remarks>
         </member>
         <member name="C:System.Net.Sockets.SocketException(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)">
-            <param name="info">To be added.</param>
-            <param name="context">To be added.</param>
+            <param name="serializationInfo">To be added.</param>
+            <param name="streamingContext">To be added.</param>
             <summary>To be added.</summary>
             <remarks>To be added.</remarks>
         </member>
@@ -29354,6 +31760,9 @@
             <summary>To be added.</summary>
         </member>
         <member name="F:System.Net.Sockets.SocketOptionName.ReuseAddress">
+            <summary>To be added.</summary>
+        </member>
+        <member name="F:System.Net.Sockets.SocketOptionName.ReuseUnicastPort">
             <summary>To be added.</summary>
         </member>
         <member name="F:System.Net.Sockets.SocketOptionName.SendBuffer">
@@ -30728,6 +33137,84 @@
             <summary>To be added.</summary>
             <remarks>To be added.</remarks>
         </member>
+        <member name="T:System.Runtime.Versioning.FrameworkName">
+            <summary>To be added.</summary>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="C:System.Runtime.Versioning.FrameworkName(System.String)">
+            <param name="frameworkName">To be added.</param>
+            <summary>To be added.</summary>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="C:System.Runtime.Versioning.FrameworkName(System.String,System.Version)">
+            <param name="identifier">To be added.</param>
+            <param name="version">To be added.</param>
+            <summary>To be added.</summary>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="C:System.Runtime.Versioning.FrameworkName(System.String,System.Version,System.String)">
+            <param name="identifier">To be added.</param>
+            <param name="version">To be added.</param>
+            <param name="profile">To be added.</param>
+            <summary>To be added.</summary>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="M:System.Runtime.Versioning.FrameworkName.Equals(System.Object)">
+            <param name="obj">To be added.</param>
+            <summary>To be added.</summary>
+            <returns>To be added.</returns>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="M:System.Runtime.Versioning.FrameworkName.Equals(System.Runtime.Versioning.FrameworkName)">
+            <param name="other">To be added.</param>
+            <summary>To be added.</summary>
+            <returns>To be added.</returns>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="P:System.Runtime.Versioning.FrameworkName.FullName">
+            <summary>To be added.</summary>
+            <value>To be added.</value>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="M:System.Runtime.Versioning.FrameworkName.GetHashCode">
+            <summary>To be added.</summary>
+            <returns>To be added.</returns>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="P:System.Runtime.Versioning.FrameworkName.Identifier">
+            <summary>To be added.</summary>
+            <value>To be added.</value>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="M:System.Runtime.Versioning.FrameworkName.op_Equality(System.Runtime.Versioning.FrameworkName,System.Runtime.Versioning.FrameworkName)">
+            <param name="left">To be added.</param>
+            <param name="right">To be added.</param>
+            <summary>To be added.</summary>
+            <returns>To be added.</returns>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="M:System.Runtime.Versioning.FrameworkName.op_Inequality(System.Runtime.Versioning.FrameworkName,System.Runtime.Versioning.FrameworkName)">
+            <param name="left">To be added.</param>
+            <param name="right">To be added.</param>
+            <summary>To be added.</summary>
+            <returns>To be added.</returns>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="P:System.Runtime.Versioning.FrameworkName.Profile">
+            <summary>To be added.</summary>
+            <value>To be added.</value>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="M:System.Runtime.Versioning.FrameworkName.ToString">
+            <summary>To be added.</summary>
+            <returns>To be added.</returns>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="P:System.Runtime.Versioning.FrameworkName.Version">
+            <summary>To be added.</summary>
+            <value>To be added.</value>
+            <remarks>To be added.</remarks>
+        </member>
         <member name="T:System.Security.AccessControl.SemaphoreAccessRule">
             <summary>To be added.</summary>
             <remarks>To be added.</remarks>
@@ -31469,6 +33956,43 @@
             <value>To be added.</value>
             <remarks>To be added.</remarks>
         </member>
+        <member name="T:System.Security.Cryptography.OidGroup">
+            <summary>To be added.</summary>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="F:System.Security.Cryptography.OidGroup.All">
+            <summary>To be added.</summary>
+        </member>
+        <member name="F:System.Security.Cryptography.OidGroup.Attribute">
+            <summary>To be added.</summary>
+        </member>
+        <member name="F:System.Security.Cryptography.OidGroup.EncryptionAlgorithm">
+            <summary>To be added.</summary>
+        </member>
+        <member name="F:System.Security.Cryptography.OidGroup.EnhancedKeyUsage">
+            <summary>To be added.</summary>
+        </member>
+        <member name="F:System.Security.Cryptography.OidGroup.ExtensionOrAttribute">
+            <summary>To be added.</summary>
+        </member>
+        <member name="F:System.Security.Cryptography.OidGroup.HashAlgorithm">
+            <summary>To be added.</summary>
+        </member>
+        <member name="F:System.Security.Cryptography.OidGroup.KeyDerivationFunction">
+            <summary>To be added.</summary>
+        </member>
+        <member name="F:System.Security.Cryptography.OidGroup.Policy">
+            <summary>To be added.</summary>
+        </member>
+        <member name="F:System.Security.Cryptography.OidGroup.PublicKeyAlgorithm">
+            <summary>To be added.</summary>
+        </member>
+        <member name="F:System.Security.Cryptography.OidGroup.SignatureAlgorithm">
+            <summary>To be added.</summary>
+        </member>
+        <member name="F:System.Security.Cryptography.OidGroup.Template">
+            <summary>To be added.</summary>
+        </member>
         <member name="T:System.Security.Cryptography.X509Certificates.OpenFlags">
             <summary>To be added.</summary>
             <remarks>To be added.</remarks>
@@ -31763,6 +34287,13 @@
         <member name="P:System.Security.Cryptography.X509Certificates.X509Certificate2.Archived">
             <summary>To be added.</summary>
             <value>To be added.</value>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="M:System.Security.Cryptography.X509Certificates.X509Certificate2.Export(System.Security.Cryptography.X509Certificates.X509ContentType,System.String)">
+            <param name="contentType">To be added.</param>
+            <param name="password">To be added.</param>
+            <summary>To be added.</summary>
+            <returns>To be added.</returns>
             <remarks>To be added.</remarks>
         </member>
         <member name="P:System.Security.Cryptography.X509Certificates.X509Certificate2.Extensions">
@@ -32229,6 +34760,19 @@
         <member name="M:System.Security.Cryptography.X509Certificates.X509Chain.Create">
             <summary>To be added.</summary>
             <returns>To be added.</returns>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="M:System.Security.Cryptography.X509Certificates.X509Chain.Dispose">
+            <summary>To be added.</summary>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="M:System.Security.Cryptography.X509Certificates.X509Chain.Dispose(System.Boolean)">
+            <param name="disposing">To be added.</param>
+            <summary>To be added.</summary>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="M:System.Security.Cryptography.X509Certificates.X509Chain.Finalize">
+            <summary>To be added.</summary>
             <remarks>To be added.</remarks>
         </member>
         <member name="M:System.Security.Cryptography.X509Certificates.X509Chain.Reset">

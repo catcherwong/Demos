@@ -1,0 +1,8 @@
+Catcher.AndroidDemo.SplashDemo.MainActivity, Catcher.AndroidDemo.SplashDemo;md5a23b4dcb6640dfa9bd6c9d5aca7c3ea7.MainActivity
+Catcher.AndroidDemo.SplashDemo.MainActivity, Catcher.AndroidDemo.SplashDemo, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md5a23b4dcb6640dfa9bd6c9d5aca7c3ea7.MainActivity
+Catcher.AndroidDemo.SplashDemo.MainActivity;md5a23b4dcb6640dfa9bd6c9d5aca7c3ea7.MainActivity
+catcher.androiddemo.splashdemo.MainActivity;md5a23b4dcb6640dfa9bd6c9d5aca7c3ea7.MainActivity
+Catcher.AndroidDemo.SplashDemo.SplashActivity, Catcher.AndroidDemo.SplashDemo;md5a23b4dcb6640dfa9bd6c9d5aca7c3ea7.SplashActivity
+Catcher.AndroidDemo.SplashDemo.SplashActivity, Catcher.AndroidDemo.SplashDemo, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md5a23b4dcb6640dfa9bd6c9d5aca7c3ea7.SplashActivity
+Catcher.AndroidDemo.SplashDemo.SplashActivity;md5a23b4dcb6640dfa9bd6c9d5aca7c3ea7.SplashActivity
+catcher.androiddemo.splashdemo.SplashActivity;md5a23b4dcb6640dfa9bd6c9d5aca7c3ea7.SplashActivity

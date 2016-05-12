@@ -515,6 +515,11 @@
             <value>To be added.</value>
             <remarks>To be added.</remarks>
         </member>
+        <member name="P:System.Xml.XmlCDataSection.PreviousText">
+            <summary>To be added.</summary>
+            <value>To be added.</value>
+            <remarks>To be added.</remarks>
+        </member>
         <member name="M:System.Xml.XmlCDataSection.WriteContentTo(System.Xml.XmlWriter)">
             <param name="w">To be added.</param>
             <summary>To be added.</summary>
@@ -2382,6 +2387,11 @@
             <value>To be added.</value>
             <remarks>To be added.</remarks>
         </member>
+        <member name="P:System.Xml.XmlNode.PreviousText">
+            <summary>To be added.</summary>
+            <value>To be added.</value>
+            <remarks>To be added.</remarks>
+        </member>
         <member name="M:System.Xml.XmlNode.RemoveAll">
             <summary>To be added.</summary>
             <remarks>To be added.</remarks>
@@ -4231,6 +4241,11 @@
             <value>To be added.</value>
             <remarks>To be added.</remarks>
         </member>
+        <member name="P:System.Xml.XmlSignificantWhitespace.PreviousText">
+            <summary>To be added.</summary>
+            <value>To be added.</value>
+            <remarks>To be added.</remarks>
+        </member>
         <member name="P:System.Xml.XmlSignificantWhitespace.Value">
             <summary>To be added.</summary>
             <value>To be added.</value>
@@ -4291,6 +4306,11 @@
             <remarks>To be added.</remarks>
         </member>
         <member name="P:System.Xml.XmlText.ParentNode">
+            <summary>To be added.</summary>
+            <value>To be added.</value>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="P:System.Xml.XmlText.PreviousText">
             <summary>To be added.</summary>
             <value>To be added.</value>
             <remarks>To be added.</remarks>
@@ -5393,6 +5413,11 @@
             <remarks>To be added.</remarks>
         </member>
         <member name="P:System.Xml.XmlWhitespace.ParentNode">
+            <summary>To be added.</summary>
+            <value>To be added.</value>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="P:System.Xml.XmlWhitespace.PreviousText">
             <summary>To be added.</summary>
             <value>To be added.</value>
             <remarks>To be added.</remarks>

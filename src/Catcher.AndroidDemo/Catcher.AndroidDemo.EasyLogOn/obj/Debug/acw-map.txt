@@ -1,3 +1,11 @@
+Catcher.AndroidDemo.EasyLogOn.MyAdapter, Catcher.AndroidDemo.EasyLogOn;md5214784fd1e99bcc55d73b91257c29743.MyAdapter
+Catcher.AndroidDemo.EasyLogOn.MyAdapter, Catcher.AndroidDemo.EasyLogOn, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md5214784fd1e99bcc55d73b91257c29743.MyAdapter
+Catcher.AndroidDemo.EasyLogOn.MyAdapter;md5214784fd1e99bcc55d73b91257c29743.MyAdapter
+catcher.androiddemo.easylogon.MyAdapter;md5214784fd1e99bcc55d73b91257c29743.MyAdapter
+Catcher.AndroidDemo.EasyLogOn.ListViewTestActivity, Catcher.AndroidDemo.EasyLogOn;md5214784fd1e99bcc55d73b91257c29743.ListViewTestActivity
+Catcher.AndroidDemo.EasyLogOn.ListViewTestActivity, Catcher.AndroidDemo.EasyLogOn, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md5214784fd1e99bcc55d73b91257c29743.ListViewTestActivity
+Catcher.AndroidDemo.EasyLogOn.ListViewTestActivity;md5214784fd1e99bcc55d73b91257c29743.ListViewTestActivity
+catcher.androiddemo.easylogon.ListViewTestActivity;md5214784fd1e99bcc55d73b91257c29743.ListViewTestActivity
 Catcher.AndroidDemo.EasyLogOn.MainActivity, Catcher.AndroidDemo.EasyLogOn;md5214784fd1e99bcc55d73b91257c29743.MainActivity
 Catcher.AndroidDemo.EasyLogOn.MainActivity, Catcher.AndroidDemo.EasyLogOn, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md5214784fd1e99bcc55d73b91257c29743.MainActivity
 Catcher.AndroidDemo.EasyLogOn.MainActivity;md5214784fd1e99bcc55d73b91257c29743.MainActivity

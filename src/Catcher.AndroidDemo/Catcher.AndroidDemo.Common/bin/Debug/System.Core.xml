@@ -6913,6 +6913,28 @@
             <value>To be added.</value>
             <remarks>To be added.</remarks>
         </member>
+        <member name="P:System.Linq.Expressions.DynamicExpression.System#Linq#Expressions#IArgumentProvider#ArgumentCount">
+            <summary>To be added.</summary>
+            <value>To be added.</value>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="M:System.Linq.Expressions.DynamicExpression.System#Linq#Expressions#IArgumentProvider#GetArgument(System.Int32)">
+            <param name="index">To be added.</param>
+            <summary>To be added.</summary>
+            <returns>To be added.</returns>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="M:System.Linq.Expressions.DynamicExpression.System#Linq#Expressions#IDynamicExpression#CreateCallSite">
+            <summary>To be added.</summary>
+            <returns>To be added.</returns>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="M:System.Linq.Expressions.DynamicExpression.System#Linq#Expressions#IDynamicExpression#Rewrite(System.Linq.Expressions.Expression[])">
+            <param name="args">To be added.</param>
+            <summary>To be added.</summary>
+            <returns>To be added.</returns>
+            <remarks>To be added.</remarks>
+        </member>
         <member name="P:System.Linq.Expressions.DynamicExpression.Type">
             <summary>To be added.</summary>
             <value>To be added.</value>
@@ -6950,6 +6972,17 @@
         <member name="P:System.Linq.Expressions.ElementInit.Arguments">
             <summary>To be added.</summary>
             <value>To be added.</value>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="P:System.Linq.Expressions.ElementInit.System#Linq#Expressions#IArgumentProvider#ArgumentCount">
+            <summary>To be added.</summary>
+            <value>To be added.</value>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="M:System.Linq.Expressions.ElementInit.System#Linq#Expressions#IArgumentProvider#GetArgument(System.Int32)">
+            <param name="index">To be added.</param>
+            <summary>To be added.</summary>
+            <returns>To be added.</returns>
             <remarks>To be added.</remarks>
         </member>
         <member name="M:System.Linq.Expressions.ElementInit.ToString">
@@ -9945,6 +9978,41 @@
         <member name="F:System.Linq.Expressions.GotoExpressionKind.Return">
             <summary>To be added.</summary>
         </member>
+        <member name="T:System.Linq.Expressions.IArgumentProvider">
+            <summary>To be added.</summary>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="P:System.Linq.Expressions.IArgumentProvider.ArgumentCount">
+            <summary>To be added.</summary>
+            <value>To be added.</value>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="M:System.Linq.Expressions.IArgumentProvider.GetArgument(System.Int32)">
+            <param name="index">To be added.</param>
+            <summary>To be added.</summary>
+            <returns>To be added.</returns>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="T:System.Linq.Expressions.IDynamicExpression">
+            <summary>To be added.</summary>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="M:System.Linq.Expressions.IDynamicExpression.CreateCallSite">
+            <summary>To be added.</summary>
+            <returns>To be added.</returns>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="P:System.Linq.Expressions.IDynamicExpression.DelegateType">
+            <summary>To be added.</summary>
+            <value>To be added.</value>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="M:System.Linq.Expressions.IDynamicExpression.Rewrite(System.Linq.Expressions.Expression[])">
+            <param name="args">To be added.</param>
+            <summary>To be added.</summary>
+            <returns>To be added.</returns>
+            <remarks>To be added.</remarks>
+        </member>
         <member name="T:System.Linq.Expressions.IndexExpression">
             <summary>To be added.</summary>
             <remarks>To be added.</remarks>
@@ -9973,6 +10041,17 @@
         <member name="P:System.Linq.Expressions.IndexExpression.Object">
             <summary>To be added.</summary>
             <value>To be added.</value>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="P:System.Linq.Expressions.IndexExpression.System#Linq#Expressions#IArgumentProvider#ArgumentCount">
+            <summary>To be added.</summary>
+            <value>To be added.</value>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="M:System.Linq.Expressions.IndexExpression.System#Linq#Expressions#IArgumentProvider#GetArgument(System.Int32)">
+            <param name="index">To be added.</param>
+            <summary>To be added.</summary>
+            <returns>To be added.</returns>
             <remarks>To be added.</remarks>
         </member>
         <member name="P:System.Linq.Expressions.IndexExpression.Type">
@@ -10010,6 +10089,17 @@
         <member name="P:System.Linq.Expressions.InvocationExpression.NodeType">
             <summary>To be added.</summary>
             <value>To be added.</value>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="P:System.Linq.Expressions.InvocationExpression.System#Linq#Expressions#IArgumentProvider#ArgumentCount">
+            <summary>To be added.</summary>
+            <value>To be added.</value>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="M:System.Linq.Expressions.InvocationExpression.System#Linq#Expressions#IArgumentProvider#GetArgument(System.Int32)">
+            <param name="index">To be added.</param>
+            <summary>To be added.</summary>
+            <returns>To be added.</returns>
             <remarks>To be added.</remarks>
         </member>
         <member name="P:System.Linq.Expressions.InvocationExpression.Type">
@@ -10422,6 +10512,17 @@
             <value>To be added.</value>
             <remarks>To be added.</remarks>
         </member>
+        <member name="P:System.Linq.Expressions.MethodCallExpression.System#Linq#Expressions#IArgumentProvider#ArgumentCount">
+            <summary>To be added.</summary>
+            <value>To be added.</value>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="M:System.Linq.Expressions.MethodCallExpression.System#Linq#Expressions#IArgumentProvider#GetArgument(System.Int32)">
+            <param name="index">To be added.</param>
+            <summary>To be added.</summary>
+            <returns>To be added.</returns>
+            <remarks>To be added.</remarks>
+        </member>
         <member name="P:System.Linq.Expressions.MethodCallExpression.Type">
             <summary>To be added.</summary>
             <value>To be added.</value>
@@ -10488,6 +10589,17 @@
         <member name="P:System.Linq.Expressions.NewExpression.NodeType">
             <summary>To be added.</summary>
             <value>To be added.</value>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="P:System.Linq.Expressions.NewExpression.System#Linq#Expressions#IArgumentProvider#ArgumentCount">
+            <summary>To be added.</summary>
+            <value>To be added.</value>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="M:System.Linq.Expressions.NewExpression.System#Linq#Expressions#IArgumentProvider#GetArgument(System.Int32)">
+            <param name="index">To be added.</param>
+            <summary>To be added.</summary>
+            <returns>To be added.</returns>
             <remarks>To be added.</remarks>
         </member>
         <member name="P:System.Linq.Expressions.NewExpression.Type">
@@ -11501,6 +11613,141 @@
         <member name="P:System.Security.Cryptography.AesManaged.Padding">
             <summary>To be added.</summary>
             <value>To be added.</value>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="T:System.Security.Cryptography.ECDiffieHellmanPublicKey">
+            <summary>To be added.</summary>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="C:System.Security.Cryptography.ECDiffieHellmanPublicKey(System.Byte[])">
+            <param name="keyBlob">To be added.</param>
+            <summary>To be added.</summary>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="M:System.Security.Cryptography.ECDiffieHellmanPublicKey.Dispose">
+            <summary>To be added.</summary>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="M:System.Security.Cryptography.ECDiffieHellmanPublicKey.Dispose(System.Boolean)">
+            <param name="disposing">To be added.</param>
+            <summary>To be added.</summary>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="M:System.Security.Cryptography.ECDiffieHellmanPublicKey.ToByteArray">
+            <summary>To be added.</summary>
+            <returns>To be added.</returns>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="M:System.Security.Cryptography.ECDiffieHellmanPublicKey.ToXmlString">
+            <summary>To be added.</summary>
+            <returns>To be added.</returns>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="T:System.Security.Cryptography.ECDsa">
+            <summary>To be added.</summary>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="C:System.Security.Cryptography.ECDsa">
+            <summary>To be added.</summary>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="M:System.Security.Cryptography.ECDsa.Create">
+            <summary>To be added.</summary>
+            <returns>To be added.</returns>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="M:System.Security.Cryptography.ECDsa.Create(System.String)">
+            <param name="algorithm">To be added.</param>
+            <summary>To be added.</summary>
+            <returns>To be added.</returns>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="M:System.Security.Cryptography.ECDsa.HashData(System.IO.Stream,System.Security.Cryptography.HashAlgorithmName)">
+            <param name="data">To be added.</param>
+            <param name="hashAlgorithm">To be added.</param>
+            <summary>To be added.</summary>
+            <returns>To be added.</returns>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="M:System.Security.Cryptography.ECDsa.HashData(System.Byte[],System.Int32,System.Int32,System.Security.Cryptography.HashAlgorithmName)">
+            <param name="data">To be added.</param>
+            <param name="offset">To be added.</param>
+            <param name="count">To be added.</param>
+            <param name="hashAlgorithm">To be added.</param>
+            <summary>To be added.</summary>
+            <returns>To be added.</returns>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="P:System.Security.Cryptography.ECDsa.KeyExchangeAlgorithm">
+            <summary>To be added.</summary>
+            <value>To be added.</value>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="P:System.Security.Cryptography.ECDsa.SignatureAlgorithm">
+            <summary>To be added.</summary>
+            <value>To be added.</value>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="M:System.Security.Cryptography.ECDsa.SignData(System.Byte[],System.Security.Cryptography.HashAlgorithmName)">
+            <param name="data">To be added.</param>
+            <param name="hashAlgorithm">To be added.</param>
+            <summary>To be added.</summary>
+            <returns>To be added.</returns>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="M:System.Security.Cryptography.ECDsa.SignData(System.IO.Stream,System.Security.Cryptography.HashAlgorithmName)">
+            <param name="data">To be added.</param>
+            <param name="hashAlgorithm">To be added.</param>
+            <summary>To be added.</summary>
+            <returns>To be added.</returns>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="M:System.Security.Cryptography.ECDsa.SignData(System.Byte[],System.Int32,System.Int32,System.Security.Cryptography.HashAlgorithmName)">
+            <param name="data">To be added.</param>
+            <param name="offset">To be added.</param>
+            <param name="count">To be added.</param>
+            <param name="hashAlgorithm">To be added.</param>
+            <summary>To be added.</summary>
+            <returns>To be added.</returns>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="M:System.Security.Cryptography.ECDsa.SignHash(System.Byte[])">
+            <param name="hash">To be added.</param>
+            <summary>To be added.</summary>
+            <returns>To be added.</returns>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="M:System.Security.Cryptography.ECDsa.VerifyData(System.Byte[],System.Byte[],System.Security.Cryptography.HashAlgorithmName)">
+            <param name="data">To be added.</param>
+            <param name="signature">To be added.</param>
+            <param name="hashAlgorithm">To be added.</param>
+            <summary>To be added.</summary>
+            <returns>To be added.</returns>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="M:System.Security.Cryptography.ECDsa.VerifyData(System.IO.Stream,System.Byte[],System.Security.Cryptography.HashAlgorithmName)">
+            <param name="data">To be added.</param>
+            <param name="signature">To be added.</param>
+            <param name="hashAlgorithm">To be added.</param>
+            <summary>To be added.</summary>
+            <returns>To be added.</returns>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="M:System.Security.Cryptography.ECDsa.VerifyData(System.Byte[],System.Int32,System.Int32,System.Byte[],System.Security.Cryptography.HashAlgorithmName)">
+            <param name="data">To be added.</param>
+            <param name="offset">To be added.</param>
+            <param name="count">To be added.</param>
+            <param name="signature">To be added.</param>
+            <param name="hashAlgorithm">To be added.</param>
+            <summary>To be added.</summary>
+            <returns>To be added.</returns>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="M:System.Security.Cryptography.ECDsa.VerifyHash(System.Byte[],System.Byte[])">
+            <param name="hash">To be added.</param>
+            <param name="signature">To be added.</param>
+            <summary>To be added.</summary>
+            <returns>To be added.</returns>
             <remarks>To be added.</remarks>
         </member>
         <member name="T:System.Threading.LockRecursionPolicy">

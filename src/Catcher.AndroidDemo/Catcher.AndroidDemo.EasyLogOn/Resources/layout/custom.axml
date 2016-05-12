@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+  <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingTop="8dp" 
+    >
+  <TextView
+      android:layout_height="wrap_content"
+      android:layout_width="wrap_content"
+      android:layout_marginLeft="15dp" 
+      android:textSize="20sp"
+      android:id="@+id/tv_lv1" />
+  <TextView
+      android:layout_height="wrap_content"
+      android:layout_width="wrap_content"
+      android:layout_marginLeft="15dp"
+      android:textSize="20sp"
+      android:id="@+id/tv_lv2" />
+  </LinearLayout>
+  <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingTop="8dp" >
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:textSize="15sp"
+        android:visibility="gone" 
+        android:id="@+id/tv_id" />
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_marginLeft="15dp" 
+        android:textSize="15sp"
+        android:id="@+id/tv_lv3" />
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_marginLeft="15dp" 
+        android:textSize="15sp"
+        android:id="@+id/tv_lv4" />
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_marginLeft="15dp" 
+        android:textSize="15sp"
+        android:id="@+id/tv_lv5" />
+  </LinearLayout>
+</LinearLayout>

@@ -9,7 +9,7 @@ using System.Net;
 
 namespace Catcher.AndroidDemo.EasyLogOn
 {
-    [Activity(Label = "简单的登录Demo", MainLauncher = true, Icon = "@drawable/icon")]
+    [Activity(Label = "简单的登录Demo", MainLauncher = false, Icon = "@drawable/icon")]
     public class MainActivity : Activity
     {
         protected override void OnCreate(Bundle bundle)

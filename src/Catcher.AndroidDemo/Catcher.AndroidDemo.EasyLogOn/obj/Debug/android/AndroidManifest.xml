@@ -4,13 +4,14 @@
   <uses-sdk android:minSdkVersion="16" />
   <uses-permission android:name="android.permission.INTERNET" />
   <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
-  <application android:label="Catcher.AndroidDemo.EasyLogOn" android:name="mono.android.app.Application" android:allowBackup="true" android:icon="@drawable/icon" android:debuggable="true">
-    <activity android:icon="@drawable/icon" android:label="简单的登录Demo" android:name="md5214784fd1e99bcc55d73b91257c29743.MainActivity">
+  <application android:label="Catcher.AndroidDemo.EasyLogOn" android:name="android.app.Application" android:allowBackup="true" android:debuggable="true">
+    <activity android:label="ListViewTestActivity" android:name="md5214784fd1e99bcc55d73b91257c29743.ListViewTestActivity">
       <intent-filter>
         <action android:name="android.intent.action.MAIN" />
         <category android:name="android.intent.category.LAUNCHER" />
       </intent-filter>
     </activity>
+    <activity android:icon="@drawable/icon" android:label="简单的登录Demo" android:name="md5214784fd1e99bcc55d73b91257c29743.MainActivity" />
     <activity android:label="用户首页" android:name="md5214784fd1e99bcc55d73b91257c29743.UserActivity" />
     <provider android:name="mono.MonoRuntimeProvider" android:exported="false" android:initOrder="2147483647" android:authorities="Catcher.AndroidDemo.EasyLogOn.Catcher.AndroidDemo.EasyLogOn.mono.MonoRuntimeProvider.__mono_init__" />
     <!--suppress ExportedReceiver-->
