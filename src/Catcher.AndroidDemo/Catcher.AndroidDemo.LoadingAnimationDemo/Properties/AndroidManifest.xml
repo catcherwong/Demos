@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="Catcher.AndroidDemo.LoadingAnimationDemo.Catcher.AndroidDemo.LoadingAnimationDemo" android:versionCode="1" android:versionName="1.0">
+	<uses-sdk android:minSdkVersion="16" />
+	<application android:label="Catcher.AndroidDemo.LoadingAnimationDemo"></application>
+</manifest>

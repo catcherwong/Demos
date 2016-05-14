@@ -13,3 +13,11 @@ D:\GithubCode\Demos\src\Catcher.AndroidDemo\Catcher.AndroidDemo.Common\obj\Debug
 D:\GithubCode\Demos\src\Catcher.AndroidDemo\Catcher.AndroidDemo.Common\obj\Debug\Catcher.AndroidDemo.Common.pdb
 D:\GithubCode\Demos\src\Catcher.AndroidDemo\Catcher.AndroidDemo.Common\obj\Debug\Catcher.AndroidDemo.Common.dll.mdb
 D:\GithubCode\Demos\src\Catcher.AndroidDemo\Catcher.AndroidDemo.Common\bin\Debug\Catcher.AndroidDemo.Common.dll.mdb
+D:\GithubCode\Demos\src\Catcher.AndroidDemo\Catcher.AndroidDemo.Common\obj\Debug\Catcher.AndroidDemo.Common.dll.mdb
+D:\GithubCode\Demos\src\Catcher.AndroidDemo\Catcher.AndroidDemo.Common\bin\Debug\Catcher.AndroidDemo.Common.dll.mdb
+D:\GithubCode\Demos\src\Catcher.AndroidDemo\Catcher.AndroidDemo.Common\obj\Debug\Catcher.AndroidDemo.Common.dll.mdb
+D:\GithubCode\Demos\src\Catcher.AndroidDemo\Catcher.AndroidDemo.Common\bin\Debug\Catcher.AndroidDemo.Common.dll.mdb
+D:\GithubCode\Demos\src\Catcher.AndroidDemo\Catcher.AndroidDemo.Common\obj\Debug\Catcher.AndroidDemo.Common.dll.mdb
+D:\GithubCode\Demos\src\Catcher.AndroidDemo\Catcher.AndroidDemo.Common\bin\Debug\Catcher.AndroidDemo.Common.dll.mdb
+D:\GithubCode\Demos\src\Catcher.AndroidDemo\Catcher.AndroidDemo.Common\obj\Debug\Catcher.AndroidDemo.Common.dll.mdb
+D:\GithubCode\Demos\src\Catcher.AndroidDemo\Catcher.AndroidDemo.Common\bin\Debug\Catcher.AndroidDemo.Common.dll.mdb

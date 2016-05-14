@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Catcher.AndroidDemo.Common"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Catcher.AndroidDemo.SplashDemo", "Catcher.AndroidDemo.SplashDemo\Catcher.AndroidDemo.SplashDemo.csproj", "{FBDB0C50-61DC-4F2B-B274-23036776B97E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Catcher.AndroidDemo.LoadingAnimationDemo", "Catcher.AndroidDemo.LoadingAnimationDemo\Catcher.AndroidDemo.LoadingAnimationDemo.csproj", "{E3E28E8E-BEC9-4A3E-B7B2-9F9BC57E6A1E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +47,12 @@ Global
 		{FBDB0C50-61DC-4F2B-B274-23036776B97E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FBDB0C50-61DC-4F2B-B274-23036776B97E}.Release|Any CPU.Build.0 = Release|Any CPU
 		{FBDB0C50-61DC-4F2B-B274-23036776B97E}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{E3E28E8E-BEC9-4A3E-B7B2-9F9BC57E6A1E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E3E28E8E-BEC9-4A3E-B7B2-9F9BC57E6A1E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E3E28E8E-BEC9-4A3E-B7B2-9F9BC57E6A1E}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{E3E28E8E-BEC9-4A3E-B7B2-9F9BC57E6A1E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E3E28E8E-BEC9-4A3E-B7B2-9F9BC57E6A1E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E3E28E8E-BEC9-4A3E-B7B2-9F9BC57E6A1E}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
