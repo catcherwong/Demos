@@ -1,0 +1,10 @@
+D:\GithubCode\Demos\src\Catcher.Unit.Demo\Catcher.Lib\bin\Debug\Catcher.Lib.dll.config
+D:\GithubCode\Demos\src\Catcher.Unit.Demo\Catcher.Lib\bin\Debug\Catcher.Lib.dll
+D:\GithubCode\Demos\src\Catcher.Unit.Demo\Catcher.Lib\bin\Debug\Catcher.Lib.pdb
+D:\GithubCode\Demos\src\Catcher.Unit.Demo\Catcher.Lib\bin\Debug\EntityFramework.dll
+D:\GithubCode\Demos\src\Catcher.Unit.Demo\Catcher.Lib\bin\Debug\EntityFramework.SqlServer.dll
+D:\GithubCode\Demos\src\Catcher.Unit.Demo\Catcher.Lib\bin\Debug\EntityFramework.xml
+D:\GithubCode\Demos\src\Catcher.Unit.Demo\Catcher.Lib\bin\Debug\EntityFramework.SqlServer.xml
+D:\GithubCode\Demos\src\Catcher.Unit.Demo\Catcher.Lib\obj\Debug\Catcher.Lib.csprojResolveAssemblyReference.cache
+D:\GithubCode\Demos\src\Catcher.Unit.Demo\Catcher.Lib\obj\Debug\Catcher.Lib.dll
+D:\GithubCode\Demos\src\Catcher.Unit.Demo\Catcher.Lib\obj\Debug\Catcher.Lib.pdb

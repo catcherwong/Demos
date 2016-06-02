@@ -6,8 +6,7 @@ public class MyAdapter
 	implements
 		mono.android.IGCUserPeer
 {
-/** @hide */
-	public static final String __md_methods;
+	static final String __md_methods;
 	static {
 		__md_methods = 
 			"n_getItem:(I)Ljava/lang/Object;:GetGetItem_IHandler\n" +
@@ -58,7 +57,7 @@ public class MyAdapter
 
 	private native android.view.View n_getView (int p0, android.view.View p1, android.view.ViewGroup p2);
 
-	private java.util.ArrayList refList;
+	java.util.ArrayList refList;
 	public void monodroidAddReference (java.lang.Object obj)
 	{
 		if (refList == null)

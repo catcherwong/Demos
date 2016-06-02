@@ -2,11 +2,11 @@
 <Sdk>
   <AndroidApiLevel>23</AndroidApiLevel>
   <AndroidApiLevelName>23</AndroidApiLevelName>
-  <AndroidNdkPath>C:\ProgramData\Microsoft\AndroidNDK\android-ndk-r10e\</AndroidNdkPath>
+  <AndroidNdkPath>E:\Program Files\android-ndk-r10d</AndroidNdkPath>
   <AndroidSdkBuildToolsPath>E:\Program Files\AndroidSDK\adt-bundle-windows-x86_64-20140702\sdk\build-tools\android-4.4W</AndroidSdkBuildToolsPath>
   <AndroidSdkBuildToolsBinPath>E:\Program Files\AndroidSDK\adt-bundle-windows-x86_64-20140702\sdk\build-tools\android-4.4W</AndroidSdkBuildToolsBinPath>
   <AndroidSdkPath>E:\Program Files\AndroidSDK\adt-bundle-windows-x86_64-20140702\sdk</AndroidSdkPath>
-  <JavaSdkPath>C:\Program Files (x86)\Java\jdk1.7.0_55</JavaSdkPath>
+  <JavaSdkPath>E:\Program Files\Java\jdk1.7.0_71</JavaSdkPath>
   <MonoAndroidBinPath>C:\Program Files (x86)\MSBuild\Xamarin\Android</MonoAndroidBinPath>
   <MonoAndroidToolsPath>C:\Program Files (x86)\MSBuild\Xamarin\Android</MonoAndroidToolsPath>
   <ReferenceAssemblyPaths>

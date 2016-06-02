@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Paths>
+  <Jars></Jars>
+  <ResolvedResourceDirectories>
+    <ResolvedResourceDirectory>D:\GithubCode\Demos\src\Catcher.MvvmCrossDemo\Catcher.MvvmCrossDemo.First\obj\Debug\__library_projects__\MvvmCross.Binding.Droid\library_project_imports\res</ResolvedResourceDirectory>
+    <ResolvedResourceDirectory>D:\GithubCode\Demos\src\Catcher.MvvmCrossDemo\Catcher.MvvmCrossDemo.First\obj\Debug\__library_projects__\MvvmCross.Droid\library_project_imports\res</ResolvedResourceDirectory>
+    <ResolvedResourceDirectory>D:\GithubCode\Demos\src\Catcher.MvvmCrossDemo\Catcher.MvvmCrossDemo.First\obj\Debug\__library_projects__\MvvmCross.Droid.Shared\library_project_imports\res</ResolvedResourceDirectory>
+    <ResolvedResourceDirectory>D:\GithubCode\Demos\src\Catcher.MvvmCrossDemo\Catcher.MvvmCrossDemo.First\obj\Debug\__library_projects__\MvvmCross.Platform.Droid\library_project_imports\res</ResolvedResourceDirectory>
+  </ResolvedResourceDirectories>
+  <ResolvedAssetDirectories>
+    <ResolvedAssetDirectory>obj\Debug\__library_projects__\MvvmCross.Binding.Droid\library_project_imports\assets</ResolvedAssetDirectory>
+    <ResolvedAssetDirectory>obj\Debug\__library_projects__\MvvmCross.Droid\library_project_imports\assets</ResolvedAssetDirectory>
+    <ResolvedAssetDirectory>obj\Debug\__library_projects__\MvvmCross.Droid.Shared\library_project_imports\assets</ResolvedAssetDirectory>
+    <ResolvedAssetDirectory>obj\Debug\__library_projects__\MvvmCross.Platform.Droid\library_project_imports\assets</ResolvedAssetDirectory>
+  </ResolvedAssetDirectories>
+  <ResolvedEnvironmentFiles />
+  <ResolvedResourceDirectoryStamps>
+    <ResolvedResourceDirectoryStamp>D:\GithubCode\Demos\src\Catcher.MvvmCrossDemo\Catcher.MvvmCrossDemo.First\obj\Debug\__library_projects__\MvvmCross.Binding.Droid.stamp</ResolvedResourceDirectoryStamp>
+    <ResolvedResourceDirectoryStamp>D:\GithubCode\Demos\src\Catcher.MvvmCrossDemo\Catcher.MvvmCrossDemo.First\obj\Debug\__library_projects__\MvvmCross.Droid.stamp</ResolvedResourceDirectoryStamp>
+    <ResolvedResourceDirectoryStamp>D:\GithubCode\Demos\src\Catcher.MvvmCrossDemo\Catcher.MvvmCrossDemo.First\obj\Debug\__library_projects__\MvvmCross.Droid.Shared.stamp</ResolvedResourceDirectoryStamp>
+    <ResolvedResourceDirectoryStamp>D:\GithubCode\Demos\src\Catcher.MvvmCrossDemo\Catcher.MvvmCrossDemo.First\obj\Debug\__library_projects__\MvvmCross.Platform.Droid.stamp</ResolvedResourceDirectoryStamp>
+  </ResolvedResourceDirectoryStamps>
+</Paths>

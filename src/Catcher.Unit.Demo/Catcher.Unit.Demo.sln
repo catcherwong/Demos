@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25123.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Test", "Test", "{BA093648-AA98-407D-8E55-410A7202365A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Catcher.Lib", "Catcher.Lib\Catcher.Lib.csproj", "{6158DE02-6475-4449-BC87-06DCC1B3CDC1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Catcher.Lib.Test", "Catcher.Lib.Test\Catcher.Lib.Test.csproj", "{EDDF953D-A2C7-45EF-92DB-6907A45CAA38}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6158DE02-6475-4449-BC87-06DCC1B3CDC1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6158DE02-6475-4449-BC87-06DCC1B3CDC1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6158DE02-6475-4449-BC87-06DCC1B3CDC1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6158DE02-6475-4449-BC87-06DCC1B3CDC1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EDDF953D-A2C7-45EF-92DB-6907A45CAA38}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EDDF953D-A2C7-45EF-92DB-6907A45CAA38}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EDDF953D-A2C7-45EF-92DB-6907A45CAA38}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EDDF953D-A2C7-45EF-92DB-6907A45CAA38}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{EDDF953D-A2C7-45EF-92DB-6907A45CAA38} = {BA093648-AA98-407D-8E55-410A7202365A}
+	EndGlobalSection
+EndGlobal

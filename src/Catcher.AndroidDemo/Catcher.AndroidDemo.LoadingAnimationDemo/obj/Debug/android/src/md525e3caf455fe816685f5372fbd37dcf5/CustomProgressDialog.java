@@ -6,8 +6,7 @@ public class CustomProgressDialog
 	implements
 		mono.android.IGCUserPeer
 {
-/** @hide */
-	public static final String __md_methods;
+	static final String __md_methods;
 	static {
 		__md_methods = 
 			"n_onWindowFocusChanged:(Z)V:GetOnWindowFocusChanged_ZHandler\n" +
@@ -47,7 +46,7 @@ public class CustomProgressDialog
 
 	private native void n_onWindowFocusChanged (boolean p0);
 
-	private java.util.ArrayList refList;
+	java.util.ArrayList refList;
 	public void monodroidAddReference (java.lang.Object obj)
 	{
 		if (refList == null)

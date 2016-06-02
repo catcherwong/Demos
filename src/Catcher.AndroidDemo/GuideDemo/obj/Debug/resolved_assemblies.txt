@@ -1,0 +1,10 @@
+D:\GithubCode\Demos\src\Catcher.AndroidDemo\GuideDemo\obj\Debug\assemblies\GuideDemo.dll
+D:\GithubCode\Demos\src\Catcher.AndroidDemo\GuideDemo\obj\Debug\assemblies\Mono.Android.dll
+D:\GithubCode\Demos\src\Catcher.AndroidDemo\GuideDemo\obj\Debug\assemblies\mscorlib.dll
+D:\GithubCode\Demos\src\Catcher.AndroidDemo\GuideDemo\obj\Debug\assemblies\System.Core.dll
+D:\GithubCode\Demos\src\Catcher.AndroidDemo\GuideDemo\obj\Debug\assemblies\System.dll
+D:\GithubCode\Demos\src\Catcher.AndroidDemo\GuideDemo\obj\Debug\assemblies\System.Xml.dll
+D:\GithubCode\Demos\src\Catcher.AndroidDemo\GuideDemo\obj\Debug\assemblies\System.Xml.Linq.dll
+D:\GithubCode\Demos\src\Catcher.AndroidDemo\GuideDemo\obj\Debug\assemblies\Xamarin.Android.Support.v4.dll
+D:\GithubCode\Demos\src\Catcher.AndroidDemo\GuideDemo\obj\Debug\assemblies\System.Runtime.Serialization.dll
+D:\GithubCode\Demos\src\Catcher.AndroidDemo\GuideDemo\obj\Debug\assemblies\System.ServiceModel.Internals.dll

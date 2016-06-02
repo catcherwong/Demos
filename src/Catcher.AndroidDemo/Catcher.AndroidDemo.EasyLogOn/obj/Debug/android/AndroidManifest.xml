@@ -4,7 +4,7 @@
   <uses-sdk android:minSdkVersion="16" />
   <uses-permission android:name="android.permission.INTERNET" />
   <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
-  <application android:label="Catcher.AndroidDemo.EasyLogOn" android:name="android.app.Application" android:allowBackup="true" android:debuggable="true">
+  <application android:label="Catcher.AndroidDemo.EasyLogOn" android:name="mono.android.app.Application" android:allowBackup="true" android:debuggable="true">
     <activity android:label="ListViewTestActivity" android:name="md5214784fd1e99bcc55d73b91257c29743.ListViewTestActivity">
       <intent-filter>
         <action android:name="android.intent.action.MAIN" />

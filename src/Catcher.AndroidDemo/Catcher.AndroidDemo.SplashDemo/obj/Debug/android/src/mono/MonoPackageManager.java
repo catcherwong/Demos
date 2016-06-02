@@ -17,18 +17,10 @@ public class MonoPackageManager {
 	static Object lock = new Object ();
 	static boolean initialized;
 
-	static android.content.Context Context;
-
 	public static void LoadApplication (Context context, ApplicationInfo runtimePackage, String[] apks)
 	{
 		synchronized (lock) {
 			if (!initialized) {
-				android.content.IntentFilter timezoneChangedFilter  = new android.content.IntentFilter (
-						android.content.Intent.ACTION_TIMEZONE_CHANGED
-				);
-				context.registerReceiver (new mono.android.app.NotifyTimeZoneChanges (), timezoneChangedFilter);
-				Context = context;
-				
 				System.loadLibrary("monodroid");
 				Locale locale       = Locale.getDefault ();
 				String language     = locale.getLanguage () + "-" + locale.getCountry ();
@@ -52,9 +44,6 @@ public class MonoPackageManager {
 							"Android/data/" + context.getPackageName () + "/files/.__override__").getAbsolutePath (),
 						MonoPackageManager_Resources.Assemblies,
 						context.getPackageName ());
-				
-				mono.android.app.ApplicationRegistration.registerApplications ();
-				
 				initialized = true;
 			}
 		}
@@ -90,19 +79,7 @@ public class MonoPackageManager {
 
 class MonoPackageManager_Resources {
 	public static final String[] Assemblies = new String[]{
-		/* We need to ensure that "Catcher.AndroidDemo.SplashDemo.dll" comes first in this list. */
 		"Catcher.AndroidDemo.SplashDemo.dll",
-		"Java.Interop.dll",
-		"System.Threading.dll",
-		"System.Runtime.dll",
-		"System.Collections.dll",
-		"System.Collections.Concurrent.dll",
-		"System.Diagnostics.Debug.dll",
-		"System.Reflection.dll",
-		"System.Linq.dll",
-		"System.Runtime.InteropServices.dll",
-		"System.Runtime.Extensions.dll",
-		"System.Reflection.Extensions.dll",
 		"System.ServiceModel.Internals.dll",
 	};
 	public static final String[] Dependencies = new String[]{
