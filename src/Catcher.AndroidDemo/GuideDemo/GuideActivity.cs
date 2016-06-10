@@ -11,7 +11,7 @@ using static Android.Support.V4.View.ViewPager;
 
 namespace GuideDemo
 {
-    [Activity(Label = "GuideActivity")]
+    [Activity(Label = "GuideActivity")] 
     public class GuideActivity : Activity
     {     
         private ViewPager viewPager;
