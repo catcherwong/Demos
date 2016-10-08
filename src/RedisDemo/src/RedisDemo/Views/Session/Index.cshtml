@@ -1,0 +1,29 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="row">
+    <div class="col-md-6">
+        <form method="post" action="/">
+            <div class="form-group">
+                <label>session name</label>
+                <input type="text" name="sessionName" />
+            </div>
+
+            <div class="form-group">
+                <label>session value</label>
+                <input type="text" name="sessionValue" />
+            </div>
+
+            <button type="submit">set session</button>
+
+        </form>
+    </div>
+</div>
+<div class="row">
+    <div class="col-md-6">
+        <p>
+            site: @ViewBag.Site
+        </p>
+    </div>
+</div>
