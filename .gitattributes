@@ -1,2 +1,5 @@
-
-* -crlf
+*.js linguist-language=C#
+*.css linguist-language=C#
+*.html linguist-language=C#
+*.dll linguist-language=C#
+*.java linguist-language=C#
