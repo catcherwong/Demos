@@ -44,6 +44,8 @@ namespace RedisDemo
 
             services.AddMvc();
 
+            services.AddTransient<RedisConfigService>();
+
             services.AddScoped<IRedis, RedisHelper>();
 
             services.AddSingleton<ISession, RedisSession>();

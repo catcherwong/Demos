@@ -11,24 +11,31 @@ namespace RedisDemo.Common
 {
     public class RedisHelper : IRedis
     {
-        private static IConfigurationRoot GetConnStr()
+        private static RedisConfigService _service;
+        public RedisHelper(RedisConfigService service)
         {
-            var builder = new ConfigurationBuilder();
-            builder.SetBasePath(Directory.GetCurrentDirectory());
-            builder.AddJsonFile("appsettings.json");
-            var config = builder.Build();
-            return config;
+            _service = service;
         }
+
+        //private static IConfigurationRoot GetConnStr()
+        //{
+        //    var builder = new ConfigurationBuilder();
+        //    builder.SetBasePath(Directory.GetCurrentDirectory());
+        //    builder.AddJsonFile("appsettings.json");
+        //    var config = builder.Build();
+        //    return config;
+        //}
 
         private Lazy<ConnectionMultiplexer> _writeConn = new Lazy<ConnectionMultiplexer>(() =>
         {
-
-            return ConnectionMultiplexer.Connect(GetConnStr().GetValue<string>("RedisConfig:MasterServer"));
+            return ConnectionMultiplexer.Connect(_service.RedisConfig.MasterServer);
+            //return ConnectionMultiplexer.Connect(GetConnStr().GetValue<string>("RedisConfig:MasterServer"));
         });
 
         private Lazy<ConnectionMultiplexer> _readConn = new Lazy<ConnectionMultiplexer>(() =>
         {
-            return ConnectionMultiplexer.Connect(GetConnStr().GetValue<string>("RedisConfig:SlaveServer"));
+            return ConnectionMultiplexer.Connect(_service.RedisConfig.SlaveServer);
+            //return ConnectionMultiplexer.Connect(GetConnStr().GetValue<string>("RedisConfig:SlaveServer"));
         });
 
         public ConnectionMultiplexer WriteConn
