@@ -1,12 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using Microsoft.AspNetCore.Builder;
+﻿using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
+using System;
 using WebApi.Common;
 using WebApi.Middlewares;
 
@@ -48,6 +45,7 @@ namespace WebApi
                 options.ConnectionString = Configuration.GetConnectionString("DapperConnection");
             });
 
+            //api authorized middleware
             services.AddApiAuthorized(options =>
             {
                 options.EncryptKey = Configuration.GetSection("ApiKey")["EncryptKey"];
@@ -69,6 +67,7 @@ namespace WebApi
 
             app.UseDapper();
 
+            //api authorized middleware
             app.UseApiAuthorized();
 
             app.UseApplicationInsightsRequestTelemetry();
