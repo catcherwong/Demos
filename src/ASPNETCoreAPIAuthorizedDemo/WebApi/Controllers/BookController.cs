@@ -19,7 +19,7 @@ namespace WebApi.Controllers
             this._helper = helper;
         }
 
-        // GET: api/values
+        // GET: api/book
         [HttpGet]
         public async Task<IActionResult> Get()
         {
@@ -33,7 +33,7 @@ namespace WebApi.Controllers
             return Ok(json);
         }
 
-        // GET api/values/5
+        // GET api/book/5
         [HttpGet("{id}")]
         public IActionResult Get(int id)
         {
@@ -49,7 +49,7 @@ namespace WebApi.Controllers
             return Ok(json);
         }
 
-        // POST api/values        
+        // POST api/book        
         [HttpPost]
         public IActionResult Post([FromForm]PostForm form)
         {
