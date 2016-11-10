@@ -66,9 +66,11 @@ namespace ServerTest
             //act
             System.Net.Http.HttpResponseMessage message_token = await _client.GetAsync(uri);
             var res = await message_token.Content.ReadAsStringAsync();
+            dynamic obj = Newtonsoft.Json.JsonConvert.DeserializeObject(res);
 
             //assert
-            Assert.Equal("Bad request.", res);
+            Assert.Equal("invalid_grant", (string)obj.error);
+            Assert.Equal(HttpStatusCode.BadRequest, message_token.StatusCode);
         }
     }
 }

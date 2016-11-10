@@ -53,13 +53,7 @@ namespace JWT.Common.Middlewares.TokenProvider
         /// <param name="context"></param>
         /// <returns></returns>
         private async Task GenerateAuthorizedResult(HttpContext context)
-        {
-            if (!context.Request.HasFormContentType)
-            {                
-                await ReturnBadRequest(context);
-                return;
-            }
-
+        {         
             var username = context.Request.Form["username"];
             var password = context.Request.Form["password"];
 

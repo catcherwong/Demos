@@ -56,8 +56,8 @@ namespace AuthorizedServer
 
             app.UseTokenProvider(new TokenProviderOptions
             {
-                Audience = "ExampleAudience",
-                Issuer = "ExampleIssuer",
+                Audience = "Catcher Wong",
+                Issuer = "http://catcher1994.cnblogs.com/",
                 SigningCredentials = new SigningCredentials(signingKey, SecurityAlgorithms.HmacSha256),
             });
 
