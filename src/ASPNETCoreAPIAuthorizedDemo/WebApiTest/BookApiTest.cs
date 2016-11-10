@@ -39,7 +39,20 @@ namespace WebApiTest
         }
 
         [Fact]
-        public async Task boo_api_post_by_id_should_success()
+        public async Task book_api_get_by_id_should_failure()
+        {
+            string inValidSignature = Guid.NewGuid().ToString();
+            string queryString = $"applicationId={applicationId}&timestamp={timestamp}&nonce={nonce}&signature={inValidSignature}&applicationPassword={applicationPassword}";
+
+            HttpResponseMessage message = await _client.GetAsync($"api/book/4939?{queryString}");
+            var result = JsonConvert.DeserializeObject<CommonResult<Book>>(message.Content.ReadAsStringAsync().Result);
+
+            Assert.Equal("401", result.Code);
+            Assert.Equal(System.Net.HttpStatusCode.Unauthorized, message.StatusCode);            
+        }
+
+        [Fact]
+        public async Task book_api_post_by_id_should_success()
         {              
             var data = new Dictionary<string, string>();
             data.Add("applicationId", applicationId);
@@ -57,6 +70,26 @@ namespace WebApiTest
             Assert.Equal(4939, result.Data.Id);
             Assert.True(message.IsSuccessStatusCode);
 
+        }
+
+        [Fact]
+        public async Task book_api_post_by_id_should_failure()
+        {
+            string inValidSignature = Guid.NewGuid().ToString();
+            var data = new Dictionary<string, string>();
+            data.Add("applicationId", applicationId);
+            data.Add("applicationPassword", applicationPassword);
+            data.Add("timestamp", timestamp);
+            data.Add("nonce", nonce);
+            data.Add("signature", inValidSignature);
+            data.Add("Id", "4939");
+            HttpContent ct = new FormUrlEncodedContent(data);
+
+            HttpResponseMessage message = await _client.PostAsync("api/book", ct);
+            var result = JsonConvert.DeserializeObject<CommonResult<Book>>(message.Content.ReadAsStringAsync().Result);
+
+            Assert.Equal("401", result.Code);
+            Assert.Equal(System.Net.HttpStatusCode.Unauthorized, message.StatusCode);
         }
     }   
 }

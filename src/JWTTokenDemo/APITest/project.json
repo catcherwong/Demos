@@ -1,0 +1,26 @@
+﻿{
+  "version": "1.0.0-*",
+  "testRunner": "xunit",
+  "dependencies": {
+    "NETStandard.Library": "1.6.0",
+    "xunit": "2.2.0-beta3-build3402",
+    "xunit.runner.console": "2.2.0-beta3-build3402",
+    "dotnet-test-xunit": "2.2.0-preview2-build1029",
+    "JWT.Common": "1.0.0-*",
+    "Newtonsoft.Json": "9.0.1"
+  },
+
+  "frameworks": {
+    //"netstandard1.6": {
+    //  "imports": "dnxcore50"
+    //},
+    "netcoreapp1.0": {
+      "dependencies": {
+        "Microsoft.NETCore.App": {
+          "type": "platform",
+          "version": "1.0.0"
+        }
+      }
+    }
+  }
+}

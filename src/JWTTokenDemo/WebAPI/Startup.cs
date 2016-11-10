@@ -1,13 +1,14 @@
-﻿using Microsoft.AspNetCore.Builder;
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
+using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
-using System;
-using WebApi.Common;
-using WebApi.Middlewares;
 
-namespace WebApi
+namespace WebAPI
 {
     public class Startup
     {
@@ -35,40 +36,15 @@ namespace WebApi
         {
             // Add framework services.
             services.AddApplicationInsightsTelemetry(Configuration);
-            services.Configure<IISOptions>(options =>
-            {
-
-            });
-
-            services.Configure<DapperOptions>(options =>
-            {
-                options.ConnectionString = Configuration.GetConnectionString("DapperConnection");
-            });
-
-            //api authorized middleware
-            services.AddApiAuthorized(options =>
-            {
-                options.EncryptKey = Configuration.GetSection("ApiKey")["EncryptKey"];
-                options.ExpiredSecond = Convert.ToInt32(Configuration.GetSection("ApiKey")["ExpiredSecond"]);
-            });
-
 
             services.AddMvc();
-
-            services.AddSingleton<DapperHelper>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline
         public void Configure(IApplicationBuilder app, IHostingEnvironment env, ILoggerFactory loggerFactory)
         {
-
             loggerFactory.AddConsole(Configuration.GetSection("Logging"));
             loggerFactory.AddDebug();
-
-            app.UseDapper();
-
-            //api authorized middleware
-            app.UseApiAuthorized();
 
             app.UseApplicationInsightsRequestTelemetry();
 
