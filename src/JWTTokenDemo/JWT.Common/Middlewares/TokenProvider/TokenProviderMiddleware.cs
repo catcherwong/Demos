@@ -13,16 +13,13 @@ namespace JWT.Common.Middlewares.TokenProvider
     public class TokenProviderMiddleware
     {
         private readonly RequestDelegate _next;
-        private readonly TokenProviderOptions _options;
-        private readonly RedisHelper _helper;
+        private readonly TokenProviderOptions _options;        
         public TokenProviderMiddleware(
             RequestDelegate next,
-            IOptions<TokenProviderOptions> options, 
-            RedisHelper helper)
+            IOptions<TokenProviderOptions> options)
         {
             _next = next;
-            _options = options.Value;
-            _helper = helper;
+            _options = options.Value;            
         }    
 
         /// <summary>
@@ -136,9 +133,7 @@ namespace JWT.Common.Middlewares.TokenProvider
                 access_token = encodedJwt,
                 expires_in = (int)_options.Expiration.TotalSeconds,
                 token_type = "Bearer"
-            };
-
-            _helper.Set(username, response.access_token, TimeSpan.FromSeconds(response.expires_in));
+            };            
 
             return JsonConvert.SerializeObject(response, new JsonSerializerSettings { Formatting = Formatting.Indented });
         }

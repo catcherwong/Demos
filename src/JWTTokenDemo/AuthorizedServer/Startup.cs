@@ -28,13 +28,13 @@ namespace AuthorizedServer
 
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddRedis(options =>
-            {
-                options.MasterServer = Configuration.GetSection("RedisConfig")["MasterServer"];
-                options.SlaveServer = Configuration.GetSection("RedisConfig")["SlaveServer"];
-            });
+            //services.AddRedis(options =>
+            //{
+            //    options.MasterServer = Configuration.GetSection("RedisConfig")["MasterServer"];
+            //    options.SlaveServer = Configuration.GetSection("RedisConfig")["SlaveServer"];
+            //});
 
-            services.AddSingleton<RedisHelper>();
+            //services.AddSingleton<RedisHelper>();
 
             services.AddMvc();
         }
