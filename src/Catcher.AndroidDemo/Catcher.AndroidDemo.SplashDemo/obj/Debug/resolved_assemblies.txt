@@ -1,9 +1,0 @@
-D:\GithubCode\Demos\src\Catcher.AndroidDemo\Catcher.AndroidDemo.SplashDemo\obj\Debug\assemblies\Catcher.AndroidDemo.SplashDemo.dll
-D:\GithubCode\Demos\src\Catcher.AndroidDemo\Catcher.AndroidDemo.SplashDemo\obj\Debug\assemblies\Mono.Android.dll
-D:\GithubCode\Demos\src\Catcher.AndroidDemo\Catcher.AndroidDemo.SplashDemo\obj\Debug\assemblies\mscorlib.dll
-D:\GithubCode\Demos\src\Catcher.AndroidDemo\Catcher.AndroidDemo.SplashDemo\obj\Debug\assemblies\System.Core.dll
-D:\GithubCode\Demos\src\Catcher.AndroidDemo\Catcher.AndroidDemo.SplashDemo\obj\Debug\assemblies\System.dll
-D:\GithubCode\Demos\src\Catcher.AndroidDemo\Catcher.AndroidDemo.SplashDemo\obj\Debug\assemblies\System.Xml.dll
-D:\GithubCode\Demos\src\Catcher.AndroidDemo\Catcher.AndroidDemo.SplashDemo\obj\Debug\assemblies\System.Xml.Linq.dll
-D:\GithubCode\Demos\src\Catcher.AndroidDemo\Catcher.AndroidDemo.SplashDemo\obj\Debug\assemblies\System.Runtime.Serialization.dll
-D:\GithubCode\Demos\src\Catcher.AndroidDemo\Catcher.AndroidDemo.SplashDemo\obj\Debug\assemblies\System.ServiceModel.Internals.dll

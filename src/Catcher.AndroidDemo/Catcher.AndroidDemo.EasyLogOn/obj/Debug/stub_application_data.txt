@@ -1,2 +1,0 @@
-android.app.Application
-Catcher.AndroidDemo.EasyLogOn.Catcher.AndroidDemo.EasyLogOn

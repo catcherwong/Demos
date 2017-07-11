@@ -1,9 +1,0 @@
-D:\GithubCode\Demos\NancyDemoWithSelfHosting\SelfHostingDemo\SelfHostingDemo\bin\Debug\SelfHostingDemo.exe.config
-D:\GithubCode\Demos\NancyDemoWithSelfHosting\SelfHostingDemo\SelfHostingDemo\bin\Debug\SelfHostingDemo.exe
-D:\GithubCode\Demos\NancyDemoWithSelfHosting\SelfHostingDemo\SelfHostingDemo\bin\Debug\SelfHostingDemo.pdb
-D:\GithubCode\Demos\NancyDemoWithSelfHosting\SelfHostingDemo\SelfHostingDemo\bin\Debug\Nancy.dll
-D:\GithubCode\Demos\NancyDemoWithSelfHosting\SelfHostingDemo\SelfHostingDemo\bin\Debug\Nancy.Hosting.Self.dll
-D:\GithubCode\Demos\NancyDemoWithSelfHosting\SelfHostingDemo\SelfHostingDemo\bin\Debug\Nancy.xml
-D:\GithubCode\Demos\NancyDemoWithSelfHosting\SelfHostingDemo\SelfHostingDemo\bin\Debug\Nancy.Hosting.Self.xml
-D:\GithubCode\Demos\NancyDemoWithSelfHosting\SelfHostingDemo\SelfHostingDemo\obj\Debug\SelfHostingDemo.exe
-D:\GithubCode\Demos\NancyDemoWithSelfHosting\SelfHostingDemo\SelfHostingDemo\obj\Debug\SelfHostingDemo.pdb

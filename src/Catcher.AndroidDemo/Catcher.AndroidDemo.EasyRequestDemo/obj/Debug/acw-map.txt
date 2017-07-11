@@ -1,4 +1,0 @@
-Catcher.AndroidDemo.EasyRequestDemo.MainActivity, Catcher.AndroidDemo.EasyRequestDemo;md5537188b2b2ccbbd599ced73c8ffe8726.MainActivity
-Catcher.AndroidDemo.EasyRequestDemo.MainActivity, Catcher.AndroidDemo.EasyRequestDemo, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md5537188b2b2ccbbd599ced73c8ffe8726.MainActivity
-Catcher.AndroidDemo.EasyRequestDemo.MainActivity;md5537188b2b2ccbbd599ced73c8ffe8726.MainActivity
-catcher.androiddemo.easyrequestdemo.MainActivity;md5537188b2b2ccbbd599ced73c8ffe8726.MainActivity
