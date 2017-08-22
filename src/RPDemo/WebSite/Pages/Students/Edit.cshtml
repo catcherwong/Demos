@@ -1,0 +1,44 @@
+﻿@page "{id:int}"
+@model Pages.Students.EditModel
+@{
+    ViewData["Title"] = "Edit Page";
+}
+
+<h2>Edit</h2>
+
+<h4>Student</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form method="post">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="Student.Id" />
+            <div class="form-group">
+                <label asp-for="Student.No" class="control-label"></label>
+                <input asp-for="Student.No" class="form-control" />
+                <span asp-validation-for="Student.No" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Student.Name" class="control-label"></label>
+                <input asp-for="Student.Name" class="form-control" />
+                <span asp-validation-for="Student.Name" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Student.Gender" class="control-label"></label>
+                <input asp-for="Student.Gender" class="form-control" />
+                <span asp-validation-for="Student.Gender" class="text-danger"></span>
+            </div>            
+            <div class="form-group">
+                <button type="submit" class="btn btn-default">Save</button>                
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-page="./Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

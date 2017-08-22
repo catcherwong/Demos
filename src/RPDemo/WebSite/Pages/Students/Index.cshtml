@@ -1,0 +1,38 @@
+﻿@page
+@model Pages.Students.IndexModel
+@{
+    ViewData["Title"] = "Index Page";
+}
+
+<h2>Student List Here</h2>
+
+<hr />
+
+<a asp-page="./Create">Create a new student</a>     
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Id</th>
+            <th>No</th>
+            <th>Name</th>
+            <th>Gender</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model.StudentList)
+        {
+            <tr>
+                <td>@item.Id</td>
+                <td>@item.No</td>
+                <td>@item.Name</td>
+                <td>@item.Gender</td>
+                <td>                                   
+                    <a asp-page="./Details" asp-route-id="@item.Id">Details</a> |                 
+                    <a asp-page="./Edit" asp-route-id="@item.Id" >Edit</a>                    
+                    @*<a asp-page="./Delete" asp-route-id="@item.Id">Delete</a>*@
+                </td>
+            </tr>
+        }        
+    </tbody>
+</table>
