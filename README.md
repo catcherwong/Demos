@@ -49,6 +49,10 @@ Both in [**cnblogs** ](https://www.cnblogs.com/catcher1994)  and [**c-sharpcorne
 
     A demo using redis in .net core
 
+5. LocalDataCachingDemo
+
+    A demo using SQLite to store the caching item as the local caching.
+
 ### Xamarin Demo
 
 1. Catcher.AndroidDemo

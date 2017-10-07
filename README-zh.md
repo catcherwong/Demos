@@ -48,6 +48,10 @@
 
     在.NET Core下面使用Redis的案例
 
+5. LocalDataCachingDemo
+
+    使用SQLite做本地缓存
+
 ### Xamarin Demo
 
 1. Catcher.AndroidDemo
