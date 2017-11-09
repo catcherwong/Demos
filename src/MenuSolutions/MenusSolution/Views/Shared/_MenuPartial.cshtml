@@ -1,0 +1,28 @@
+﻿@model System.Collections.Generic.IEnumerable<MenusSolution.Models.MenuViewModel>
+
+@foreach (var menu in Model)
+{
+    if (menu.Children.Any())
+    {
+        <li class="treeview" >
+            <a href="#">
+                <i class="@menu.IconClass"></i> <span>@menu.Content</span>
+                <span class="pull-right-container">
+                    <i class="fa fa-angle-left pull-right"></i>
+                </span>
+            </a>
+            <ul class="treeview-menu">
+                @Html.Partial("_MenuPartial", menu.Children)
+            </ul>
+        </li>
+    }
+    else
+    {
+        <li class="treeview">
+            <a href="@menu.Href">
+                <i class="@menu.IconClass"></i> <span>@menu.Content</span>
+            </a>
+        </li>
+    }
+}
+
