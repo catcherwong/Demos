@@ -10,60 +10,46 @@
 
 ### Nancy相关的demo
 
-1. NancyDemoForFormsauthentication
 
-    在Nancy(1.x)中如何使用Forms认证
-
-2. NancyDemoForModelBinding
-
-    在Nancy(1.x)中如何使用模型绑定
-
-3. NancyDemoWithHostingAspnet
-
-    寄宿于ASP.NET的一个demo
-
-4. NancyDemoWithOwin
-
-    寄宿于Owin的3个demo
-
-5. NancyDemoWithSelfHosting
-
-    基于TopSelf的自宿主Demo和基于Nancy提供的自宿主Demo
-
+| Name | Description | Url/Lang  |
+|--------- |------------- |---------|
+| [NancyDemoForFormsauthentication](https://github.com/catcherwong/Demos/tree/master/src/NancyDemoForFormsauthentication) |  在Nancy(1.x)中如何使用Forms认证 |[Url/Chinese](http://www.cnblogs.com/catcher1994/p/5195387.html)
+| [NancyDemoForModelBinding](https://github.com/catcherwong/Demos/tree/master/src/NancyDemoForModelBinding) |  在Nancy(1.x)中如何使用模型绑定 |[Url/Chinese](http://www.cnblogs.com/catcher1994/p/5181663.html)
+| [NancyDemoWithHostingAspnet](https://github.com/catcherwong/Demos/tree/master/src/NancyDemoWithHostingAspnet) |  寄宿于ASP.NET的一个demo  |[Url/Chinese](http://www.cnblogs.com/catcher1994/p/5145173.html)
+| [NancyDemoWithOwin](https://github.com/catcherwong/Demos/tree/master/src/NancyDemoWithOwin) |  寄宿于Owin的3个demo   |[Url/Chinese](http://www.cnblogs.com/catcher1994/p/5154913.html)
+| [NancyDemoWithSelfHosting](https://github.com/catcherwong/Demos/tree/master/src/NancyDemoWithSelfHosting) |  基于TopSelf的自宿主Demo和基于Nancy提供的自宿主Demo |[Url/Chinese](http://www.cnblogs.com/catcher1994/p/5155082.html)
+    
 ### ASP.NET Core Demo
 
-1. ASPNETCoreAPIAuthorizedDemo
 
-    asp.net core web api 授权的demo
-
-2. JWTTokenDemo
-
-    使用ASP.NET Core预览版写的基于jwt的demo
-
-3. JwtTokenDemo2
-
-    基于JWTTokenDemo的改进，加多了refresh_token的处理，使用的是ASP.NET Core 2.0 预览版    
-
-4. RedisDemo
-
-    在.NET Core下面使用Redis的案例
-
-5. LocalDataCachingDemo
-
-    使用SQLite做本地缓存
+| Name | Description | Url/Lang  |
+|--------- |------------- |---------|
+| [ASPNETCoreAPIAuthorizedDemo](https://github.com/catcherwong/Demos/tree/master/src/ASPNETCoreAPIAuthorizedDemo) |  asp.net core web api 授权的demo |[Url/Chinese](http://www.cnblogs.com/catcher1994/p/6021046.html)
+| [JWTTokenDemo](https://github.com/catcherwong/Demos/tree/master/src/JWTTokenDemo) |   使用ASP.NET Core预览版写的基于jwt的demo |[Url/Chinese](http://www.cnblogs.com/catcher1994/p/6057484.html)
+| [JwtTokenDemo2](https://github.com/catcherwong/Demos/tree/master/src/JwtTokenDemo2) |  基于JWTTokenDemo的改进，加多了refresh_token的处理，使用的是ASP.NET Core 2.0 预览版         |[Url/English](http://www.c-sharpcorner.com/article/handle-refresh-token-using-asp-net-core-2-0-and-json-web-token/)
+| [RedisDemo](https://github.com/catcherwong/Demos/tree/master/src/RedisDemo) |  在.NET Core下面使用Redis的案例   |[Url/Chinese](http://www.cnblogs.com/catcher1994/p/5934931.html)
+| [LocalDataCachingDemo](https://github.com/catcherwong/Demos/tree/master/src/LocalDataCachingDemo) |   使用SQLite做本地缓存  |[Url/Chinese](http://www.cnblogs.com/catcher1994/p/7635133.html)
+| [MenuSolution](https://github.com/catcherwong/Demos/tree/master/src/MenuSolutions) |  菜单处理方案  |[Url/English](http://www.c-sharpcorner.com/article/solutions-for-menu-in-asp-net-core/)
+| [RPDemo](https://github.com/catcherwong/Demos/tree/master/src/RPDemo) |  Razore Pages 的小案例  |[Url/English](http://www.c-sharpcorner.com/article/building-a-simple-web-app-using-razor-pages/)
+| [MonoDemo](https://github.com/catcherwong/Demos/tree/master/src/MonoDemo) |  基于.NET Framework和Mono的ASP.NET Core 案例    |[Url/English](http://www.c-sharpcorner.com/article/running-asp-net-core-2-0-via-mono/)
+| [CachingAOPDemo](https://github.com/catcherwong/Demos/tree/master/src/CachingAOPDemo) |  缓存拦截 |[Url/Chinese](http://www.cnblogs.com/catcher1994/p/7788890.html)
+| [APIGatewayDemo](https://github.com/catcherwong/Demos/tree/master/src/APIGatewayDemo) |  API网关的案例 |[Url/English](http://www.c-sharpcorner.com/article/building-api-gateway-using-ocelot-in-asp-net-core/)      
+|[DIDemo](https://github.com/catcherwong/Demos/tree/master/src/DIDemo) | 使用微软自带的DI注册一个接口，多种实现 |  Same interface multi impl . |[Url/Chinese](http://www.cnblogs.com/catcher1994/p/handle-multi-implementations-with-same-interface-in-dotnet-core.html)  
 
 ### Xamarin Demo
 
-1. Catcher.AndroidDemo
 
-    用Xamarin写的安卓案例
-
-2. Catcher.MvvmCrossDemo
-
-    用MvvmCross框架写的部分案列
+| Name | Description | Url/Lang  |
+|--------- |------------- |---------|
+| [Catcher.AndroidDemo](https://github.com/catcherwong/Demos/tree/master/src/Catcher.AndroidDemo) |  用Xamarin写的安卓案例 |[Url/Chinese](http://www.cnblogs.com/catcher1994/category/819314.html)
+| [Catcher.MvvmCrossDemo](https://github.com/catcherwong/Demos/tree/master/src/Catcher.MvvmCrossDemo) |  用MvvmCross框架写的部分案列 |[Url/Chinese](http://www.cnblogs.com/catcher1994/category/819314.html)
 
 ### Other
 
-1. Catcher.Unit.Demo
 
-    单元测试的简单案例
+| Name | Description | Url/Lang  |
+|--------- |------------- |---------|
+| [Catcher.Unit.Demo](https://github.com/catcherwong/Demos/tree/master/src/Catcher.Unit.Demo) |  单元测试的简单案例 |[Url/Chinese](http://www.cnblogs.com/catcher1994/p/5498530.html)
+
+
+    
