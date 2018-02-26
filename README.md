@@ -33,6 +33,8 @@ Both in [**cnblogs** ](https://www.cnblogs.com/catcher1994)  and [**c-sharpcorne
 | [CachingAOPDemo](https://github.com/catcherwong/Demos/tree/master/src/CachingAOPDemo) |  Two demos that show how to handle caching interceptor. |[Url/Chinese](http://www.cnblogs.com/catcher1994/p/7788890.html)
 | [APIGatewayDemo](https://github.com/catcherwong/Demos/tree/master/src/APIGatewayDemo) |  A demo shows how to use Ocelot as our API Gateway. |[Url/English](http://www.c-sharpcorner.com/article/building-api-gateway-using-ocelot-in-asp-net-core/)      
 | [DIDemo](https://github.com/catcherwong/Demos/tree/master/src/DIDemo) |  Same interface multi impl . |[Url/Chinese](http://www.cnblogs.com/catcher1994/p/handle-multi-implementations-with-same-interface-in-dotnet-core.html)  
+| [RedisBatchRemoveSolution](https://github.com/catcherwong/Demos/tree/master/src/RedisBatchRemoveSolution) |  Introduce batch remove cached item in Redis. |[Url/Chinese](http://www.cnblogs.com/catcher1994/p/8469366.html)  
+
 
 ### Xamarin Demo
 

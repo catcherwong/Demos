@@ -34,7 +34,8 @@
 | [MonoDemo](https://github.com/catcherwong/Demos/tree/master/src/MonoDemo) |  基于.NET Framework和Mono的ASP.NET Core 案例    |[Url/English](http://www.c-sharpcorner.com/article/running-asp-net-core-2-0-via-mono/)
 | [CachingAOPDemo](https://github.com/catcherwong/Demos/tree/master/src/CachingAOPDemo) |  缓存拦截 |[Url/Chinese](http://www.cnblogs.com/catcher1994/p/7788890.html)
 | [APIGatewayDemo](https://github.com/catcherwong/Demos/tree/master/src/APIGatewayDemo) |  API网关的案例 |[Url/English](http://www.c-sharpcorner.com/article/building-api-gateway-using-ocelot-in-asp-net-core/)      
-|[DIDemo](https://github.com/catcherwong/Demos/tree/master/src/DIDemo) | 使用微软自带的DI注册一个接口，多种实现 |  Same interface multi impl . |[Url/Chinese](http://www.cnblogs.com/catcher1994/p/handle-multi-implementations-with-same-interface-in-dotnet-core.html)  
+|[DIDemo](https://github.com/catcherwong/Demos/tree/master/src/DIDemo) | 使用微软自带的DI注册一个接口，多种实现  |[Url/Chinese](http://www.cnblogs.com/catcher1994/p/handle-multi-implementations-with-same-interface-in-dotnet-core.html)  
+| [RedisBatchRemoveSolution](https://github.com/catcherwong/Demos/tree/master/src/RedisBatchRemoveSolution) |  Redis缓存批量删除. |[Url/Chinese](http://www.cnblogs.com/catcher1994/p/8469366.html)  
 
 ### Xamarin Demo
 
