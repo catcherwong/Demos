@@ -36,6 +36,7 @@
 | [APIGatewayDemo](https://github.com/catcherwong/Demos/tree/master/src/APIGatewayDemo) |  API网关的案例 |[Url/English](http://www.c-sharpcorner.com/article/building-api-gateway-using-ocelot-in-asp-net-core/)      
 |[DIDemo](https://github.com/catcherwong/Demos/tree/master/src/DIDemo) | 使用微软自带的DI注册一个接口，多种实现  |[Url/Chinese](http://www.cnblogs.com/catcher1994/p/handle-multi-implementations-with-same-interface-in-dotnet-core.html)  
 | [RedisBatchRemoveSolution](https://github.com/catcherwong/Demos/tree/master/src/RedisBatchRemoveSolution) |  Redis缓存批量删除. |[Url/Chinese](http://www.cnblogs.com/catcher1994/p/8469366.html)  
+| [CachingSerializer](https://github.com/catcherwong/Demos/tree/master/src/CachingSerializer) |  使用分布式缓存(Redis和Memcached)时的序列化问题. |[Url/Chinese](https://www.cnblogs.com/catcher1994/p/8543711.html)  
 
 ### Xamarin Demo
 
