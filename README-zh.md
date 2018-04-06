@@ -53,6 +53,6 @@
 |--------- |------------- |---------|
 | [Catcher.Unit.Demo](https://github.com/catcherwong/Demos/tree/master/src/Catcher.Unit.Demo) |  单元测试的简单案例 |[Url/Chinese](http://www.cnblogs.com/catcher1994/p/5498530.html)
 | [RoundRobinDemo](https://github.com/catcherwong/Demos/tree/master/src/RoundRobinDemo) |  负载均衡-轮询算法 |[Url/Chinese](http://www.cnblogs.com/catcher1994/p/simple_roundrobin.html)
-
+| [WeightedRoundRobinDemo](https://github.com/catcherwong/Demos/tree/master/src/WeightedRoundRobinDemo) |  负载均衡-加权轮询算法 |[Url/Chinese](http://www.cnblogs.com/catcher1994/p/weighted-round-robin.html)
 
     

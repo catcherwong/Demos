@@ -50,5 +50,5 @@ Both in [**cnblogs** ](https://www.cnblogs.com/catcher1994)  and [**c-sharpcorne
 |--------- |------------- |---------|
 | [Catcher.Unit.Demo](https://github.com/catcherwong/Demos/tree/master/src/Catcher.Unit.Demo) |  A unittest demo|[Url/Chinese](http://www.cnblogs.com/catcher1994/p/5498530.html)
 | [RoundRobinDemo](https://github.com/catcherwong/Demos/tree/master/src/RoundRobinDemo) |  Load Balancing - Round Robin |[Url/Chinese](http://www.cnblogs.com/catcher1994/p/simple_roundrobin.html)
-
+| [WeightedRoundRobinDemo](https://github.com/catcherwong/Demos/tree/master/src/WeightedRoundRobinDemo) |  Load Balancing - Weighted Round Robin |[Url/Chinese](http://www.cnblogs.com/catcher1994/p/weighted-round-robin.html)
     
