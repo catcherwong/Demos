@@ -34,6 +34,15 @@
         public IActionResult Index()
         {         
             return View();
-        }            
+        }     
+
+        //1. will not cached with querykey
+        //[ResponseCache(Duration = 600)]
+        //2. cached with query key
+        [ResponseCache(Duration = 600, VaryByQueryKeys = new string[] { "page" })]
+        public IActionResult List(int page = 0)
+        {
+            return Content(page.ToString());
+        }
     }
 }
