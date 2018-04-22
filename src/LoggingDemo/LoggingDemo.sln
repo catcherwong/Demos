@@ -3,6 +3,8 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NLogDemo", "NLogDemo\NLogDemo.csproj", "{133AEAB3-3261-4805-AB24-84B15994A4E3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SerilogDemo", "SerilogDemo\SerilogDemo.csproj", "{B5E7D36F-C7BE-412A-89DC-431CB4467AF3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -13,5 +15,9 @@ Global
 		{133AEAB3-3261-4805-AB24-84B15994A4E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{133AEAB3-3261-4805-AB24-84B15994A4E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{133AEAB3-3261-4805-AB24-84B15994A4E3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B5E7D36F-C7BE-412A-89DC-431CB4467AF3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B5E7D36F-C7BE-412A-89DC-431CB4467AF3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B5E7D36F-C7BE-412A-89DC-431CB4467AF3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B5E7D36F-C7BE-412A-89DC-431CB4467AF3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
