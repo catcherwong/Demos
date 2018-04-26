@@ -5,6 +5,7 @@
     using Microsoft.Extensions.Configuration;
     using Microsoft.Extensions.DependencyInjection;
     using Pivotal.Discovery.Client;
+    using SchoolServices.Services;
 
     public class Startup
     {
@@ -17,6 +18,8 @@
 
         public void ConfigureServices(IServiceCollection services)
         {
+            services.AddSingleton<IStudentService, StudentService>();
+
             services.AddDiscoveryClient(Configuration);
 
             services.AddMvc();
