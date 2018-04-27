@@ -20,5 +20,12 @@
         {
             return new string[] { $"{name}-value1", $"{name}-value2" };
         }
+
+        // GET api/values/5
+        [HttpGet("{id}")]
+        public string GetById(int id)
+        {
+            return $"Name-{id}";
+        }
     }
 }

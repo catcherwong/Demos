@@ -13,8 +13,7 @@
             ISchoolService schoolService
             )
         {
-            this._schoolService = schoolService;
-           
+            this._schoolService = schoolService;          
         }
 
         // GET api/values
