@@ -6,6 +6,7 @@
     using Microsoft.Extensions.DependencyInjection;
     using Pivotal.Discovery.Client;
     using SchoolServices.Services;
+    using Steeltoe.CircuitBreaker.Hystrix;
 
     public class Startup
     {
@@ -19,6 +20,8 @@
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddSingleton<IStudentService, StudentService>();
+
+            services.AddHystrixCommand<StudentServiceHystrixCommand>("School", Configuration);
 
             services.AddDiscoveryClient(Configuration);
 

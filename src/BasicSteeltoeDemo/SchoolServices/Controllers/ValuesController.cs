@@ -3,7 +3,7 @@
     using Microsoft.AspNetCore.Mvc;
     using SchoolServices.Services;
     using System.Collections.Generic;
-    using System.Threading.Tasks;                                               
+    using System.Threading.Tasks;
 
     [Route("api/[controller]")]
     public class ValuesController : Controller
@@ -27,7 +27,17 @@
         [Route("students")]
         public async Task<string> GetStudents(string name)
         {
-            return await _services.GetStudentListAsync(name); 
+            return await _services.GetStudentListAsync(name);
+        }
+
+        // GET: api/values/studentshy
+        [HttpGet]
+        [Route("studentshy")]
+        public async Task<string> GetStudentsHystrix(
+            [FromServices] StudentServiceHystrixCommand command
+            , string name)
+        {
+            return await command.GetStudentListAsync(name);
         }
     }
 }
