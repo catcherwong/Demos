@@ -36,6 +36,7 @@ Both in [**cnblogs** ](https://www.cnblogs.com/catcher1994)  and [**c-sharpcorne
 | [RedisBatchRemoveSolution](https://github.com/catcherwong/Demos/tree/master/src/RedisBatchRemoveSolution) |  Introduce batch remove cached item in Redis. |[Url/Chinese](http://www.cnblogs.com/catcher1994/p/8469366.html)  
 | [CachingSerializer](https://github.com/catcherwong/Demos/tree/master/src/CachingSerializer) |  Introduce serialization of distributed caching(Redis and Memcached). |[Url/Chinese](https://www.cnblogs.com/catcher1994/p/8543711.html)  
 | [ResponseCachingDemo](https://github.com/catcherwong/Demos/tree/master/src/ResponseCachingDemo) | Introduce ResponseCaching in ASP.NET Core. |[Url/Chinese](http://www.cnblogs.com/catcher1994/p/responsecaching.html)  
+| [CircuitBreakerDemo](https://github.com/catcherwong/Demos/tree/master/src/CircuitBreakerDemo) | Introduce CircuitBreaker in ASP.NET Core. |[Url/Chinese](http://www.cnblogs.com/catcher1994/p/8975192.html)  
 
 ### Xamarin Demo
 
