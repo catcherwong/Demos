@@ -5,6 +5,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrderServices", "OrderServi
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OtherServices", "OtherServices\OtherServices.csproj", "{4F3DB471-F54C-403C-8DD8-9CAC726B9083}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PollyCBDemo", "PollyCBDemo\PollyCBDemo.csproj", "{BE70CF23-1D59-44EA-BF66-063D77A46E9C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -19,5 +21,9 @@ Global
 		{4F3DB471-F54C-403C-8DD8-9CAC726B9083}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4F3DB471-F54C-403C-8DD8-9CAC726B9083}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4F3DB471-F54C-403C-8DD8-9CAC726B9083}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BE70CF23-1D59-44EA-BF66-063D77A46E9C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BE70CF23-1D59-44EA-BF66-063D77A46E9C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BE70CF23-1D59-44EA-BF66-063D77A46E9C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BE70CF23-1D59-44EA-BF66-063D77A46E9C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
