@@ -1,40 +1,44 @@
 ﻿using System;
 using Polly;
+using Polly.Wrap;
 
 namespace PollyCBDemo
 {
     class Program
     {
-        static void Main(string[] args)
-        {
-            var fallBackPolicy =
-                Policy
-                    .Handle<Exception>()
-                    .Fallback(()=>Console.WriteLine( "执行失败，返回Fallback"));
+        private static PolicyWrap<string> policy;
 
+        public Program()
+        {
             Action<Exception, TimeSpan> onBreak = (exception, timespan) => { Console.WriteLine("onbreak"); };
             Action onReset = () => { Console.WriteLine("onreset"); };
             var breaker = Policy
                 .Handle<Exception>()
                 .CircuitBreaker(2, TimeSpan.FromSeconds(1), onBreak, onReset);
+            
+            policy =
+                Policy<string>
+                    .Handle<Exception>()
+                    .Fallback("fallback",(x)=>
+                    {
+                        Console.WriteLine("执行失败，返回Fallback");
+                    })
+                    .Wrap(breaker);
+   
+        }
 
-            var retry = Policy
-                .Handle<Exception>()
-                  .Retry(4);
+        static void Main(string[] args)
+        {            
+            int i = 0;
 
-            Policy.Wrap(breaker,fallBackPolicy, retry).Execute(()=>
+            while(i<15)
             {
-                Console.WriteLine("111");
-                using(System.Net.Http.HttpClient client = new System.Net.Http.HttpClient())
+                var res = policy.Execute(() =>
                 {
-                    client.Timeout = TimeSpan.FromSeconds(1);
-                    var res = client.GetAsync("http://yourdomain.com").Result;
-                    Console.WriteLine(res.IsSuccessStatusCode);
-                }
-            });
-
-
-
+                    throw new Exception("test");
+                });
+                i++;
+            }
 
             Console.WriteLine("Hello World!");
             Console.Read();
