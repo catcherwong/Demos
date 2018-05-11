@@ -17,7 +17,12 @@ namespace PollyCBDemo
                 .Handle<Exception>()
                 .CircuitBreaker(2, TimeSpan.FromSeconds(1),
                                 onBreak: (exception, timespan) => { Console.WriteLine("onbreak"); },
-                                onReset: () => { Console.WriteLine("onreset"); }));
+                                onReset: () => { Console.WriteLine("onreset"); }))
+            .Wrap(Policy
+                  .Timeout(1,Polly.Timeout.TimeoutStrategy.Pessimistic,(context,ts,task)=>
+                    {
+                        Console.WriteLine("Timeout");
+                    }));
 
 
         static void Main(string[] args)
@@ -28,9 +33,16 @@ namespace PollyCBDemo
             {
                 var res = policy.Execute(() =>
                 {
-                    if(new Random().NextDouble()<0.3)
+                    var rate = new Random().NextDouble();
+                    Console.WriteLine($"rate = {rate}");
+                    if(rate < 0.3)
                     {
                         throw new Exception("test");
+                    }
+                    else if(rate >= 0.3 && rate < 0.6)
+                    {
+                        System.Threading.Thread.Sleep(1001);
+                        return "wong";
                     }
                     else
                     {
@@ -38,7 +50,6 @@ namespace PollyCBDemo
                     }
 
                 });
-                System.Threading.Thread.Sleep(1001);
                 Console.WriteLine(res);
                 i++;
             }
