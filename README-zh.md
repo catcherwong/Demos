@@ -39,6 +39,7 @@
 | [CachingSerializer](https://github.com/catcherwong/Demos/tree/master/src/CachingSerializer) |  使用分布式缓存(Redis和Memcached)时的序列化问题. |[Url/Chinese](https://www.cnblogs.com/catcher1994/p/8543711.html)  
 | [ResponseCachingDemo](https://github.com/catcherwong/Demos/tree/master/src/ResponseCachingDemo) | 在ASP.NET Core中使用ResponseCaching |[Url/Chinese](http://www.cnblogs.com/catcher1994/p/responsecaching.html)  
 | [CircuitBreakerDemo](https://github.com/catcherwong/Demos/tree/master/src/CircuitBreakerDemo) | 在ASP.NET Core中使用熔断机制. |[Url/Chinese](http://www.cnblogs.com/catcher1994/p/8975192.html)  
+| [OptionsDemo](https://github.com/catcherwong/Demos/tree/master/src/OptionsDemo) | ASP.NET Core 中使用Options |[Url/Chinese](https://www.cnblogs.com/catcher1994/p/9190978.html)  
 
 ### Xamarin Demo
 
