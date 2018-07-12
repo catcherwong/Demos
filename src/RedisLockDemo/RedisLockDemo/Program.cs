@@ -1,8 +1,7 @@
-﻿using System;
-
-namespace RedisLockDemo
+﻿namespace RedisLockDemo
 {
     using StackExchange.Redis;
+    using System;
     using System.Threading.Tasks;
 
     class Program
@@ -11,30 +10,34 @@ namespace RedisLockDemo
         {
             string lockKey = "lock:eat";
             TimeSpan expiration = TimeSpan.FromSeconds(5);
-            var val = 0;
+            //5 person eat something...
             Parallel.For(0, 5, x =>
             {
                 string person = $"person:{x}";
-                bool canGetLock = AcquireLock(lockKey, person ,expiration);
-                while (!canGetLock && val < 5000)
+                var val = 0;
+                bool isLocked = AcquireLock(lockKey, person, expiration);
+                while (!isLocked && val <= 5000)
                 {
-                    val += 180;
-                    Task.Delay(180);
-                    canGetLock = AcquireLock(lockKey, person ,expiration);
-                }   
+                    val += 250;
+                    System.Threading.Thread.Sleep(250);
+                    isLocked = AcquireLock(lockKey, person, expiration);
+                }
 
-                if(canGetLock)
+                if (isLocked)
                 {
-                    Console.WriteLine($"{person} begin eat food(true) at {DateTime.Now.ToString()}.");
-
-                    if(x==3)
+                    Console.WriteLine($"{person} begin eat food(with lock) at {DateTimeOffset.Now.ToUnixTimeMilliseconds()}.");
+                    if (new Random().NextDouble() < 0.6)
                     {
-                        Console.WriteLine($"release {person} lock == {ReleaseLock(lockKey, person)}"); 
+                        Console.WriteLine($"{person} release lock {ReleaseLock(lockKey, person)}  {DateTimeOffset.Now.ToUnixTimeMilliseconds()}");
+                    }
+                    else
+                    {
+                        Console.WriteLine($"{person} do not release lock ....");
                     }
                 }
                 else
                 {
-                    Console.WriteLine($"{person} begin eat food(false) at {DateTime.Now.ToString()}.");
+                    Console.WriteLine($"{person} begin eat food(without lock) at {DateTimeOffset.Now.ToUnixTimeMilliseconds()}.");
                 }
             });
 
@@ -43,7 +46,14 @@ namespace RedisLockDemo
 
         }
 
-        static bool AcquireLock(string key, string value,TimeSpan expiration)
+        /// <summary>
+        /// Acquires the lock.
+        /// </summary>
+        /// <returns><c>true</c>, if lock was acquired, <c>false</c> otherwise.</returns>
+        /// <param name="key">Key.</param>
+        /// <param name="value">Value.</param>
+        /// <param name="expiration">Expiration.</param>
+        static bool AcquireLock(string key, string value, TimeSpan expiration)
         {
             bool flag = false;
 
@@ -60,7 +70,13 @@ namespace RedisLockDemo
             return flag;
         }
 
-        static bool ReleaseLock(string key,string value)
+        /// <summary>
+        /// Releases the lock.
+        /// </summary>
+        /// <returns><c>true</c>, if lock was released, <c>false</c> otherwise.</returns>
+        /// <param name="key">Key.</param>
+        /// <param name="value">Value.</param>
+        static bool ReleaseLock(string key, string value)
         {
             string lua_script = @"
             if (redis.call('GET', KEYS[1]) == ARGV[1]) then
@@ -76,7 +92,6 @@ namespace RedisLockDemo
                 var res = Connection.GetDatabase().ScriptEvaluate(lua_script,
                                                            new RedisKey[] { key },
                                                            new RedisValue[] { value });
-                Console.WriteLine($"{res.ToString()}");
                 return (bool)res;
             }
             catch (Exception ex)
@@ -86,12 +101,26 @@ namespace RedisLockDemo
             }
         }
 
+        /// <summary>
+        /// The lazy connection.
+        /// </summary>
         private static Lazy<ConnectionMultiplexer> lazyConnection = new Lazy<ConnectionMultiplexer>(() =>
         {
-            return ConnectionMultiplexer.Connect("localhost:6379");
+            ConfigurationOptions configuration = new ConfigurationOptions
+            {
+                AbortOnConnectFail = false,
+                ConnectTimeout = 5000,
+            };
+
+            configuration.EndPoints.Add("localhost", 6379);
+
+            return ConnectionMultiplexer.Connect(configuration.ToString());
         });
 
+        /// <summary>
+        /// Gets the connection.
+        /// </summary>
+        /// <value>The connection.</value>
         public static ConnectionMultiplexer Connection => lazyConnection.Value;
-
     }
 }
