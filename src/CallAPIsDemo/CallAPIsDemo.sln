@@ -1,0 +1,29 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DemoAPI", "DemoAPI\DemoAPI.csproj", "{8B58E6C6-DD18-440E-8A84-2FA9629CAFD6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RefitBasicDemo", "RefitBasicDemo\RefitBasicDemo.csproj", "{905CC8C3-C2F6-46DA-B563-DA1C5C9C9423}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApiClientDemo", "WebApiClientDemo\WebApiClientDemo.csproj", "{4BC567D1-B1C1-4528-BABF-688444F03784}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8B58E6C6-DD18-440E-8A84-2FA9629CAFD6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8B58E6C6-DD18-440E-8A84-2FA9629CAFD6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8B58E6C6-DD18-440E-8A84-2FA9629CAFD6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8B58E6C6-DD18-440E-8A84-2FA9629CAFD6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{905CC8C3-C2F6-46DA-B563-DA1C5C9C9423}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{905CC8C3-C2F6-46DA-B563-DA1C5C9C9423}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{905CC8C3-C2F6-46DA-B563-DA1C5C9C9423}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{905CC8C3-C2F6-46DA-B563-DA1C5C9C9423}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4BC567D1-B1C1-4528-BABF-688444F03784}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4BC567D1-B1C1-4528-BABF-688444F03784}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4BC567D1-B1C1-4528-BABF-688444F03784}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4BC567D1-B1C1-4528-BABF-688444F03784}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
