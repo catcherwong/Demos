@@ -38,6 +38,11 @@ Both in [**cnblogs** ](https://www.cnblogs.com/catcher1994)  and [**c-sharpcorne
 | [ResponseCachingDemo](https://github.com/catcherwong/Demos/tree/master/src/ResponseCachingDemo) | Introduce ResponseCaching in ASP.NET Core. |[Url/Chinese](http://www.cnblogs.com/catcher1994/p/responsecaching.html)  
 | [CircuitBreakerDemo](https://github.com/catcherwong/Demos/tree/master/src/CircuitBreakerDemo) | Introduce CircuitBreaker in ASP.NET Core. |[Url/Chinese](http://www.cnblogs.com/catcher1994/p/8975192.html)  
 | [OptionsDemo](https://github.com/catcherwong/Demos/tree/master/src/OptionsDemo) | Introduce Options in ASP.NET Core. |[Url/Chinese](https://www.cnblogs.com/catcher1994/p/9190978.html)  
+| [HttpClientFactoryDemo](https://github.com/catcherwong/Demos/tree/master/src/HttpClientFactoryDemo) | Polly Demo With HttpClientFactory. |[Url/Chinese](https://www.cnblogs.com/catcher1994/p/9349618.html)  
+| [SteeltoeWithHttpClientFactory](https://github.com/catcherwong/Demos/tree/master/src/SteeltoeWithHttpClientFactory) | Steeltoe Demo With HttpClientFactory. |[Url/Chinese](https://www.cnblogs.com/catcher1994/p/9381735.html)  
+| [RefitClientApi](https://github.com/catcherwong/Demos/tree/master/src/CallAPIsDemo/RefitClientApi) | Introduce Refit in ASP.NET Core.  |[Url/Chinese](https://www.cnblogs.com/catcher1994/p/9501387.html)  
+| [WebApiClientDemo](https://github.com/catcherwong/Demos/tree/master/src/CallAPIsDemo/WebApiClientDemo) | Usages of WebApiClient.  |[Url/English](https://www.c-sharpcorner.com/article/using-webapiclient-to-call-rest-apis-in-net-core/)  
+| [WebApiClientApi](https://github.com/catcherwong/Demos/tree/master/src/CallAPIsDemo/WebApiClientApi) | WebApiClient With HttpClientFactory.  |[Url/English](https://www.c-sharpcorner.com/article/combine-webapiclient-with-httpclientfactory-to-call-rest-apis/)  
 
 ### Xamarin Demo
 
@@ -53,4 +58,5 @@ Both in [**cnblogs** ](https://www.cnblogs.com/catcher1994)  and [**c-sharpcorne
 | [Catcher.Unit.Demo](https://github.com/catcherwong/Demos/tree/master/src/Catcher.Unit.Demo) |  A unittest demo|[Url/Chinese](http://www.cnblogs.com/catcher1994/p/5498530.html)
 | [RoundRobinDemo](https://github.com/catcherwong/Demos/tree/master/src/RoundRobinDemo) |  Load Balancing - Round Robin |[Url/Chinese](http://www.cnblogs.com/catcher1994/p/simple_roundrobin.html)
 | [WeightedRoundRobinDemo](https://github.com/catcherwong/Demos/tree/master/src/WeightedRoundRobinDemo) |  Load Balancing - Weighted Round Robin |[Url/Chinese](http://www.cnblogs.com/catcher1994/p/weighted-round-robin.html)
-    
+| [RedisLockDemo](https://github.com/catcherwong/Demos/tree/master/src/RedisLockDemo) |  Redis Lock |[Url/English](https://www.c-sharpcorner.com/article/creating-distributed-lock-with-redis-in-net-core/)
+| [ObjectPoolDemo](https://github.com/catcherwong/Demos/tree/master/src/ObjectPoolDemo) | Usages of Microsoft.Extensions.ObjectPool.  |[Url/Chinese](https://www.cnblogs.com/catcher1994/p/9666944.html)

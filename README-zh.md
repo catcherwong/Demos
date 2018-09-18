@@ -40,6 +40,11 @@
 | [ResponseCachingDemo](https://github.com/catcherwong/Demos/tree/master/src/ResponseCachingDemo) | 在ASP.NET Core中使用ResponseCaching |[Url/Chinese](http://www.cnblogs.com/catcher1994/p/responsecaching.html)  
 | [CircuitBreakerDemo](https://github.com/catcherwong/Demos/tree/master/src/CircuitBreakerDemo) | 在ASP.NET Core中使用熔断机制. |[Url/Chinese](http://www.cnblogs.com/catcher1994/p/8975192.html)  
 | [OptionsDemo](https://github.com/catcherwong/Demos/tree/master/src/OptionsDemo) | ASP.NET Core 中使用Options |[Url/Chinese](https://www.cnblogs.com/catcher1994/p/9190978.html)  
+| [HttpClientFactoryDemo](https://github.com/catcherwong/Demos/tree/master/src/HttpClientFactoryDemo) | 用HttpClientFactory实现熔断降级. |[Url/Chinese](https://www.cnblogs.com/catcher1994/p/9349618.html)  
+| [SteeltoeWithHttpClientFactory](https://github.com/catcherwong/Demos/tree/master/src/SteeltoeWithHttpClientFactory) | 结合Steeltoe和HttpClientFactory完成服务发现. |[Url/Chinese](https://www.cnblogs.com/catcher1994/p/9381735.html)  
+| [RefitClientApi](https://github.com/catcherwong/Demos/tree/master/src/CallAPIsDemo/RefitClientApi) |  Refit在 ASP.NET Core中的实践.  |[Url/Chinese](https://www.cnblogs.com/catcher1994/p/9501387.html)  
+| [WebApiClientDemo](https://github.com/catcherwong/Demos/tree/master/src/CallAPIsDemo/WebApiClientDemo) |  WebApiClient的简单用法.  |[Url/English](https://www.c-sharpcorner.com/article/using-webapiclient-to-call-rest-apis-in-net-core/)  
+| [WebApiClientApi](https://github.com/catcherwong/Demos/tree/master/src/CallAPIsDemo/WebApiClientApi) | WebApiClient结合HttpClientFactory.  |[Url/English](https://www.c-sharpcorner.com/article/combine-webapiclient-with-httpclientfactory-to-call-rest-apis/)  
 
 ### Xamarin Demo
 
@@ -57,5 +62,6 @@
 | [Catcher.Unit.Demo](https://github.com/catcherwong/Demos/tree/master/src/Catcher.Unit.Demo) |  单元测试的简单案例 |[Url/Chinese](http://www.cnblogs.com/catcher1994/p/5498530.html)
 | [RoundRobinDemo](https://github.com/catcherwong/Demos/tree/master/src/RoundRobinDemo) |  负载均衡-轮询算法 |[Url/Chinese](http://www.cnblogs.com/catcher1994/p/simple_roundrobin.html)
 | [WeightedRoundRobinDemo](https://github.com/catcherwong/Demos/tree/master/src/WeightedRoundRobinDemo) |  负载均衡-加权轮询算法 |[Url/Chinese](http://www.cnblogs.com/catcher1994/p/weighted-round-robin.html)
-
+| [RedisLockDemo](https://github.com/catcherwong/Demos/tree/master/src/RedisLockDemo) | Redis分布式锁 |[Url/English](https://www.c-sharpcorner.com/article/creating-distributed-lock-with-redis-in-net-core/)
+| [ObjectPoolDemo](https://github.com/catcherwong/Demos/tree/master/src/ObjectPoolDemo) | Microsoft.Extensions.ObjectPool的简单用法.  |[Url/Chinese](https://www.cnblogs.com/catcher1994/p/9666944.html)
     
