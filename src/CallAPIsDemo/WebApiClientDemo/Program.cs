@@ -43,6 +43,9 @@
                 var retry = client.RetryTestAsync().Retry(3).WhenCatch<Exception>().GetAwaiter().GetResult();
                 Console.WriteLine("RetryTestAsync result:");
                 Console.WriteLine($"{retry}");
+
+                var to = client.TimeOutTestAsync(new WebApiClient.Parameterables.Timeout(10)).GetAwaiter().GetResult();
+                Console.WriteLine($"{to}");
             }
 
             Console.ReadKey();

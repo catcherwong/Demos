@@ -4,7 +4,8 @@
     using WebApiClient;
     using WebApiClient.Attributes;
 
-    public interface IPersonApiClient : IHttpApiClient
+    [TraceFilter] 
+    public interface IPersonApiClient : IHttpApi
     {
         [HttpGet("/api/persons")]
         ITask<List<Person>> GetPersonsAsync();
@@ -23,5 +24,9 @@
 
         [HttpGet("/api/persons/tw")]
         ITask<string> RetryTestAsync();
+
+        //pass a timeout to the method.
+        [HttpGet("/api/persons")]
+        ITask<string> TimeOutTestAsync(WebApiClient.Parameterables.Timeout timeout);
     }
 }
