@@ -3,6 +3,8 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BasicConsoleApp", "BasicConsoleApp\BasicConsoleApp.csproj", "{997ACBDF-3CBA-46B6-9726-FC33E5FE2A14}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AspNetCoreDemo", "AspNetCoreDemo\AspNetCoreDemo.csproj", "{E768DC8B-5980-45DB-B5A4-4A195C150564}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -13,5 +15,9 @@ Global
 		{997ACBDF-3CBA-46B6-9726-FC33E5FE2A14}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{997ACBDF-3CBA-46B6-9726-FC33E5FE2A14}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{997ACBDF-3CBA-46B6-9726-FC33E5FE2A14}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E768DC8B-5980-45DB-B5A4-4A195C150564}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E768DC8B-5980-45DB-B5A4-4A195C150564}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E768DC8B-5980-45DB-B5A4-4A195C150564}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E768DC8B-5980-45DB-B5A4-4A195C150564}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
