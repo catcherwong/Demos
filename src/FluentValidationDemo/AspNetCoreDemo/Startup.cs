@@ -20,11 +20,13 @@
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddSingleton<IStudentService, StudentService>();
-            services.AddSingleton<AbstractValidator<QueryStudentHobbiesDto>,QueryStudentHobbiesDtoValidator>();
+            //inject validator
+            services.AddSingleton<AbstractValidator<QueryStudentHobbiesDto>, QueryStudentHobbiesDtoValidator>();
 
-            services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
+            services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1)
+                    //;
                     //when using CustomizeValidator, should add the following code.
-                    //.AddFluentValidation(fv => fv.RegisterValidatorsFromAssemblyContaining<Startup>());
+                    .AddFluentValidation(fv => fv.RegisterValidatorsFromAssemblyContaining<Startup>());
         }
 
         public void Configure(IApplicationBuilder app, IHostingEnvironment env)

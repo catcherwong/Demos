@@ -1,15 +1,10 @@
-﻿using System.Collections.Generic;
-using System.ComponentModel.DataAnnotations;
-using FluentValidation;
-using FluentValidation.AspNetCore;
-using FluentValidation.Attributes;
-using FluentValidation.Results;
-using Microsoft.AspNetCore.Mvc;
-using System.Linq;
-using Microsoft.AspNetCore.Http;
-
-namespace AspNetCoreDemo
+﻿namespace AspNetCoreDemo
 {
+    using System.Collections.Generic;
+    using System.ComponentModel.DataAnnotations;
+    using FluentValidation;
+    using FluentValidation.Attributes;
+
     public class Student
     {
         public int Id { get; set; }
