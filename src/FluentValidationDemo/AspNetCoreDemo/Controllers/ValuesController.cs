@@ -11,9 +11,11 @@
     public class ValuesController : ControllerBase
     {
         private readonly IStudentService _service;
-        public ValuesController(IStudentService service)
+        private readonly IValidator<QueryStudentHobbiesDto> _validator;
+        public ValuesController(IStudentService service, IValidator<QueryStudentHobbiesDto> validator)
         {
             this._service = service;
+            this._validator = validator;
         }
 
         // GET api/values/hobbies1
@@ -47,18 +49,25 @@
 
         // GET api/values/hobbies4
         [HttpGet("hobbies4")]
-        public ActionResult GetHobbies4([FromQuery]int? id,[FromQuery]string name)
+        public ActionResult GetHobbies4([FromQuery]QueryStudentHobbiesDto dto)
         {
-            var (flag, msg) = _service.QueryHobbies(new QueryStudentHobbiesDto 
-            {
-                Id =id,
-                Name = name
-            });
+            var (flag, msg) = _service.QueryHobbies(dto);
 
             return !flag
-                ? Ok(new { code = -1, data = new List<string>(), msg = msg })
+                ? Ok(new { code = -1, data = new List<string>(), msg })
                 : Ok(new { code = 0, data = new List<string> { "v1", "v2" }, msg = "" });
         }
 
+
+        // GET api/values/hobbies5
+        [HttpGet("hobbies5")]
+        public ActionResult GetHobbies5([FromQuery]QueryStudentHobbiesDto dto)
+        {
+            var res = _validator.Validate(dto, ruleSet: "all");
+
+            return !res.IsValid
+                       ? Ok(new { code = -1, data = new List<string>(), msg = res.Errors.FirstOrDefault().ErrorMessage })
+                       : Ok(new { code = 0, data = new List<string> { "v1", "v2" }, msg = "" });
+        }
     }
 }

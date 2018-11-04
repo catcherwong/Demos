@@ -22,11 +22,17 @@
             services.AddSingleton<IStudentService, StudentService>();
             //inject validator
             services.AddSingleton<AbstractValidator<QueryStudentHobbiesDto>, QueryStudentHobbiesDtoValidator>();
+            services.AddSingleton<IValidator<QueryStudentHobbiesDto>, QueryStudentHobbiesDtoValidator>();
 
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1)
                     //;
                     //when using CustomizeValidator, should add the following code.
-                    .AddFluentValidation(fv => fv.RegisterValidatorsFromAssemblyContaining<Startup>());
+                    .AddFluentValidation(fv => 
+                    {
+                        fv.RegisterValidatorsFromAssemblyContaining<Startup>();
+                        //fv.RunDefaultMvcValidationAfterFluentValidationExecutes = false;
+                        //fv.ImplicitlyValidateChildProperties = true;
+                    });
         }
 
         public void Configure(IApplicationBuilder app, IHostingEnvironment env)

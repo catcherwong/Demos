@@ -1,13 +1,15 @@
-﻿using System.Linq;
-using FluentValidation;
-
-namespace AspNetCoreDemo
+﻿namespace AspNetCoreDemo
 {
+    using System.Linq;
+    using FluentValidation;
+    
     public class StudentService : IStudentService
     {
         private readonly AbstractValidator<QueryStudentHobbiesDto> _validator;
+        //private readonly IValidator<QueryStudentHobbiesDto> _validator;
 
         public StudentService(AbstractValidator<QueryStudentHobbiesDto> validator)
+        //public StudentService(IValidator<QueryStudentHobbiesDto> validator)
         {
             this._validator = validator;
         }
