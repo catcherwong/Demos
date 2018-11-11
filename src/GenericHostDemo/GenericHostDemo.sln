@@ -1,0 +1,29 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApp", "WebApp\WebApp.csproj", "{8CB3B0C3-94A8-4B3F-A0DE-5078B9728447}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NoneWebApp", "NoneWebApp\NoneWebApp.csproj", "{34416329-BC1E-4664-951A-B3C0E17CE522}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MQSender", "MQSender\MQSender.csproj", "{0D96B702-1298-4E15-8C93-159C47F65A99}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8CB3B0C3-94A8-4B3F-A0DE-5078B9728447}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8CB3B0C3-94A8-4B3F-A0DE-5078B9728447}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8CB3B0C3-94A8-4B3F-A0DE-5078B9728447}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8CB3B0C3-94A8-4B3F-A0DE-5078B9728447}.Release|Any CPU.Build.0 = Release|Any CPU
+		{34416329-BC1E-4664-951A-B3C0E17CE522}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{34416329-BC1E-4664-951A-B3C0E17CE522}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{34416329-BC1E-4664-951A-B3C0E17CE522}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{34416329-BC1E-4664-951A-B3C0E17CE522}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0D96B702-1298-4E15-8C93-159C47F65A99}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0D96B702-1298-4E15-8C93-159C47F65A99}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0D96B702-1298-4E15-8C93-159C47F65A99}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0D96B702-1298-4E15-8C93-159C47F65A99}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
