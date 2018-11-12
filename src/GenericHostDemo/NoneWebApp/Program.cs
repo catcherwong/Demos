@@ -2,7 +2,7 @@
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
-using Microsoft.Extensions.Logging;
+using NLog.Extensions.Logging;
 
 namespace NoneWebApp
 {
@@ -11,23 +11,42 @@ namespace NoneWebApp
         static async Task Main(string[] args)
         {
             var builder = new HostBuilder()
+                //logging
                 .ConfigureLogging(factory =>
                 {
-                    factory.AddConsole();
+                    //use nlog
+                    factory.AddNLog(new NLogProviderOptions { CaptureMessageTemplates = true, CaptureMessageProperties = true });
+                    NLog.LogManager.LoadConfiguration("nlog.config");
                 })
-                  .ConfigureAppConfiguration((hostContext, config) =>
-                  {
-                      config.AddEnvironmentVariables();
-                      config.AddJsonFile("appsettings.json", optional: true);
-                      config.AddCommandLine(args);
-                  })
+                //host config
+                .ConfigureHostConfiguration(config =>
+                {
+                    //command line
+                    if (args != null)
+                    {
+                        config.AddCommandLine(args);
+                    }
+                })
+                //app config
+                .ConfigureAppConfiguration((hostContext, config) =>
+                {
+                    var env = hostContext.HostingEnvironment;
+                    config.AddJsonFile("appsettings.json", optional: true, reloadOnChange: true)
+                        .AddJsonFile($"appsettings.{env.EnvironmentName}.json", optional: true, reloadOnChange: true);
+
+                    config.AddEnvironmentVariables();
+
+                    if (args != null)
+                    {
+                        config.AddCommandLine(args);
+                    }
+                })
                 .ConfigureServices((hostContext, services) =>
                 {
                     services.AddOptions();
                     services.Configure<AppSettings>(hostContext.Configuration.GetSection("AppSettings"));
 
                     //basic usage
-
                     //this service can not stop by control+c
                     //services.AddHostedService<PrinterHostedService>();
                     //services.AddHostedService<PrinterHostedService2>();

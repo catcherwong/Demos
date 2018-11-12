@@ -24,23 +24,16 @@ namespace NoneWebApp
 
         private void InitRabbitMQ(AppSettings settings)
         {
-            var factory = new ConnectionFactory
-            {
-                HostName = settings.HostName,
-            };
+            var factory = new ConnectionFactory { HostName = settings.HostName, };
             _connection = factory.CreateConnection();
             _channel = _connection.CreateModel();
 
             _channel.ExchangeDeclare(_settings.ExchangeName, ExchangeType.Direct);
             _channel.QueueDeclare(_settings.QueueName, false, false, false, null);
             _channel.QueueBind(_settings.QueueName, _settings.ExchangeName, _settings.RoutingKey, null);
+            _channel.BasicQos(0, 1, false);
 
             _connection.ConnectionShutdown += RabbitMQ_ConnectionShutdown;
-        }
-
-        private void RabbitMQ_ConnectionShutdown(object sender, ShutdownEventArgs e)
-        {
-            _logger.LogInformation($"connection shut down {e.ReplyText}");
         }
 
         protected override Task ExecuteAsync(CancellationToken stoppingToken)
@@ -65,6 +58,11 @@ namespace NoneWebApp
         private void HandleMessage(string content)
         {
             _logger.LogInformation($"consumer received {content}");
+        }
+
+        private void RabbitMQ_ConnectionShutdown(object sender, ShutdownEventArgs e)
+        {
+            _logger.LogInformation($"connection shut down {e.ReplyText}");
         }
 
         private void OnConsumerConsumerCancelled(object sender, ConsumerEventArgs e)
