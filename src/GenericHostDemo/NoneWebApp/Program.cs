@@ -60,6 +60,7 @@ namespace NoneWebApp
                 //.UseHostedService<TimerHostedService>()
                 //.UseHostedService<PrinterHostedService2>()
                 //.UseHostedService<ComsumeRabbitMQHostedService>()
+                .UseHostedService<PrinterHostedService3>()
                 ;
 
             //console 
