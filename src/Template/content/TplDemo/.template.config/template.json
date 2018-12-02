@@ -1,0 +1,32 @@
+{
+    "author": "Catcher Wong",
+    "classifications": [ "Web/WebAPI" ],
+    "name": "TplDemo",
+    "identity": "TplDemoTemplate",
+    "shortName": "tpl", 
+    "tags": {
+      "language": "C#" ,
+      "type":"project"
+    },
+    "sourceName": "TplDemo",    
+    "symbols":{
+      "EnableRequestLog": {
+        "type": "parameter",
+        "dataType":"bool",
+        "defaultValue": "false"
+      }
+    },
+    "sources": [
+      {
+          "modifiers": [
+              {
+                  "condition": "(!EnableRequestLog)",
+                  "exclude": [ 
+                    "src/TplDemo/Middlewares/RequestLogMiddleware.cs",
+                    "src/TplDemo/Middlewares/RequestLogServiceCollectionExtensions.cs" 
+                  ]
+              }
+          ]
+      }
+    ]
+  }
