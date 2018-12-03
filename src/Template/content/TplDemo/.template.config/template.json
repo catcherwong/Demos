@@ -1,32 +1,73 @@
 {
-    "author": "Catcher Wong",
-    "classifications": [ "Web/WebAPI" ],
-    "name": "TplDemo",
-    "identity": "TplDemoTemplate",
-    "shortName": "tpl", 
-    "tags": {
-      "language": "C#" ,
-      "type":"project"
+  "author": "Catcher Wong",
+  "classifications": [ "Web/WebAPI" ],
+  "name": "TplDemo",
+  "identity": "TplDemoTemplate",
+  "shortName": "tpl", 
+  "tags": {
+    "language": "C#" ,
+    "type":"project"
+  },
+  "sourceName": "TplDemo",
+  "preferNameDirectory": true,
+  "symbols":{
+    "EnableRequestLog": {
+      "type": "parameter",
+      "dataType":"bool",
+      "defaultValue": "false"
     },
-    "sourceName": "TplDemo",    
-    "symbols":{
-      "EnableRequestLog": {
-        "type": "parameter",
-        "dataType":"bool",
-        "defaultValue": "false"
-      }
+    "sqlType": {
+      "type": "parameter",
+      "datatype": "choice",
+      "choices": [
+        {
+          "choice": "MsSQL",
+          "description": "MS SQL Server"
+        },
+        {
+          "choice": "MySQL",
+          "description": "MySQL"
+        },
+        {
+          "choice": "PgSQL",
+          "description": "PostgreSQL"
+        },
+        {
+          "choice": "SQLite",
+          "description": "SQLite"
+        }
+      ],
+      "defaultValue": "MsSQL",
+      "description": "The type of SQL to use"
+    },  
+    "MsSQL": {
+      "type": "computed",
+      "value": "(sqlType == \"MsSQL\")"
     },
-    "sources": [
-      {
-          "modifiers": [
-              {
-                  "condition": "(!EnableRequestLog)",
-                  "exclude": [ 
-                    "src/TplDemo/Middlewares/RequestLogMiddleware.cs",
-                    "src/TplDemo/Middlewares/RequestLogServiceCollectionExtensions.cs" 
-                  ]
-              }
-          ]
-      }
-    ]
-  }
+    "MySQL": {
+      "type": "computed",
+      "value": "(sqlType == \"MySQL\")"
+    },
+    "PgSQL": {
+      "type": "computed",
+      "value": "(sqlType == \"PgSQL\")"
+    },
+    "SQLite": {
+      "type": "computed",
+      "value": "(sqlType == \"SQLite\")"
+    }
+  },
+  "sources": [
+    {
+        "modifiers": [
+            {
+                "condition": "(!EnableRequestLog)",
+                "exclude": [ 
+                  "src/TplDemo/Middlewares/RequestLogMiddleware.cs",
+                  "src/TplDemo/Middlewares/RequestLogServiceCollectionExtensions.cs" 
+                ]
+            }
+        ]
+    }
+  ]    
+}
