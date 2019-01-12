@@ -1,0 +1,1 @@
+{{ key "App1/appsettings.json" }}
