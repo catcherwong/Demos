@@ -1,0 +1,23 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomerApi", "CustomerApi\CustomerApi.csproj", "{9EBE559A-27AE-4B13-814B-B0CD41495CDA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrderApi", "OrderApi\OrderApi.csproj", "{996238D8-B718-496C-B716-1C92A85FCBAD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9EBE559A-27AE-4B13-814B-B0CD41495CDA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9EBE559A-27AE-4B13-814B-B0CD41495CDA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9EBE559A-27AE-4B13-814B-B0CD41495CDA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9EBE559A-27AE-4B13-814B-B0CD41495CDA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{996238D8-B718-496C-B716-1C92A85FCBAD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{996238D8-B718-496C-B716-1C92A85FCBAD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{996238D8-B718-496C-B716-1C92A85FCBAD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{996238D8-B718-496C-B716-1C92A85FCBAD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

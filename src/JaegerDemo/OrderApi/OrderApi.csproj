@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="wwwroot\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.App" />
+    <PackageReference Include="OpenTracing.Contrib.NetCore" Version="0.5.0" />
+    <PackageReference Include="Jaeger" Version="0.2.2" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="2.1.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Remove="OrderDbContext.json" />
+  </ItemGroup>
+</Project>
